@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<version>2019.06.01</version>
+		<note>
+			<item>Initial release</item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<version>2019.06.06</version>
+        	<fix>
+            		<item>Bug fix. Now only new lines are added to log file. Before: Old lines were copied.</item>
+         	</fix>
+	</changelog>
+
+</changelogs>
