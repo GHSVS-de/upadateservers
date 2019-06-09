@@ -9,7 +9,7 @@
 		<client>site</client>
 		<version>2019.06.06</version>
 
-		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_backupslogghsvs_changelog.xml</changelogurl>
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/backupslogghsvs-changelog.xml</changelogurl>
 
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.06.zip</downloadurl>
