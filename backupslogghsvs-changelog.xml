@@ -19,4 +19,18 @@
          	</fix>
 	</changelog>
 
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<version>2019.06.09</version>
+        	<change>
+            		<item><![CDATA[
+			New update and changelog info URLs.
+			New Location <a href="https://github.com/GHSVS-de/upadateservers">GHSVS-de update servers</a>
+			]]></item>
+         	</change>
+		<addition>
+			<item>installerScript.php to remove outdated update server links from Joomla database.</item>
+		</addition>
+	</changelog>
 </changelogs>
