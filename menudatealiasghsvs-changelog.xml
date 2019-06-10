@@ -10,14 +10,13 @@
       <item>Joomla 4 ready.</item>
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
-    </change>
-    <note>
-      <item>Just a test note 1</item>
-      <item>Just a test note 1</item>
       <item><![CDATA[
-        <a href="https://www.ghsvs.de">Testlink to nowhere</a></h2>
+        <a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/menudatealiasghsvs-update.xml">New update server info url</a>
         ]]></item>
-    </note>
+    </change>
+    <remove>
+      <item>During updates the outdated update server info url will be removed from database.</item>
+    </remove>
   </changelog>
 
 </changelogs>
