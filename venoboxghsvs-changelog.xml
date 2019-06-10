@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+
+  <changelog>
+    <element>menudatealiasghsvs</element>
+    <type>plugin</type>
+    <folder>content</folder>
+    <version>2019.06.11</version>
+    <change>
+      <item>Joomla 4 ready.</item>
+      <item>Namespacing.</item>
+      <item>Plugin extends CMSPlugin.</item>
+      <item><![CDATA[
+        <a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/menudatealiasghsvs-update.xml" target=_blank>New update server info url</a>
+        ]]></item>
+    </change>
+    <note>
+      <item>During updates the outdated update server info url will be removed from database.</item>
+    </note>
+  </changelog>
+
+</changelogs>
