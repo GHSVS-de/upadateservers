@@ -5,7 +5,7 @@
     <element>menudatealiasghsvs</element>
     <type>plugin</type>
     <folder>content</folder>
-    <version>2019.06.10</version>
+    <version>2019.06.11</version>
     <change>
       <item>Joomla 4 ready.</item>
       <item>Namespacing.</item>
