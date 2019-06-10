@@ -14,9 +14,9 @@
         <a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/menudatealiasghsvs-update.xml">New update server info url</a>
         ]]></item>
     </change>
-    <remove>
+    <note>
       <item>During updates the outdated update server info url will be removed from database.</item>
-    </remove>
+    </note>
   </changelog>
 
 </changelogs>
