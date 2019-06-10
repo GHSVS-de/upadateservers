@@ -11,6 +11,13 @@
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
     </change>
+    <note>
+      <item>Just a test note 1</item>
+      <item>Just a test note 1</item>
+      <item><![CDATA[
+        <a href="https://www.ghsvs.de">Testlink to nowhere</a></h2>
+        ]]></item>
+    </note>
   </changelog>
 
 </changelogs>
