@@ -2,21 +2,19 @@
 <changelogs>
 
   <changelog>
-    <element>menudatealiasghsvs</element>
+    <element>venoboxghsvs</element>
     <type>plugin</type>
-    <folder>content</folder>
+    <folder>system</folder>
     <version>2019.06.11</version>
     <change>
-      <item>Joomla 4 ready.</item>
+      <item>Joomla 4 ready. Tested with PHP 7.3.</item>
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
+      <item>installerScript.php</item>
       <item><![CDATA[
-        <a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/menudatealiasghsvs-update.xml" target=_blank>New update server info url</a>
+        <a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-update.xml" target=_blank>New update server info url</a>
         ]]></item>
     </change>
-    <note>
-      <item>During updates the outdated update server info url will be removed from database.</item>
-    </note>
   </changelog>
 
 </changelogs>

@@ -4,7 +4,7 @@
 	<update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
 		<description>Integrate Venobox JHtml helper.</description>
-		<element>menudatealiasghsvs</element>
+		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>site</client>
@@ -23,7 +23,7 @@
 	<update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
 		<description>Integrate Venobox JHtml helper.</description>
-		<element>menudatealiasghsvs</element>
+		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>site</client>
