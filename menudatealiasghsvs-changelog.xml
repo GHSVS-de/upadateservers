@@ -1,40 +1,6 @@
 <changelogs>
 
   <changelog>
-    <element>backupslogghsvsyyyyyyyyy</element>
-    <type>plugin</type>
-    <version>0.0.2</version>
-    <security>
-      <item>Item A</item>
-      <item><![CDATA[<h2>You MUST update</h2>]]></item>
-    </security>
-    <fix>
-      <item>Item A fix version 0.0.2</item>
-      <item>Item b fix version 0.0.2</item>
-    </fix>
-    <language>
-      <item>Item A language version 0.0.2</item>
-      <item>Item b language version 0.0.2</item>
-    </language>
-    <addition>
-      <item>Item A addition version 0.0.2</item>
-      <item>Item b addition version 0.0.2</item>
-    </addition>
-    <change>
-      <item>Item A cahnge version 0.0.2</item>
-      <item>Item b cahnge version 0.0.2</item>
-    </change>
-    <remove>
-      <item>Item A remove version 0.0.2</item>
-      <item>Item b remove version 0.0.2</item>
-    </remove>
-    <note>
-      <item>Item A note version 0.0.2</item>
-      <item>Item b note version 0.0.2</item>
-    </note>
-  </changelog>
-
-  <changelog>
     <element>menudatealiasghsvs</element>
     <type>plugin</type>
     <folder>content</folder>
