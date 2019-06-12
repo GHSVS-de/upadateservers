@@ -11,7 +11,7 @@
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
       <item>installerScript.php</item>
-      <item><a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-update.xml" target=_blank>New update server info url</a></item>
+      <item><![CDATA[<a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-update.xml" target=_blank>New update server info url</a>]]></item>
     </change>
   </changelog>
 
