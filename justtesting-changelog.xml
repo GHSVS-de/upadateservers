@@ -15,4 +15,17 @@
     </change>
   </changelog>
 
+  <changelog>
+    <element>justtesting</element>
+    <type>plugin</type>
+    <folder>system</folder>
+    <version>2019.06.25</version>
+    <change>
+      <item>Joomla 8 ready. Tested with PHP 8.3.</item>
+      <item>Namespacingsss.</item>
+      <item>Plugin extends CMSPlugin.</item>
+      <item>installerScript.php</item>
+      <item><![CDATA[<a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-update.xml" target=_blank>New update server info url</a>]]></item>
+    </change>
+  </changelog>
 </changelogs>
