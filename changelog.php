@@ -40,6 +40,8 @@ if (
 	return;
 }
 
+echo '<p><a href="' . $url . '">' . $url . '</a></p>';
+
 if (!($whichElement = trim($_GET['element'])))
 {
   $whichElement = $whichFile;
