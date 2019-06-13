@@ -5,6 +5,12 @@
     <element>backupslogghsvsyyyyyyyyy</element>
     <type>plugin</type>
     <version>0.0.2</version>
+    <requirement>
+      <item>minimumPhp:7.0.0</item>
+      <item>maximumPhp:7.3.99999</item>
+      <item>minimumJoomla:3.9.0</item>
+      <item>maximumJoomla:3.9.99999</item>
+    </requirement>
     <security>
       <item>Item A</item>
       <item><![CDATA[<h2>You MUST update</h2>]]></item>

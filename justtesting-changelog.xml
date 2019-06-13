@@ -11,7 +11,7 @@
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
       <item>installerScript.php</item>
-      <item><![CDATA[<a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-update.xml" target=_blank>New update server info url</a>]]></item>
+      <item><![CDATA[<a href="https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/justtesting-update.xml" target=_blank>New update server info url</a>]]></item>
     </change>
   </changelog>
 
@@ -20,6 +20,12 @@
     <type>plugin</type>
     <folder>system</folder>
     <version>2019.06.25</version>
+    <requirement>
+      <item>minimumPhp:7.0.0</item>
+      <item>maximumPhp:7.3.99999</item>
+      <item>minimumJoomla:3.9.0</item>
+      <item>maximumJoomla:3.9.99999</item>
+    </requirement>
     <security>
       <item>Item A</item>
       <item><![CDATA[<h2>You MUST update</h2>]]></item>
@@ -45,8 +51,13 @@
       <item>Item b remove version 0.0.2</item>
     </remove>
     <note>
-      <item>Item A note version 0.0.2</item>
-      <item>Item b note version 0.0.2</item>
-</note>
+      <item>Download: https://github.com/GHSVS-de/plg_system_justtesting/archive/2019.05.29.zip</item>
+      <item><![CDATA[
+        <a href="https://updates.ghsvs.de/changelog.php?file=justtesting" target="blank">
+          Changelogs (all versions)
+        </a>
+      ]]></item>
+    </note>
+
   </changelog>
 </changelogs>

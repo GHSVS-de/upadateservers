@@ -80,6 +80,7 @@ foreach ($xml->changelog as $changelog)
 		'remove',
 		'language',
 		'note',
+		'requirement',
 	);
 
 	foreach ($do as $key)

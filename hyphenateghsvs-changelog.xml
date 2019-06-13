@@ -6,6 +6,11 @@
     <type>plugin</type>
     <folder>system</folder>
     <version>2019.05.29</version>
+    <requirement>
+      <item>minimumPhp:7.0.0</item>
+      <item>minimumJoomla:3.9.0</item>
+      <item>maximumJoomla:3.9.99999</item>
+    </requirement>
     <change>
       <item>Hyphenopoly library from 3.0.2 to 3.1.0</item>
     </change>
