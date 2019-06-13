@@ -4,6 +4,7 @@
   <changelog>
     <element>backupslogghsvsyyyyyyyyy</element>
     <type>plugin</type>
+    <folder>system</folder>
     <version>0.0.2</version>
     <requirement>
       <item>minimumPhp:7.0.0</item>
