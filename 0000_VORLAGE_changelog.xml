@@ -30,8 +30,12 @@
       <item>Item b remove version 0.0.2</item>
     </remove>
     <note>
-      <item>Item A note version 0.0.2</item>
-      <item>Item b note version 0.0.2</item>
+      <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip</item>
+      <item><![CDATA[
+        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
+          Changelogs (all versions)
+        </a>
+      ]]></item>
     </note>
   </changelog>
 
