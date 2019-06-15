@@ -35,9 +35,15 @@
       <item>maximumJoomla:3.9.99999</item>
     </requirement>
     <change>
-      <item>Update to Hyphenopoly 3.0.2 library.</item>
-      <item>https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.2</item>
-      <item>Hyphenopoly-Changelog: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/blob/2019.04.29/media/js/hyphenopoly/CHANGELOG.md</Item>
+      <item>
+        Update to Hyphenopoly 3.0.2 library.
+      </item>
+      <item>
+        https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.2
+      </item>
+      <item>
+        Hyphenopoly-Changelog: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/blob/2019.04.29/media/js/hyphenopoly/CHANGELOG.md
+      </item>
     </change>
     <note>
       <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.29.zip</item>
