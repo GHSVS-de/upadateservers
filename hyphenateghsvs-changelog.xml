@@ -171,6 +171,7 @@
 			<item><![CDATA[
 				<b>From now on "Hyphenopoly" is the recommended mode of Joomla plugin "plg_system_hyphenateghsvs".</b>
 			]]></item>
+			<item>Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation settings.</item>
 		</addition>
 		<change>
 			<item>Detailed options descriptions and hints inside plugin (en and de).</item>
@@ -179,7 +180,6 @@
 				Still backwards-compatible for updating users that use old "Hyphenator" and don't want to change the mode to recommended "Hyphenopoly".
 				Be aware that old "Hyphenator" library is no longer maintained by the author Mathias Nater.
 			</item>
-			<item>Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation code.</item>
 		</change>
 		<note>
 			<item><![CDATA[
