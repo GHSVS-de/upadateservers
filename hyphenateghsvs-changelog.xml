@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs>
+<changelogs extension="plg_system_hyphenateghsvs">
 
-  <changelog>
-    <element>hyphenateghsvs</element>
-    <type>plugin</type>
-    <folder>system</folder>
-    <version>2019.05.29</version>
-
-    <requirement>
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.05.29</version>
+		<requirement>
 			<item><![CDATA[
 				minimumPhp:7.0.0
 				<br>
@@ -15,110 +14,25 @@
 				<br>
 				maximumJoomla:3.9.99999
 			]]></item>
-    </requirement>
-
-    <change>
-      <item><![CDATA[
-        Update to Hyphenopoly 3.1.0 library.
-				<br>
-        https://github.com/mnater/Hyphenopoly/releases/tag/v3.1.0
-				<br>
-        https://github.com/mnater/Hyphenopoly/blob/v3.1.0/CHANGELOG.md
-      ]]></item>
-    </change>
-
-    <note>
-      <item>
+		</requirement>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.1.0 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.1.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.1.0/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item>
 				Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip
 			</item>
-      <item><![CDATA[
-        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-          Changelogs (all versions)
-        </a>
-      ]]></item>
-    </note>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
+				Changelogs (all versions)
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
 
-  </changelog>
 
-  <changelog>
-    <element>hyphenateghsvs</element>
-    <type>plugin</type>
-    <folder>system</folder>
-    <version>2019.04.29</version>
-    <requirement>
-      <item>minimumPhp:7.0.0</item>
-      <item>minimumJoomla:3.9.0</item>
-      <item>maximumJoomla:3.9.99999</item>
-    </requirement>
-    <change>
-      <item>
-        Update to Hyphenopoly 3.0.2 library.
-      </item>
-      <item>
-        https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.2
-      </item>
-      <item>
-        https://github.com/GHSVS-de/plg_system_hyphenateghsvs/blob/2019.04.29/media/js/hyphenopoly/CHANGELOG.md
-      </item>
-    </change>
-    <note>
-      <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.29.zip</item>
-      <item><![CDATA[
-        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-          Changelogs (all versions)
-        </a>
-      ]]></item>
-    </note>
-  </changelog>
-
-  <changelog>
-    <element>hyphenateghsvs</element>
-    <type>plugin</type>
-    <folder>system</folder>
-    <version>2019.04.18</version>
-    <requirement>
-      <item>minimumPhp:7.0.0</item>
-      <item>minimumJoomla:3.9.0</item>
-      <item>maximumJoomla:3.9.99999</item>
-    </requirement>
-    <change>
-      <item>Hyphenopoly library 3.0.1</item>
-    </change>
-    <note>
-      <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.18.zip</item>
-      <item><![CDATA[
-        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-          Changelogs (all versions)
-        </a>
-      ]]></item>
-      <item><![CDATA[
-        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-          Hyphenopoly-Changelog
-        </a>
-      ]]></item>
-    </note>
-  </changelog>
-
-  <changelog>
-    <element>hyphenateghsvs</element>
-    <type>plugin</type>
-    <folder>system</folder>
-    <version>2019.03.30</version>
-    <requirement>
-      <item>minimumPhp:7.0.0</item>
-      <item>minimumJoomla:3.9.0</item>
-      <item>maximumJoomla:3.9.99999</item>
-    </requirement>
-    <change>
-      <item>Hyphenopoly library from 2.8.0 to 3.0.0</item>
-    </change>
-    <note>
-      <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.03.30.zip</item>
-      <item><![CDATA[
-        <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-          Changelogs (all versions)
-        </a>
-      ]]></item>
-    </note>
-  </changelog>
 </changelogs>
