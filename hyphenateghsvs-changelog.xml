@@ -37,5 +37,40 @@
 		</note>
  	</changelog>
 
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.04.29</version>
+		<requirement>
+			<item><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></item>
+		</requirement>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.0.2 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.2<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.0.2/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.29.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.04.29.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
+					Changelogs (all versions)
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
 
 </changelogs>
