@@ -177,10 +177,8 @@
 			<item>Rework of whole plugin code.</item>
 			<item>
 				Still backwards-compatible for updating users that use old "Hyphenator" and don't want to change the mode to recommended "Hyphenopoly".
-			</item>
-			<item><![CDATA[
 				Be aware that old "Hyphenator" library is no longer maintained by the author Mathias Nater.
-			]]></item>
+			</item>
 		</change>
 		<note>
 			<item><![CDATA[

@@ -119,8 +119,8 @@ foreach ($xml->changelog as $changelog)
 	$do = array(
 		'security',
 		'fix',
-		'change',
 		'addition',
+		'change',
 		'remove',
 		'language',
 		'note',
