@@ -23,12 +23,15 @@
 			]]></item>
 		</change>
 		<note>
-			<item>
-				Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip
-			</item>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip" target="blank">
+					Download 2019.05.29.zip
+				</a>
+			]]></item>
 			<item><![CDATA[
 				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
-				Changelogs (all versions)
+					Changelogs (all versions)
 				</a>
 			]]></item>
 		</note>
