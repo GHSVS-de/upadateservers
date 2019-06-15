@@ -19,19 +19,25 @@
 
     <change>
       <item><![CDATA[
-        Update to Hyphenopoly 3.1.0 library.<br>
-        https://github.com/mnater/Hyphenopoly/releases/tag/v3.1.0<br>
-        https://github.com/GHSVS-de/plg_system_hyphenateghsvs/blob/2019.05.29/media/js/hyphenopoly/CHANGELOG.md<br>
+        Update to Hyphenopoly 3.1.0 library.
+				<br>
+        https://github.com/mnater/Hyphenopoly/releases/tag/v3.1.0
+				<br>
+        https://github.com/mnater/Hyphenopoly/blob/v3.1.0/CHANGELOG.md
       ]]></item>
     </change>
+
     <note>
-      <item>Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip</item>
+      <item>
+				Download: https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip
+			</item>
       <item><![CDATA[
         <a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs" target="blank">
           Changelogs (all versions)
         </a>
       ]]></item>
     </note>
+
   </changelog>
 
   <changelog>
