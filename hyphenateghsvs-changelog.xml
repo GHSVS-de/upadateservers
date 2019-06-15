@@ -6,11 +6,18 @@
     <type>plugin</type>
     <folder>system</folder>
     <version>2019.05.29</version>
+
     <requirement>
-      <item>minimumPhp:7.0.0</item>
-      <item>minimumJoomla:3.9.0</item>
+			<item><![CDATA[
+				minimumPhp:7.0.0<br>
+				minimumJoomla:3.9.0<br>
+				<minimumPhp>7.0.0</minimumPhp>
+			]]></item>
+      <item></item>
+      <item></item>
       <item>maximumJoomla:3.9.99999</item>
     </requirement>
+
     <change>
       <item><![CDATA[
         Update to Hyphenopoly 3.1.0 library.<br>
