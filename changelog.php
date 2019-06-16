@@ -35,9 +35,10 @@ li
 <body>
 <?php
 /*
- * Call via https://updates.ghsvs.de/changelog.php?file=justtesting&element=whatever
+ * Call via https://updates.ghsvs.de/changelog.php?file=justtesting&element=whatever&version=2019.06.25
  * file is mandatory and part of the filename "justtesting-changelog.xml".
  * element is optional but a must if <element> tags don't match the file parameter.
+ * version is optional: Show only changelog of this version.
  */
 
 //defined('_JEXEC') or die;
@@ -98,6 +99,19 @@ if (!($whichElement = trim($_GET['element'])))
   $whichElement = $whichFile;
 }
 
+$allLogs = '';
+
+if ($whichVersion = trim($_GET['version']))
+{
+	if ($whichElement === $whichFile)
+	{
+		$allLogs = '<p><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
+					See changelogs of all versions
+				</a>
+				</p>';
+	}
+}
+
 if ($extension = trim($xml->attributes()->extension))
 {
 	echo '<h4>' . $extension . '</h4>';
@@ -108,13 +122,20 @@ if ($projecturl = trim($xml->attributes()->projecturl))
 	echo '<p>Project page: <a href="' . $projecturl . '">' . $projecturl . '</a></p>';
 }
 
+echo $allLogs;
+
 $data = array();
 
 foreach ($xml->changelog as $changelog)
 {
 	$version = trim($changelog->version);
 
-	if (!$version) continue;
+	if (
+		! $version
+		|| ($whichVersion && $whichVersion !== $version)
+	){
+		continue;
+	}
 
 	$element = trim($changelog->element);
 
@@ -165,15 +186,26 @@ foreach ($xml->changelog as $changelog)
 	}
 }
 
-ksort($data);
-$data = array_reverse($data);
-
-foreach ($data as $key => $changelog)
+if ($data)
 {
-	echo '<hr><h5>Version ' . $key . '</h5>';
-	echo implode("\n", $changelog) . '<hr>';
-}
+	ksort($data);
+	$data = array_reverse($data);
 
+	foreach ($data as $key => $changelog)
+	{
+		echo '<hr><h5>Version ' . $key . '</h5>';
+		echo implode("\n", $changelog) . '<hr>';
+	}
+}
+elseif ($allLogs)
+{
+	echo '<hr><h5>No changelogs found for version ' . $whichVersion . '</h5>
+	<p><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
+					See changelogs of all versions
+				</a>
+				</p>
+	';
+}
 ?>
 </body>
 </html>
