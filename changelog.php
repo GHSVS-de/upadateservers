@@ -100,7 +100,12 @@ if (!($whichElement = trim($_GET['element'])))
 
 if ($extension = trim($xml->attributes()->extension))
 {
-	echo '<h4>' . $extension . '</h4';
+	echo '<h4>' . $extension . '</h4>';
+}
+
+if ($projecturl = trim($xml->attributes()->projecturl))
+{
+	echo '<p>Project page: <a href="' . $projecturl . '">' . $projecturl . '</a></p>';
 }
 
 $data = array();
