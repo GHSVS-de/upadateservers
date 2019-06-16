@@ -5,6 +5,10 @@
 <meta name=robots content="noindex, nofollow"/>
 <title>Chengelogs Reader at ghsvs.de</title>
 <style>
+body
+{
+	font-family:"Courier New", Courier, monospace;
+}
 h4,h5,h6
 {
 	margin:0.5em 0 1em 0;
@@ -15,7 +19,16 @@ h4
 }
 h5
 {
+	font-size:1.2em;
+}
+h6
+{
 	font-size:1.1em;
+	letter-spacing:1px;
+}
+li
+{
+	line-height:1.5em;
 }
 </style>
 </head>
@@ -142,7 +155,7 @@ foreach ($xml->changelog as $changelog)
 				$collect[] = trim($item);
 			}
 
-			$data[$version][$key] = '<div><h6>' . strtoupper($key) . '</h6><ul><li>' . implode("</li><li>", $collect) . '</li></ul></div>';
+			$data[$version][$key] = '<div><h6>' . ucfirst($key) . '</h6><ul><li>' . implode("</li><li>", $collect) . '</li></ul></div>';
 		}
 	}
 }
