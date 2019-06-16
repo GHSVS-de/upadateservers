@@ -105,9 +105,9 @@ if ($whichVersion = trim($_GET['version']))
 {
 	if ($whichElement === $whichFile)
 	{
-		$allLogs = '<p><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
+		$allLogs = '<p><strong><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
 					See changelogs of all versions
-				</a>
+				</a></strong>
 				</p>';
 	}
 }
@@ -199,12 +199,7 @@ if ($data)
 }
 elseif ($allLogs)
 {
-	echo '<hr><h5>No changelogs found for version ' . $whichVersion . '</h5>
-	<p><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
-					See changelogs of all versions
-				</a>
-				</p>
-	';
+	echo '<hr><h5>No changelogs found for version ' . $whichVersion . '</h5>' . $allLogs;
 }
 ?>
 </body>
