@@ -123,6 +123,9 @@
 				maximumJoomla:3.9.99999
 			]]></item>
 		</requirement>
+		<addition>
+			<item>New language pattern Pali pi.hpb</item>
+		</addition>
 		<change>
 			<item><![CDATA[
 				Update to Hyphenopoly 3.0.0 library.<br>
@@ -171,7 +174,10 @@
 			<item><![CDATA[
 				<b>From now on "Hyphenopoly" is the recommended mode of Joomla plugin "plg_system_hyphenateghsvs".</b>
 			]]></item>
-			<item>Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation settings.</item>
+			<item>
+				Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation settings.
+			</item>
+			<item>installerScript.php for additional PHP, Joomla version checks and downgrade possibility.</item>
 		</addition>
 		<change>
 			<item>Detailed options descriptions and hints inside plugin (en and de).</item>
@@ -196,4 +202,19 @@
 		</note>
  	</changelog>
 
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2017.11.29 and older versions</version>
+		<note>
+			<item><![CDATA[
+				See headline "Changelogs of older versions" at: 
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/wiki/Version-history-plg_system_hyphenateghsvs"
+					target="blank">
+					https://github.com/GHSVS-de/plg_system_hyphenateghsvs/wiki/Version-history-plg_system_hyphenateghsvs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
 </changelogs>
