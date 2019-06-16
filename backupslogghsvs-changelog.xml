@@ -1,36 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs>
+<changelogs extension="plg_system_backupslogghsvs" projecturl="https://github.com/GHSVS-de/plg_system_backupslogghsvs">
 
 	<changelog>
 		<element>backupslogghsvs</element>
 		<type>plugin</type>
-		<version>2019.06.01</version>
-		<note>
-			<item>Initial release</item>
-		</note>
-	</changelog>
-
-	<changelog>
-		<element>backupslogghsvs</element>
-		<type>plugin</type>
-		<version>2019.06.06</version>
-        	<fix>
-            		<item>Bug fix. Now only new lines are added to log file. Before: Old lines were copied.</item>
-         	</fix>
-	</changelog>
-
-	<changelog>
-		<element>backupslogghsvs</element>
-		<type>plugin</type>
+		<folder>system</folder>
 		<version>2019.06.09</version>
-        	<change>
-            		<item><![CDATA[
-			New update and changelog info URLs.
-			New Location <a href="https://github.com/GHSVS-de/upadateservers">GHSVS-de update servers</a>
+		<requirement>
+			<item><![CDATA[
+				minimumJoomla:3.*<br>
+				Tested with Joomla 3.9<br>
+				Tested with PHP 7.2 and 7.3
 			]]></item>
-         	</change>
+		</requirement>
 		<addition>
-			<item>installerScript.php to remove outdated update server links from Joomla database.</item>
+			<item>installerScript.php to remove outdated update server from Joomla database.</item>
 		</addition>
-	</changelog>
+		<change>
+			<item><![CDATA[
+				Exchanged update and changelog info URLs.<br>
+				https://github.com/GHSVS-de/upadateservers
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.09.zip" target="blank">
+					plg_system_backupslogghsvs-2019.06.09.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.09">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.06.06</version>
+		<requirement>
+			<item><![CDATA[
+				minimumJoomla:3.*<br>
+				Tested with Joomla 3.9<br>
+				Tested with PHP 7.2 and 7.3
+			]]></item>
+		</requirement>
+		<fix>
+			<item>Now only new lines are added to log file. Before: Old lines were copied.</item>
+		</fix>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.06.zip" target="blank">
+					plg_system_backupslogghsvs-2019.06.06.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.06">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.06.01</version>
+		<requirement>
+			<item><![CDATA[
+				minimumJoomla:3.*<br>
+				Tested with Joomla 3.9<br>
+				Tested with PHP 7.2 and 7.3
+			]]></item>
+		</requirement>
+		<note>
+			<item>Initial release.</item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.01.zip" target="blank">
+					plg_system_backupslogghsvs-2019.06.01.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.01">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
 </changelogs>
