@@ -233,7 +233,7 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 			<item>
 				Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation settings.
 			</item>
-			<item>installerScript.php for additional PHP, Joomla version checks and downgrade possibility.</item>
+			<item><code>installerScript.php</code> for additional PHP, Joomla version checks and downgrade possibility.</item>
 		</addition>
 		<change>
 			<item>Detailed options descriptions and hints inside plugin (en and de).</item>

@@ -7,6 +7,10 @@
 <style>
 body
 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+code
+{
 	font-family:"Courier New", Courier, monospace;
 }
 h4,h5,h6
@@ -129,10 +133,19 @@ $data = array();
 foreach ($xml->changelog as $changelog)
 {
 	$version = trim($changelog->version);
+	
+	$excludeIfNoVersion = $changelog->attributes()->excludeIfNoVersion;
 
 	if (
 		! $version
 		|| ($whichVersion && $whichVersion !== $version)
+	){
+		continue;
+	}
+
+	if (
+		$excludeIfNoVersion
+		&& (! $whichVersion || $whichVersion !== $version)
 	){
 		continue;
 	}
