@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_hyphenateghsvs" projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs">
 
+<!--
+Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
+-->
+	<changelog excludeIfNoVersion="1">
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.05.29-after</version>
+		<requirement>
+			<item><![CDATA[
+				minimumPhp:
+				<br>
+				minimumJoomla:
+				<br>
+				maximumJoomla:
+			]]></item>
+		</requirement>
+		<fix>
+			<item><![CDATA[
+				Replace hard coded cleanupMarker string with <code>$this-&gt;cleanupMarker</code>
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Namespace forgotten <code>JLog::</code> to <code>Log::</code>.
+			]]></item>
+		</fix>
+		<addition>
+			<item><![CDATA[
+				Tag <code>changelogurl</code> in <code>hyphenateghsvs.xml</code> for Joomla 4.
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>:
+				Function <code>removeOldUpdateservers()</code> to remove outdated update servers from Joomla db
+				(Extensions: Update Sites).
+			]]></item>
+		</addition>
+		<change>
+			<item><![CDATA[
+				Replace <code>versionHistory</code> entries with changelog.php link in extension manifest.
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29-after.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.05.29-after.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.05.29-after">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+
 	<changelog>
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
