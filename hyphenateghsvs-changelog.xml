@@ -28,7 +28,7 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		</fix>
 		<addition>
 			<item><![CDATA[
-				Tag <code>changelogurl</code> in <code>hyphenateghsvs.xml</code> for Joomla 4.
+				<code>hyphenateghsvs.xml</code>: Tag <code>changelogurl</code> for Joomla 4.
 			]]></item>
 			<item><![CDATA[
 				<code>installerScript.php</code>:
@@ -38,7 +38,7 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		</addition>
 		<change>
 			<item><![CDATA[
-				Replace <code>versionHistory</code> entries with changelog.php link in extension manifest.
+				<code>hyphenateghsvs.xml</code>: Replace <code>versionHistory</code> entries with changelog.php link.
 			]]></item>
 		</change>
 		<note>
