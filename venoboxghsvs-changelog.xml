@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs>
+<changelogs extension="plg_system_venoboxghsvs" projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs">
+
+<!--
+Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
+-->
+	<changelog excludeIfNoVersion="1">
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.06.11-after</version>
+		<requirement>
+			<item><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+			]]></item>
+		</requirement>
+		<remove>
+			<item><![CDATA[
+				Parameter <code>venoboxVersion</code>
+			]]></item>
+		</remove>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2019.06.11-after.zip" target="blank">
+					plg_system_venoboxghsvs-2019.06.11-after.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2019.06.11-after">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				Tested:<br>
+				Joomla 3.9.8<br>
+				Joomla 4.0.0-dev<br>
+				PHP 7.3
+			]]></item>
+		</note>
+	</changelog>
 
   <changelog>
     <element>venoboxghsvs</element>
