@@ -33,15 +33,7 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 				PHP 7.3
 			]]></item>
 		</note>
-		<ghsvs>
-		<requirement>
-			<![CDATA[
-				minimumPhp:7.0.0
-				<br>
-				minimumJoomla:3.9.0
-			]]>
-		</requirement>
-		</ghsvs>
+		<requirement>minimumPhp:7.0.0</requirement>
 	</changelog>
 
   <changelog>
