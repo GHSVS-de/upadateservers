@@ -9,13 +9,11 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<type>plugin</type>
 		<folder>system</folder>
 		<version>2019.06.17-dev</version>
-		<requirement>
-			<ooooitemxxx><![CDATA[
+		<requirement><![CDATA[
 				minimumPhp:7.0.0ddddddd
 				<br>
 				minimumJoomla:3.9.0ffffffff
-			]]></ooooitemxxx>
-		</requirement>
+		]]></requirement>
 		<remove>
 			<item><![CDATA[
 				Parameter <code>venoboxVersion</code>
