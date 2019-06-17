@@ -2,7 +2,7 @@
 <changelogs extension="plg_system_venoboxghsvs" projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs">
 
 <!--
-Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
+Next version after 2019.06.11 2019.06.17-dev. Letzter Eintrag hier: 17.6.2019.
 -->
 	<changelog excludeIfNoVersion="1">
 		<element>venoboxghsvs</element>
@@ -11,9 +11,9 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<version>2019.06.17-dev</version>
 		<requirement>
 			<entry><![CDATA[
-				minimumPhp:7.0.0rrrrrrrrrrr
+				minimumPhp:7.0.0
 				<br>
-				minimumJoomla:3.9.0gggggggggg
+				minimumJoomla:3.9.0
 			]]></entry>
 		</requirement>
 		<remove>

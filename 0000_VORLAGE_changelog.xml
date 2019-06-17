@@ -7,10 +7,10 @@
     <folder>system</folder>
     <version>0.0.2</version>
     <requirement>
-      <item>minimumPhp:7.0.0</item>
-      <item>maximumPhp:7.3.99999</item>
-      <item>minimumJoomla:3.9.0</item>
-      <item>maximumJoomla:3.9.99999</item>
+      <entry>minimumPhp:7.0.0</entry>
+      <entry>maximumPhp:7.3.99999</entry>
+      <entry>minimumJoomla:3.9.0</entry>
+      <entry>maximumJoomla:3.9.99999</entry>
     </requirement>
     <security>
       <item>Item A</item>

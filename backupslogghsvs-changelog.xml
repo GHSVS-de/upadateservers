@@ -8,11 +8,11 @@
 		<folder>system</folder>
 		<version>2019.06.999999999999999</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumJoomla:3.*<br>
 				Tested with Joomla 3.9<br>
 				Tested with PHP 7.2 and 7.3
-			]]></item>
+			]]></entry>
 		</requirement>
 		<addition>
 			<item></item>
@@ -42,11 +42,11 @@
 		<folder>system</folder>
 		<version>2019.06.09</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumJoomla:3.*<br>
 				Tested with Joomla 3.9<br>
 				Tested with PHP 7.2 and 7.3
-			]]></item>
+			]]></entry>
 		</requirement>
 		<addition>
 			<item>installerScript.php to remove outdated update server from Joomla database.</item>
@@ -78,11 +78,11 @@
 		<folder>system</folder>
 		<version>2019.06.06</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumJoomla:3.*<br>
 				Tested with Joomla 3.9<br>
 				Tested with PHP 7.2 and 7.3
-			]]></item>
+			]]></entry>
 		</requirement>
 		<fix>
 			<item>Now only new lines are added to log file. Before: Old lines were copied.</item>
@@ -108,11 +108,11 @@
 		<folder>system</folder>
 		<version>2019.06.01</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumJoomla:3.*<br>
 				Tested with Joomla 3.9<br>
 				Tested with PHP 7.2 and 7.3
-			]]></item>
+			]]></entry>
 		</requirement>
 		<note>
 			<item>Initial release.</item>

@@ -10,13 +10,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.05.29-after</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:
 				<br>
 				minimumJoomla:
 				<br>
 				maximumJoomla:
-			]]></item>
+			]]></entry>
 		</requirement>
 		<fix>
 			<item><![CDATA[
@@ -63,13 +63,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.05.29</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
 				<br>
 				maximumJoomla:3.9.99999
-			]]></item>
+			]]></entry>
 		</requirement>
 		<change>
 			<item><![CDATA[
@@ -99,13 +99,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.04.29</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
 				<br>
 				maximumJoomla:3.9.99999
-			]]></item>
+			]]></entry>
 		</requirement>
 		<change>
 			<item><![CDATA[
@@ -135,13 +135,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.04.18</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
 				<br>
 				maximumJoomla:3.9.99999
-			]]></item>
+			]]></entry>
 		</requirement>
 		<change>
 			<item><![CDATA[
@@ -171,13 +171,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.03.30</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
 				<br>
 				maximumJoomla:3.9.99999
-			]]></item>
+			]]></entry>
 		</requirement>
 		<addition>
 			<item>New language pattern Pali pi.hpb</item>
@@ -210,13 +210,13 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 		<folder>system</folder>
 		<version>2019.03.10</version>
 		<requirement>
-			<item><![CDATA[
+			<entry><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
 				<br>
 				maximumJoomla:3.9.99999
-			]]></item>
+			]]></entry>
 		</requirement>
 		<addition>
 			<item><![CDATA[
