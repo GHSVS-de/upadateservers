@@ -10,11 +10,11 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<folder>system</folder>
 		<version>2019.06.17-dev</version>
 		<requirement>
-			<item><![CDATA[
+			<itemxxx><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
-			]]></item>
+			]]></itemxxx>
 		</requirement>
 		<remove>
 			<item><![CDATA[
