@@ -34,11 +34,11 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 			]]></item>
 		</note>
 		<requirement>
-			<item><![CDATA[
+			<itemxyz><![CDATA[
 				minimumPhp:7.0.0
 				<br>
 				minimumJoomla:3.9.0
-			]]></item>
+			]]></itemxyz>
 		</requirement>
 	</changelog>
 
