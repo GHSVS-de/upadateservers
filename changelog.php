@@ -179,17 +179,24 @@ foreach ($xml->changelog as $changelog)
 		'requirement',
 	);
 
+	// Subtag entry instead of item to keep away from Joomla 4 display.
+	$ownTags = array(
+		'requirement',
+	);
+
 	foreach ($do as $key)
 	{
+		$subTag = in_array($key, $ownTags) ? 'entry' : 'item';
+
 		if (
 			!empty($changelog->$key)
 			&& ($changelog->$key instanceof SimpleXMLElement)
-			&& !empty($changelog->$key->item)
-			&& ($changelog->$key->item instanceof SimpleXMLElement)
+			&& !empty($changelog->$key->$subTag)
+			&& ($changelog->$key->$subTag instanceof SimpleXMLElement)
 		){
 			$collect = array();
-
-			foreach ($changelog->$key->item as $item)
+			
+			foreach ($changelog->$key->$subTag as $item)
 			{
 				$collect[] = trim($item);
 			}
