@@ -9,11 +9,13 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<type>plugin</type>
 		<folder>system</folder>
 		<version>2019.06.17-dev</version>
-		<requirement><![CDATA[
-				minimumPhp:7.0.0ddddddd
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0rrrrrrrrrrr
 				<br>
-				minimumJoomla:3.9.0ffffffff
-		]]></requirement>
+				minimumJoomla:3.9.0gggggggggg
+			]]></entry>
+		</requirement>
 		<remove>
 			<item><![CDATA[
 				Parameter <code>venoboxVersion</code>
@@ -27,7 +29,7 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2019.06.17-dev-after">
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2019.06.17-dev" target="_blank">
 					Changelogs
 				</a>
 			]]></item>
