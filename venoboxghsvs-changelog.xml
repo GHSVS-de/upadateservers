@@ -8,7 +8,7 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2019.06.11-after</version>
+		<version>2019.06.17-dev</version>
 		<requirement>
 			<item><![CDATA[
 				minimumPhp:7.0.0
@@ -24,12 +24,12 @@ Next version after 2019.06.11. Letzter Eintrag hier: 17.6.2019.
 		<note>
 			<item><![CDATA[
 				Download: 
-				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2019.06.11-after.zip" target="blank">
-					plg_system_venoboxghsvs-2019.06.11-after.zip
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2019.06.17-dev.zip" target="blank">
+					plg_system_venoboxghsvs-2019.06.17-dev.zip
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2019.06.11-after">
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2019.06.17-dev-after">
 					Changelogs
 				</a>
 			]]></item>
