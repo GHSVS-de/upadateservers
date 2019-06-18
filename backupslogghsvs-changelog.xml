@@ -5,7 +5,7 @@
 		<element>backupslogghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2019.06.18</version>
+		<version>2019.06.20</version>
 		<requirement>
 			<entry><![CDATA[
 				minimumJoomla:3.*<br>
@@ -18,15 +18,22 @@
 				Grave bug: Missing newline leads to repeated lines after each new backup.
 			</item>
 		</fix>
+		<addition>
+			<item><![CDATA[
+				Add host to log filename.<br>
+				Name before: plg_system_backupslogghsvs_akeeba.csv.txt<br>
+				Name after: plg_system_backupslogghsvs_example.org_akeeba.csv.txt
+			]]></item>
+		</addition>
 		<note>
 			<item><![CDATA[
 				Download: 
 				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.18.zip" target="blank">
-					plg_system_backupslogghsvs-2019.06.18.zip
+					plg_system_backupslogghsvs-2019.06.20.zip
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.18" target="blank">
+				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.20" target="blank">
 					Changelogs
 				</a>
 			]]></item>
