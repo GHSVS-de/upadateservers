@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_backupslogghsvs" projecturl="https://github.com/GHSVS-de/plg_system_backupslogghsvs">
 
-<!-- Version after 2019.06.09
 	<changelog>
 		<element>backupslogghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2019.06.999999999999999</version>
+		<version>2019.06.18</version>
 		<requirement>
 			<entry><![CDATA[
 				minimumJoomla:3.*<br>
@@ -14,28 +13,26 @@
 				Tested with PHP 7.2 and 7.3
 			]]></entry>
 		</requirement>
-		<addition>
-			<item></item>
-		</addition>
-		<change>
-			<item><![CDATA[
-			]]></item>
-		</change>
+		<fix>
+			<item>
+				Grave bug: Missing newline leads to repeated lines after each new backup.
+			</item>
+		</fix>
 		<note>
 			<item><![CDATA[
 				Download: 
-				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.09.zip" target="blank">
-					plg_system_backupslogghsvs-2019.06.09.zip
+				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.18.zip" target="blank">
+					plg_system_backupslogghsvs-2019.06.18.zip
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.09">
+				<a href="https://updates.ghsvs.de/changelog.php?file=backupslogghsvs&version=2019.06.18" target="blank">
 					Changelogs
 				</a>
 			]]></item>
 		</note>
  	</changelog>
--->
+
 	<changelog>
 		<element>backupslogghsvs</element>
 		<type>plugin</type>
