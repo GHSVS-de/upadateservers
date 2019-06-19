@@ -13,7 +13,7 @@ Replace <code>versionHistory</code> by changelogurl (changelog.php)
     <version>2019.06.11</version>
 		<requirement>
 			<entry><![CDATA[
-				minimumJoomla:3.*<br>
+				minimumJoomla:3.9<br>
 				minimumPhp:7.2.0<br>
 				allowDowngrades:1
 			]]></entry>
