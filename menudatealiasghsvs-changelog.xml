@@ -15,7 +15,9 @@ Replace <code>versionHistory</code> by changelogurl (changelog.php)
 			<entry><![CDATA[
 				minimumJoomla:3.*<br>
 				minimumPhp:7.2.0<br>
-				allowDowngrades:1<br>
+				allowDowngrades:1
+			]]></entry>
+			<entry><![CDATA[
 				Last tests:<br>
 				Joomla 3.9 and 4.0.0-dev<br>
 				PHP 7.2 and 7.3
