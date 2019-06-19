@@ -34,6 +34,7 @@ Replace <code>versionHistory</code> by changelogurl (changelog.php)
 				<code>changelogurl</code> for Joomla 4.<br>
 				<code>minimumPhp</code>, <code>minimumJoomla</code>, <code>allowDowngrades</code>.
 			]]></item>
+			<item>Joomla 4 support.</item>
 		</addition>
 		<remove>
 			<item><![CDATA[
