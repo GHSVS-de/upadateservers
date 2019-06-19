@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs>
+<changelogs extension="plg_content_menudatealiasghsvs" projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs">
+
+<!--	<changelog excludeIfNoVersion="1">
+<code>menudatealiasghsvs.xml</code>:
+Replace <code>versionHistory</code> by changelogurl (changelog.php)
+	</changelog>-->
 
   <changelog>
     <element>menudatealiasghsvs</element>
     <type>plugin</type>
     <folder>content</folder>
     <version>2019.06.11</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.*<br>
+				minimumPhp:7.2.0<br>
+				allowDowngrades:1<br>
+				Last tests:<br>
+				Joomla 3.9 and 4.0.0-dev<br>
+				PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<addition>
+			<item><![CDATA[
+				New <code>installerScript.php</code>:<br>
+				Checks for maximumPhp, maximumJoomla, allowDowngrades.<br>
+				<code>function removeOldUpdateservers()</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>menudatealiasghsvs.xml</code>:<br>
+				<code>changelogurl</code> for Joomla 4.<br>
+				<code>minimumPhp</code>, <code>minimumJoomla</code>, <code>allowDowngrades</code>.
+			]]></item>
+		</addition>
+		<remove>
+			<item><![CDATA[
+				<code>menudatealiasghsvs.xml</code>:
+				Remove <code>authorEmail</code> because of f... spammers.
+			]]></item>
+		</remove>
     <change>
-      <item>Joomla 4 ready.</item>
+			<item><![CDATA[
+				Language files: Replace <code>"_QQ_"</code> by escaped double quotes.
+			]]></item>
       <item>Namespacing.</item>
       <item>Plugin extends CMSPlugin.</item>
       <item><![CDATA[
@@ -16,6 +51,86 @@
     </change>
     <note>
       <item>During updates the outdated update server info url will be removed from database.</item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2019.06.11.zip" target="blank">
+					plg_content_menudatealiasghsvs-2019.06.11.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs&version=2019.06.11" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+    </note>
+  </changelog>
+
+  <changelog>
+    <element>menudatealiasghsvs</element>
+    <type>plugin</type>
+    <folder>content</folder>
+    <version>2017.09.05</version>
+		<requirement>
+			<entry><![CDATA[
+				Last tests:<br>
+				Joomla 3.9<br>
+				PHP 7.3
+			]]></entry>
+		</requirement>
+		<addition>
+			<item><![CDATA[
+				New plugin setting <code>Only new menu items</code>: Set datetime alias only if a new menu item of type <code>Menu Item Alias</code> is saved for the first time.
+			]]></item>
+		</addition>
+    <note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2017.09.05.zip" target="blank">
+					plg_content_menudatealiasghsvs-2017.09.05.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs&version=2017.09.05" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+    </note>
+  </changelog>
+
+  <changelog>
+    <element>menudatealiasghsvs</element>
+    <type>plugin</type>
+    <folder>content</folder>
+    <version>2016.08.14</version>
+		<requirement>
+			<entry><![CDATA[
+				Last tests:<br>
+				Joomla 3.6
+			]]></entry>
+		</requirement>
+    <note>
+			<item>Only some text changes. Nothing important since first version 2016.08.01.</item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2016.08.14.zip" target="blank">
+					plg_content_menudatealiasghsvs-2016.08.14.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs&version=2016.08.14" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+    </note>
+  </changelog>
+
+  <changelog>
+    <element>menudatealiasghsvs</element>
+    <type>plugin</type>
+    <folder>content</folder>
+    <version>2016.08.01</version>
+    <note>
+			<item>Obsolete version. Replaced by V. 2016.08.14</item>
     </note>
   </changelog>
 
