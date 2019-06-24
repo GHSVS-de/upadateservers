@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_content_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs">
+
+	<changelog excludeIfNoVersion="1">
+
+	</changelog>
+
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<version>2019.06.25</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				Tested with Joomla 3.9.8<br>
+				Tested with Joomla 4.0.0-dev alpha (only installation and back-end tested yet)<br>
+				Tested with PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<note>
+			<item><![CDATA[
+				Uses syntaxhighlighter JavaScript library of Alex Gorbatchev. Version 3.0.90<br>
+				https://github.com/syntaxhighlighter/syntaxhighlighter/releases/tag/v3.0.90
+			]]></item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2019.06.25.zip" target="blank">
+					plg_content_syntaxhighlighterghsvs-2019.06.25
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs&version=2019.06.25" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				See also related and helpful editor button plugin plg_editors-xtd_syntaxhighlighterghsvs that helps to insert code snippets in editor/article text.
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs" target="blank">
+					Project page of editor button
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+</changelogs>
