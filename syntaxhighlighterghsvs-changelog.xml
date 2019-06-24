@@ -22,6 +22,7 @@
 			]]></entry>
 		</requirement>
 		<note>
+			<item>First public release.</item>
 			<item><![CDATA[
 				Uses syntaxhighlighter JavaScript library of Alex Gorbatchev. Version 3.0.90<br>
 				https://github.com/syntaxhighlighter/syntaxhighlighter/releases/tag/v3.0.90
