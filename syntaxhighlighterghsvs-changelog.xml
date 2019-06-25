@@ -2,7 +2,7 @@
 <changelogs extension="plg_content_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs">
 
 	<changelog excludeIfNoVersion="1">
-
+		<version>next</version>
 	</changelog>
 
 	<changelog>

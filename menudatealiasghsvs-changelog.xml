@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_menudatealiasghsvs" projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs">
 
-<!--	<changelog excludeIfNoVersion="1">
+<!--
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
 <code>menudatealiasghsvs.xml</code>:
 Replace <code>versionHistory</code> by changelogurl (changelog.php)
 	</changelog>-->
