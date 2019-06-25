@@ -17,7 +17,7 @@
 			]]></entry>
 			<entry><![CDATA[
 				Tested with Joomla 3.9.8<br>
-				Tested with Joomla 4.0.0-dev alpha (only installation and back-end tested yet)<br>
+				Tested with Joomla 4.0.0-dev alpha<br>
 				Tested with PHP 7.2 and 7.3
 			]]></entry>
 		</requirement>
@@ -34,7 +34,7 @@
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs&version=2019.06.25" target="blank">
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs&amp;version=2019.06.25" target="blank">
 					Changelogs
 				</a>
 			]]></item>
