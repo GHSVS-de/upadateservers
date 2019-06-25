@@ -47,9 +47,9 @@ li
 
 //defined('_JEXEC') or die;
 
-//use Joomla\CMS\Factory;
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
-//$input     = Factory::getApplication()->input;
 $whichFile = trim($_GET['file']);
 
 if (empty($whichFile))
@@ -98,14 +98,17 @@ elseif (empty($xml->changelog) || !($xml->changelog instanceof SimpleXMLElement)
 	return;
 }
 
-if (!($whichElement = trim($_GET['element'])))
+$whichElement = '';
+
+if (!isset($_GET['element']) || !($whichElement = trim($_GET['element'])))
 {
   $whichElement = $whichFile;
 }
 
 $allLogs = '';
+$whichVersion = '';
 
-if ($whichVersion = trim($_GET['version']))
+if (isset($_GET['version']) && ($whichVersion = trim($_GET['version'])))
 {
 	if ($whichElement === $whichFile)
 	{
@@ -133,7 +136,7 @@ $data = array();
 foreach ($xml->changelog as $changelog)
 {
 	$version = trim($changelog->version);
-	
+#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	$excludeIfNoVersion = $changelog->attributes()->excludeIfNoVersion;
 
 	if (
@@ -142,14 +145,14 @@ foreach ($xml->changelog as $changelog)
 	){
 		continue;
 	}
-
+#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	if (
 		$excludeIfNoVersion
 		&& (! $whichVersion || $whichVersion !== $version)
 	){
 		continue;
 	}
-
+#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	$element = trim($changelog->element);
 
 	if ($element !== $whichElement) continue;
@@ -167,7 +170,7 @@ foreach ($xml->changelog as $changelog)
 	}
 
 	$data[$version]['headline'] = '<p>' . implode(", ", $values) . '</p>';
-
+#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($data, true) . '</pre>';#exit;
 	$do = array(
 		'security',
 		'fix',
