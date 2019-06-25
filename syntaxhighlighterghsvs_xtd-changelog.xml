@@ -16,8 +16,8 @@
 				allowDowngrades:1<br>
 			]]></entry>
 			<entry><![CDATA[
-				Tested with Joomla 3.9.8<br>
-				Tested with Joomla 4.0.0-dev alpha<br>
+				Tested with Joomla 3.9.8, JCE editor, TinyMCE editor.<br>
+				Tested with Joomla 4.0.0-dev alpha, TinyMCE editor.<br>
 				Tested with PHP 7.2 and 7.3
 			]]></entry>
 		</requirement>
