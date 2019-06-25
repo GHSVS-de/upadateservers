@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_editors-xtd_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs">
+
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
+	</changelog>
+
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<version>2019.06.25</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				Tested with Joomla 3.9.8<br>
+				Tested with Joomla 4.0.0-dev alpha<br>
+				Tested with PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<note>
+			<item>First public release.</item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.25.zip" target="blank">
+					plg_editors-xtd_syntaxhighlighterghsvs-2019.06.25
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&version=2019.06.25" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				This is a editor button for content plugin
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs" target="blank">
+					plg_content_syntaxhighlighterghsvs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+</changelogs>
