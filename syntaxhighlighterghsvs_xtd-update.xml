@@ -10,13 +10,13 @@
 		<type>plugin</type>
 		<folder>editors-xtd</folder>
 		<client>site</client>
-		<version>2019.06.25</version>
-		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&element=syntaxhighlighterghsvs</infourl>
+		<version>2019.06.29</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;element=syntaxhighlighterghsvs</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/syntaxhighlighterghsvs_xtd-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.25.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.29.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -35,13 +35,13 @@
 		<type>plugin</type>
 		<folder>editors-xtd</folder>
 		<client>site</client>
-		<version>2019.06.25</version>
-		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&element=syntaxhighlighterghsvs</infourl>
+		<version>2019.06.29</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;element=syntaxhighlighterghsvs</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/syntaxhighlighterghsvs_xtd-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.25.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.29.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
