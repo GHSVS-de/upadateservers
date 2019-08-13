@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs">
 
-	<changelog excludeIfNoVersion="1">
-		<version>next</version>
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<version>2019.08.13</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				Tested with Joomla 3.9.10<br>
+				Tested with PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<fix>
+			<item>installerScript.php: Wrong class name and copyright.</item>
+			<item>syntaxhighlighterghsvs.xml: Wrong extension name.</item>
+			<item>syntaxhighlighterghsvs.php: Change empty(OBJECT) to count(get_object_vars(OBJECT)).</item>
+		</fix>
+		<note>
+			<item>Bug fix release.</item>
+			<item><![CDATA[
+				Uses syntaxhighlighter JavaScript library of Alex Gorbatchev. Version 3.0.90<br>
+				https://github.com/syntaxhighlighter/syntaxhighlighter/releases/tag/v3.0.90
+			]]></item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2019.08.13.zip" target="blank">
+					plg_content_syntaxhighlighterghsvs-2019.08.13
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs&amp;version=2019.08.13" target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				See also related and helpful editor button plugin plg_editors-xtd_syntaxhighlighterghsvs that helps to insert code snippets in editor/article text.
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs" target="blank">
+					Project page of editor button
+				</a>
+			]]></item>
+		</note>
 	</changelog>
 
 	<changelog>
