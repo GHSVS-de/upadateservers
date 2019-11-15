@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>PLG_SYSTEM_BROWSERTITLEGHSVS</name>
+		<description>Joomla-Plugin. Settings for/reordering of browser/tabulator TITLE in back-end (administration).</description>
+		<element>browsertitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>administrator</client>
+		<version>2019.11.13</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=browsertitleghsvs</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/browsertitleghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_browsertitleghsvs/archive/2019.11.13.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer (GHSVS.de)</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.(9|10)" />
+		<!--<php_minimum>7.0.0</php_minimum>-->
+	</update>
+
+  <update>
+    <name>System Plugin Browser TITLE by GHSVS</name>
+    <description>Settings for browser TITLE in Joomla backend (administration)</description>
+    <element>browsertitleghsvs</element>
+    <type>plugin</type>
+				<folder>system</folder>
+				<client>site</client>
+    <version>2015.12.21</version>
+    <downloads>
+      <downloadurl type="full" format="zip">http://snapshots.ghsvs.de/updates/joomla/plg_system_browsertitleghsvs/plg_system_browsertitleghsvs_2015.12.21.zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="3.4"/>
+  </update>
+  <update>
+    <name>System Plugin Browser TITLE by GHSVS</name>
+    <description>Settings for browser TITLE in Joomla backend (administration)</description>
+    <element>browsertitleghsvs</element>
+    <type>plugin</type>
+				<folder>system</folder>
+				<client>site</client>
+    <version>2016.05.10</version>
+    <downloads>
+      <downloadurl type="full" format="zip">http://snapshots.ghsvs.de/updates/joomla/plg_system_browsertitleghsvs/plg_system_browsertitleghsvs_2016.05.10.zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="3"/>
+  </update>
+</updates>
