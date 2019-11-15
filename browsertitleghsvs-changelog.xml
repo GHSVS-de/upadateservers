@@ -2,7 +2,14 @@
 <changelogs extension="plg_system_browsertitleghsvs" projecturl="https://github.com/GHSVS-de/plg_system_browsertitleghsvs">
 
 	<changelog excludeIfNoVersion="1">
-		<version>next</version>
+		<version>2019.11.15</version>
+		<fix>
+			<item><![CDATA[
+				<code>browsertitleghsvs.xml</code>:
+				Missing language string <code>PLG_SYSTEM_BROWSERTITLEGHSVS_SITENAME_BACKEND_DESC</code>
+			]]></item>
+		</fix>
+		
 	</changelog>
 
 	<changelog>
