@@ -6,7 +6,7 @@
 		<element>browsertitleghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<client>administrator</client>
+		<client>site</client>
 		<version>2019.11.13</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=browsertitleghsvs</infourl>
 
