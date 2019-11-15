@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_browsertitleghsvs" projecturl="https://github.com/GHSVS-de/plg_system_browsertitleghsvs">
+
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
+	</changelog>
+
+	<changelog>
+		<element>browsertitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.11.13</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.13<br>
+				Tested with Joomla 3.9<br>
+				Tested with PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<addition>
+			<item><![CDATA[
+				Setting: <code>Display &amp; Order</code>:<br>
+				<code>Client only</code><br>
+				<code>Sitename only</code>
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>
+			]]></item>
+		</addition>
+		<change>
+			<item>
+				Use namespaces
+			</item>
+			<item>
+				Revision of whole code
+			</item>
+		</change>
+		<remove>
+			<item><![CDATA[
+				<code>function __construct</code>
+			]]></item>
+			<item><![CDATA[
+				<code>protected $autoloadLanguage = true</code>
+			]]></item>
+		</remove>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_browsertitleghsvs/archive/2019.11.13.zip">
+					plg_system_browsertitleghsvs-2019.11.13.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=browsertitleghsvs&version=2019.11.13">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+</changelogs>
