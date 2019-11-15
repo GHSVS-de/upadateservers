@@ -2,6 +2,9 @@
 <changelogs extension="plg_system_browsertitleghsvs" projecturl="https://github.com/GHSVS-de/plg_system_browsertitleghsvs">
 
 	<changelog excludeIfNoVersion="1">
+		<element>browsertitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
 		<version>2019.11.15</version>
 		<fix>
 			<item><![CDATA[
@@ -9,7 +12,19 @@
 				Missing language string <code>PLG_SYSTEM_BROWSERTITLEGHSVS_SITENAME_BACKEND_DESC</code>
 			]]></item>
 		</fix>
-		
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_browsertitleghsvs/archive/2019.11.15.zip">
+					plg_system_browsertitleghsvs-2019.11.15.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=browsertitleghsvs&version=2019.11.15">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
 	</changelog>
 
 	<changelog>
