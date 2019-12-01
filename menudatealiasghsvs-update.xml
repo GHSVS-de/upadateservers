@@ -73,7 +73,7 @@
 			<folder>content</folder>
 			<client>site</client>
 			<version>2019.06.11</version>
-			<infourl>https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/blob/master/README.md</infourl>
+			<infourl>https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs</infourl>
 			<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/menudatealiasghsvs-changelog.xml</changelogurl>
 			<downloads>
 				<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2019.06.11.zip</downloadurl>

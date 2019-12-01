@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_bs3ghsvs" projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs">
+
+	<changelog excludeIfNoVersion="1">
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.08.26</version>
+	</changelog>
+
+	<changelog excludeIfNoVersion="1">
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.06.29</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				minimumPhp:7.0.0<br>
+				maximumJoomla:3.10.99999<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				Tested with Joomla 3.9.10<br>
+				Tested with PHP 7.2 and 7.3
+			]]></entry>
+		</requirement>
+		<addition>
+			<item><![CDATA[
+				bs3ghsvs.xml:
+				changelogurl<br>
+				updateservers (but not activated)<br>
+				changelog.php?file=bs3ghsvs url
+			]]></item>
+			<item><![CDATA[
+				Plugin checks if file <code>html/plgSystemBs3GhsvsActive.json</code> exists in fe template folders.
+				If yes use the plugin.
+			]]></item>
+		</addition>
+		<remove>
+			<item>
+				Venobox JHtml helper in favour of plg_system_venoboxghsvs.
+			</item>
+			<item>
+				search_modulesghsvs.
+			</item>
+		</remove>
+		<change>
+			<item>script.php to installerScript.php.</item>
+			<item>Revision of installerScript.php.</item>
+			<item>Namespacing (not completed, just begun).</item>
+			<item><![CDATA[
+				Replace <code>bs3ghsvs.venobox</code> with <code>plgvenoboxghsvs.venobox</code>.
+			]]></item>
+			<item>
+				Rename field EnabledCheckerGhsvs to EnabledChecker and revision.
+			</item>
+		</change>
+		<note>
+			<item>
+				Workout on domain relaunch-bs3.ghsvs.de
+			</item>
+		</note>
+		<fix>
+			<item></item>
+		</fix>
+	</changelog>
+
+</changelogs>
