@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs">
-	
-	<changelog excludeIfNoVersion="1">
+
+	<changelog>
 		<element>syntaxhighlighterghsvs</element>
 		<type>plugin</type>
 		<folder>content</folder>
-		<version>2019.08.25</version>	
-		<fix>
-			<item>Tabulator "Custom CSS": Set default active value for CSS rule "code background-color" to NO because conflicts with CSS stylesheets other than default one.</item>
-			<item>helper.php: Use File class instead of file_put_contents because of backend notice if folder "_combiByPlugin" deleted.</item>
-		</fix>
-	</changelog>
-
-	<changelog>
-
+		<version>2019.08.13</version>
 		<requirement>
 			<entry><![CDATA[
 				minimumJoomla:3.9.8<br>
