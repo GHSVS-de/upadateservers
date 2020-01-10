@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_importfontsghsvs" projecturl="https://github.com/GHSVS-de/plg_system_importfontsghsvs">
+
+	<changelog excludeIfNoVersion="1">
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.01.09-after</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:
+				<br>
+				minimumJoomla:
+				<br>
+				maximumJoomla:
+			]]></entry>
+		</requirement>
+ 	</changelog>
+
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.01.09</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <remove>
+      <item>Feature/Setting "Run Standard Agents"</item>
+    </remove>
+		<change>
+			<item>Small code changes without change of functionality.</item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/archive/2020.01.09.zip" target="blank">
+					plg_system_importfontsghsvs-2020.01.09.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2020.01.09">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.01.05</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <fix>
+			<item><![CDATA[
+				Issue: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/issues/6">
+					Language string and unfinished feature "Run Standard Agents"
+				</a>
+			]]></item>
+			<item><![CDATA[
+				Issue: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/issues/5">
+					Log Feature. PHP Notice if an invalid font was configured
+				</a>
+			]]></item>
+    </fix>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/archive/2020.01.05.zip" target="blank">
+					plg_system_importfontsghsvs-2020.01.05.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2020.01.05">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.01.03</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <fix>
+			<item><![CDATA[
+				Grave bug fixed <code>helper.php</code>: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/commit/af6d1bdc8f1bef657b355ab5b25715a7d670ab53#diff-910119ebc9b127f6695f15da8ef50b0b">
+					Loads only 1 font if more than 1 were configured
+				</a>
+			]]></item>
+			<item><![CDATA[
+				Let survive my plugin in <code>helper.php</code>:
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/commit/af6d1bdc8f1bef657b355ab5b25715a7d670ab53#diff-910119ebc9b127f6695f15da8ef50b0b">
+					Some stupid 3rd plugins still destroy <code>$templateStyle->id</code>. 
+				</a>
+			]]></item>
+    </fix>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/archive/2020.01.03.zip" target="blank">
+					plg_system_importfontsghsvs-2020.01.03.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2020.01.03">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.12.13</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <fix>
+			<item><![CDATA[
+				Notice fixed <code>helper.php</code>: 
+				"Undefined property: stdClass::$id in plugins/system/importfontsghsvs/Helper/helper.php on line 40"
+			]]></item>
+    </fix>
+		<note>
+			<item><![CDATA[
+				Download: None
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2019.12.13">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.12.01</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <addition>
+      <item><![CDATA[
+				<code>fonts-subform.xml</code>: 
+				<code>display=swap</code> to default "demo" entries.
+			]]></item>
+    </addition>
+    <fix>
+			<item><![CDATA[
+				<code>helper.php</code>: 
+				Correct "is empty(object)" code.
+			]]></item>
+    </fix>
+		<note>
+			<item><![CDATA[
+				Download: None (Removed)
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2019.12.01">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.08.13</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+    <addition>
+      <item><![CDATA[
+				Setting <code>writeAgentInCssFile</code>.
+			]]></item>
+    </addition>
+    <fix>
+			<item><![CDATA[
+				<code>helper.php</code>: 
+				Correct "is empty(object)" code.
+			]]></item>
+    </fix>
+		<note>
+			<item><![CDATA[
+				First public release. Has grave bugs
+			]]></item>
+			<item><![CDATA[
+				Download: None (Removed)
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2019.08.13">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+</changelogs>
