@@ -25,8 +25,9 @@
       <item>Item b language version 0.0.2</item>
     </language>
     <addition>
-      <item>Item A addition version 0.0.2</item>
-      <item>Item b addition version 0.0.2</item>
+      <item><![CDATA[
+				TEXT
+			]]></item>
     </addition>
     <change>
       <item>Item A cahnge version 0.0.2</item>
