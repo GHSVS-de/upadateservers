@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_hyphenateghsvs" projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs">
 
-<!--
-Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
--->
-	<changelog excludeIfNoVersion="1">
+	<changelog>
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2019.05.29-after</version>
+		<version>2020.03.28</version>
 		<requirement>
 			<entry><![CDATA[
-				minimumPhp:
+				minimumPhp: 7.0.0
 				<br>
-				minimumJoomla:
+				minimumJoomla: 3.9.0
 				<br>
-				maximumJoomla:
+				maximumJoomla: 3.9.99999
 			]]></entry>
 		</requirement>
+
 		<fix>
 			<item><![CDATA[
 				Replace hard coded cleanupMarker string with <code>$this-&gt;cleanupMarker</code>
@@ -25,31 +23,51 @@ Next version after 2019.05.29. Letzter Eintrag hier: 17.06.2019.
 			<item><![CDATA[
 				<code>installerScript.php</code>: Namespace forgotten <code>JLog::</code> to <code>Log::</code>.
 			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.php</code>: Wrong <code>empty()</code> for object <code>$subformData</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code> after definition of <code>allowDowngrades</code>.
+			]]></item>
 		</fix>
+
 		<addition>
 			<item><![CDATA[
 				<code>hyphenateghsvs.xml</code>: Tag <code>changelogurl</code> for Joomla 4.
+			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.xml</code>: <code>allowDowngrades: 1</code>. <b>But not tested!!</b>
 			]]></item>
 			<item><![CDATA[
 				<code>installerScript.php</code>:
 				Function <code>removeOldUpdateservers()</code> to remove outdated update servers from Joomla db
 				(Extensions: Update Sites).
 			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.php</code>: Stop browser caching in Joomla debug mode: <code>$version = JDEBUG ? 'auto' : time();</code>.
+			]]></item>
 		</addition>
+
 		<change>
 			<item><![CDATA[
 				<code>hyphenateghsvs.xml</code>: Replace <code>versionHistory</code> entries with changelog.php link.
 			]]></item>
+			<item><![CDATA[
+				Update to Hyphenopoly 4.2.0 (2020-03-27) library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v4.2.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v4.2.0/CHANGELOG.md
+			]]></item>
 		</change>
+
 		<note>
 			<item><![CDATA[
 				Download: 
-				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29-after.zip" target="blank">
-					plg_system_hyphenateghsvs-2019.05.29-after.zip
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2020.03.28.zip" target="blank">
+					plg_system_hyphenateghsvs-2020.03.28.zip
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.05.29-after">
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.03.28">
 					Changelogs
 				</a>
 			]]></item>
