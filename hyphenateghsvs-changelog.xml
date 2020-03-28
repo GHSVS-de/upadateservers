@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_hyphenateghsvs" projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs">
 
-	<changelog>
+	<changelog excludeIfNoVersion="1">
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
@@ -53,9 +53,9 @@
 				<code>hyphenateghsvs.xml</code>: Replace <code>versionHistory</code> entries with changelog.php link.
 			]]></item>
 			<item><![CDATA[
-				Update to Hyphenopoly 4.2.0 (2020-03-27) library.<br>
-				https://github.com/mnater/Hyphenopoly/releases/tag/v4.2.0<br>
-				https://github.com/mnater/Hyphenopoly/blob/v4.2.0/CHANGELOG.md
+				Update to Hyphenopoly 3.4.0 (2019-12-26) library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.4.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.4.0/CHANGELOG.md
 			]]></item>
 		</change>
 
