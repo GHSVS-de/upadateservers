@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_hyphenateghsvs" projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs">
 
-	<changelog excludeIfNoVersion="1">
+	<changelog>
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
