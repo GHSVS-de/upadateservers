@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_venoboxghsvs" projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs">
 
-	<changelog excludeIfNoVersion="1">
+	<changelog>
 		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2019.08.xyzkk</version>
+		<version>2020.05.02</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+			]]></entry>
+		</requirement>
+		<fix>
+			<entry><![CDATA[
+				<code>installerScript.php</code>: Uninstall process fails under some circumstances with J! versions higher 3.9.x. Move <code>parent::preflight()</code> check. Fixes https://github.com/GHSVS-de/plg_system_venoboxghsvs/issues/1
+			]]></entry>
+		</fix>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2020.05.02.zip" target="blank">
+					plg_system_venoboxghsvs-2020.05.02.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2020.05.02" target="_blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				Last tests:<br>
+				Joomla 3.9.18
+				PHP 7.4
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/nicolafranchini/VenoBox" target="_blank">
+					GitHub Venobox project page (Nicola Franchini)
+				</a>
+			]]></item>
+		</note>
 	</changelog>
 
 	<changelog>
