@@ -14,9 +14,9 @@
 			]]></entry>
 		</requirement>
 		<fix>
-			<entry><![CDATA[
+			<item><![CDATA[
 				<code>installerScript.php</code>: Uninstall process fails under some circumstances with J! versions higher 3.9.x. Move <code>parent::preflight()</code> check. Fixes https://github.com/GHSVS-de/plg_system_venoboxghsvs/issues/1
-			]]></entry>
+			]]></item>
 		</fix>
 		<note>
 			<item><![CDATA[
