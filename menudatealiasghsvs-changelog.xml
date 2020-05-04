@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_menudatealiasghsvs" projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs">
 
-<!--
-	<changelog excludeIfNoVersion="1">
-		<version>next</version>
-<code>menudatealiasghsvs.xml</code>:
-Replace <code>versionHistory</code> by changelogurl (changelog.php)
-	</changelog>-->
+	<changelog>
+		<element>menudatealiasghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<version>2020.05.05</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9<br>
+				minimumPhp:7.2.0<br>
+				allowDowngrades:1
+			]]></entry>
+			<entry><![CDATA[
+				Last tests:<br>
+				Joomla 3.9.18<br>
+				Joomla 4.0.0-dev (nightly build Monday, 04 May 2020 02:00:22 UTC)<br>
+				PHP 7.2, 7.3, 7.4
+			]]></entry>
+		</requirement>
+	
+		<fix>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Uninstall process fails under some circumstances with J! versions higher 3.9.x. Move <code>parent::preflight()</code> check. Fixes https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/issues/9
+			]]></item>
+		</fix>
+	
+		<note>
+			<item><![CDATA[
+			Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2020.05.05.zip" target="blank">
+				plg_content_menudatealiasghsvs-2020.05.05.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs&version=2020.05.05" target="blank">
+				Changelogs
+				</a>
+			]]></item>
+		</note>
+	
+	</changelog>
 
   <changelog>
     <element>menudatealiasghsvs</element>
