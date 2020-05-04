@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_content_menudatealiasghsvs" projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs">
+<changelogs
+	extension="plg_content_menudatealiasghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs"
+	description="Joomla content plugin that brings back automatic alias as datetime stamp for menu items of type Menu Item Alias."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+>
 
 	<changelog>
 		<element>menudatealiasghsvs</element>
