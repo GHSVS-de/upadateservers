@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_system_hyphenateghsvs" projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs">
+<changelogs extension="plg_system_hyphenateghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs"
+	description="Joomla-Plugin. Hyphenation for browsers that do NOT support CSS property hyphens (e.g. Chrome) or do not support languages you selected in this plugin."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"	
+>
 
 	<changelog>
 		<element>hyphenateghsvs</element>
