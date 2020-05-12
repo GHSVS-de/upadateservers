@@ -107,15 +107,22 @@ if (!isset($_GET['element']) || !($whichElement = trim($_GET['element'])))
 
 $allLogs = '';
 $whichVersion = '';
+$paraElement = '';
 
 if (isset($_GET['version']) && ($whichVersion = trim($_GET['version'])))
 {
-	if ($whichElement === $whichFile)
+	if ($whichElement && $whichElement !== $whichFile)
 	{
-		$allLogs = '<p><strong><a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . '">
+		$paraElement = '&element=' . $whichElement;
+	}
+
+	#if ($whichElement === $whichFile)
+	{
+		$allLogs = '<p><strong>
+			<a href="https://updates.ghsvs.de/changelog.php?file=' . $whichFile . $paraElement . '">
 					See changelogs of all versions
-				</a></strong>
-				</p>';
+			</a></strong>
+			</p>';
 	}
 }
 
@@ -127,6 +134,21 @@ if ($extension = trim($xml->attributes()->extension))
 if ($projecturl = trim($xml->attributes()->projecturl))
 {
 	echo '<p>Project page: <a href="' . $projecturl . '">' . $projecturl . '</a></p>';
+}
+
+if ($output = trim($xml->attributes()->description))
+{
+	echo '<p>Description: <i>' . $output . '</i></p>';
+}
+
+if ($output = trim($xml->attributes()->maintainer))
+{
+	echo '<p>Maintainer: ' . $output . '</p>';
+}
+
+if ($output = trim($xml->attributes()->maintainerurl))
+{
+	echo '<p>Maintainer URL: <a href="' . $output . '">' . $output . '</a></p>';
 }
 
 echo $allLogs;
