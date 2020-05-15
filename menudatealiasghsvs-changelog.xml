@@ -7,6 +7,56 @@
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 >
 
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
+	</changelog>
+
+	<changelog>
+		<element>menudatealiasghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<version>2020.05.15</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9<br>
+				minimumPhp:7.2.0<br>
+				allowDowngrades:1
+			]]></entry>
+			<entry><![CDATA[
+				Last tests:<br>
+				Joomla 3.9.18<br>
+				Joomla 4.0.0-dev (nightly build)<br>
+				PHP 7.2, 7.3, 7.4
+			]]></entry>
+		</requirement>
+	
+		<fix>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Uninstall process fails under some circumstances
+				with versions higher than defined <code>maximumJoomla</code>, <code>maximumPhp</code>.
+			]]></item>
+		</fix>
+	
+		<note>
+			<item><![CDATA[
+			Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2020.05.15.zip" target="blank">
+				plg_content_menudatealiasghsvs-2020.05.15.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs&version=2020.05.15" target="blank">
+				Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/compare/2020.05.05...2020.05.15">
+				Code changes 2020.05.05...2020.05.15
+				</a>
+			]]></item>
+		</note>
+	</changelog>
+
 	<changelog>
 		<element>menudatealiasghsvs</element>
 		<type>plugin</type>
@@ -28,7 +78,8 @@
 	
 		<fix>
 			<item><![CDATA[
-				<code>installerScript.php</code>: Uninstall process fails under some circumstances with J! versions higher 3.9.x. Move <code>parent::preflight()</code> check. Fixes https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/issues/9
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code>
+				after defining <code>$this->downgrade</code>.
 			]]></item>
 		</fix>
 	
