@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_content_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs">
+<changelogs extension="plg_content_syntaxhighlighterghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs"
+	description="Joomla plugin. Code syntax highlighter that uses SyntaxHighlighter library (V3.0.90) of Alex Gorbatchev."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"	
+>
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<version>2020.05.15</version>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				Tested with Joomla 3.9.18<br>
+				Tested with PHP 7.2, 7.3, 7.4
+			]]></entry>
+		</requirement>
+
+		<fix>
+			<item><![CDATA[
+				Tabulator <code>Custom CSS</code>: Set default <code>active</code> value for CSS rule <code>code background-color</code> to NO because conflicts with CSS stylesheets other than <code>default</code>.
+			]]></item>
+
+			<item><![CDATA[
+				<code>helper.php</code>: Use <code>File</code> class instead of <code>file_put_contents</code> because of backend notice if folder <code>_combiByPlugin</code> deleted.
+			]]></item>
+
+			<item><![CDATA[
+				<code>installerScript.php</code>: Uninstall process fails under some circumstances
+				with versions higher than defined <code>maximumJoomla</code>, <code>maximumPhp</code>.
+			]]></item>
+
+			<item><![CDATA[
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code>
+				after defining <code>$this->downgrade</code>.
+			]]></item>
+		</fix>
+		<note>
+			<item>Bug fix release.</item>
+			<item><![CDATA[
+				Uses syntaxhighlighter JavaScript library of Alex Gorbatchev. Version 3.0.90<br>
+				https://github.com/syntaxhighlighter/syntaxhighlighter/releases/tag/v3.0.90
+			]]></item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2020.05.15.zip"
+					target="blank">
+					plg_content_syntaxhighlighterghsvs-2020.05.15
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs&amp;version=2020.05.15"
+					target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/compare/2019.08.13...2020.05.15"
+					target="blank">
+				Code changes 2019.08.13...2020.05.15
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				See also related and helpful editor button plugin <code>plg_editors-xtd_syntaxhighlighterghsvs</code>
+					that helps to insert code snippets in editor/article text.
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs" target="blank">
+					Project page of editor button
+				</a>
+			]]></item>
+		</note>
+	</changelog>
 
 	<changelog>
 		<element>syntaxhighlighterghsvs</element>
