@@ -10,13 +10,13 @@
 		<type>plugin</type>
 		<folder>content</folder>
 		<client>site</client>
-		<version>2019.08.13</version>
+		<version>2020.05.15</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/syntaxhighlighterghsvs-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2019.08.13.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2020.05.15.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -35,16 +35,16 @@
 		<type>plugin</type>
 		<folder>content</folder>
 		<client>site</client>
-		<version>2019.08.13</version>
+		<version>2020.05.15</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/syntaxhighlighterghsvs-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2019.08.13.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs/archive/2020.05.15.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>dev</tag>
+			<tag>stable</tag>
 		</tags>
 		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)</maintainer>
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>
