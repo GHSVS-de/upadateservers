@@ -1,22 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_system_importfontsghsvs" projecturl="https://github.com/GHSVS-de/plg_system_importfontsghsvs">
+<changelogs extension="plg_system_importfontsghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_system_importfontsghsvs"
+	description="Joomla-Plugin. Import and save G WebFonts and browser dependent CSS via server IP and not page visitor IP."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+>
 
-	<changelog excludeIfNoVersion="1">
+	<changelog>
 		<element>importfontsghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2020.01.09-after</version>
+		<version>2020.05.15</version>
 		<requirement>
 			<entry><![CDATA[
-				minimumPhp:
+				minimumPhp:7.2.0
 				<br>
-				minimumJoomla:
+				minimumJoomla:3.9.0
 				<br>
-				maximumJoomla:
+				maximumJoomla:3.9.99999
+			]]></entry>
+			<entry><![CDATA[
+				Joomlas /media/ folder must be writable for PHP (Joomla) to add and fill folder /fontsghsvs/ on-the-fly. Normally standard.
 			]]></entry>
 		</requirement>
+		<fix>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code> after definition of <code>allowDowngrades</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Uninstall process fails under some circumstances
+				with versions higher than defined <code>maximumJoomla</code>, <code>maximumPhp</code>.
+			]]></item>
+		</fix>
+		<addition>
+			<item><![CDATA[
+				<code>importfontsghsvs.xml</code>: Add tags <code>changelogurl</code> and <code>infourl</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>importfontsghsvs.xml</code>: Replace <code>versionHistory</code> entries with changelog URL.
+			]]></item>
+		</addition>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/archive/2020.05.15.zip"
+					target="blank">
+					plg_system_importfontsghsvs-2020.05.15.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2020.05.15"
+					target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/compare/2020.01.09...2020.05.15"
+					target="blank">
+				Code changes since previous release
+				</a>
+			]]></item>
+		</note>
  	</changelog>
-
 
 	<changelog>
 		<element>importfontsghsvs</element>
@@ -33,7 +78,9 @@
 			]]></entry>
 		</requirement>
     <remove>
-      <item>Feature/Setting "Run Standard Agents"</item>
+      <item><![CDATA[
+				Feature/Setting "Run Standard Agents"
+			]]></item>
     </remove>
 		<change>
 			<item>Small code changes without change of functionality.</item>
