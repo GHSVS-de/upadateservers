@@ -10,6 +10,51 @@
 		<element>importfontsghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
+		<version>2020.05.19</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.2.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.10.99999 (after tests with J! 3.10.0-dev)
+			]]></entry>
+			<entry><![CDATA[
+				Joomlas /media/ folder must be writable for PHP (Joomla) to add and fill folder /fontsghsvs/ on-the-fly. Normally standard.
+			]]></entry>
+		</requirement>
+		<fix>
+			<item><![CDATA[
+				<code>importfontsghsvs.php</code>: <code>fonts.googleapis.com</code> URL check throws error when link contains <code>/css2?</code> or similiar instead of <code>/css?</code> (without number). <code>$import_lineCheck</code> is an array now. Language strings adapted.
+			]]></item>
+		</fix>
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/archive/2020.05.19.zip"
+					target="blank">
+					plg_system_importfontsghsvs-2020.05.19.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=importfontsghsvs&version=2020.05.19"
+					target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_importfontsghsvs/compare/2020.05.15...2020.05.19"
+					target="blank">
+				Code changes since previous release
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>importfontsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
 		<version>2020.05.15</version>
 		<requirement>
 			<entry><![CDATA[
