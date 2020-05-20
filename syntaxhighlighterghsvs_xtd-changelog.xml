@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_editors-xtd_syntaxhighlighterghsvs" projecturl="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs">
+<changelogs
+	extension="plg_editors-xtd_syntaxhighlighterghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs"
+	description="Joomla plugin. Editor button that helps to insert code snippets into editor/article text that will be 'highlighted' then by content plugin SyntaxHighlighterGhsvs (plg_content_syntaxhighlighterghsvs) when you display the article in front-end."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+>
 
 	<changelog>
 		<element>syntaxhighlighterghsvs</element>
