@@ -50,7 +50,8 @@
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;element=syntaxhighlighterghsvs&amp;version=2019.06.29" target="blank">
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;version=2019.06.29"
+					target="blank">
 					Changelogs
 				</a>
 			]]></item>
@@ -83,18 +84,21 @@
 			<item>First public release.</item>
 			<item><![CDATA[
 				Download:
-				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.25.zip" target="blank">
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2019.06.25.zip"
+					target="blank">
 					plg_editors-xtd_syntaxhighlighterghsvs-2019.06.25
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;element=syntaxhighlighterghsvs&amp;version=2019.06.25" target="blank">
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&amp;version=2019.06.25"
+					target="blank">
 					Changelogs
 				</a>
 			]]></item>
 			<item><![CDATA[
 				This is a editor button for content plugin
-				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs" target="blank">
+				<a href="https://github.com/GHSVS-de/plg_content_syntaxhighlighterghsvs"
+					target="blank">
 					plg_content_syntaxhighlighterghsvs
 				</a>
 			]]></item>
