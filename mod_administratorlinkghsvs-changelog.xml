@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_administratorlinkghsvs"
+	projecturl="https://github.com/GHSVS-de/mod_administratorlinkghsvs"
+	description="Joomla 4 module. Backend button to open additional administration in a new browser tabulator."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+>
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
+	</changelog>
+
+	<changelog>
+		<element>mod_administratorlinkghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<version>2020.05.23</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.2
+				<br>
+				minimumJoomla: 4
+			]]></entry>
+		</requirement>
+		<note>
+			<item>
+				Initial version for Joomla 4.
+			</item>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/archive/2020.05.23.zip" target="blank">
+					mod_administratorlinkghsvs-2020.05.23.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_administratorlinkghsvs&version=2020.05.23">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+</changelogs>
