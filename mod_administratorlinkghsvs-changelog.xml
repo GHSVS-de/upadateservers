@@ -5,9 +5,7 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
 >
-	<changelog excludeIfNoVersion="1">
-		<version>next</version>
-	</changelog>
+
 
 	<changelog>
 		<element>mod_administratorlinkghsvs</element>
