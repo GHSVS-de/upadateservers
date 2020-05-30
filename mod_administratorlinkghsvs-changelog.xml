@@ -14,9 +14,7 @@
 		<version>2020.05.23</version>
 
 		<security>
-			<item><![CDATA[
-			
-			]]></item>
+			<item><![CDATA[]]></item>
 		</security>
 		<requirement>
 			<entry><![CDATA[
