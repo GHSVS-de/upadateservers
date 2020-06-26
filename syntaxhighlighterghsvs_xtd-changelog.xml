@@ -36,7 +36,7 @@
 				<code>insertcode_tmpl.html</code>: New field <code>ariaLabel</code>. 
 			]]></item>
 			<item><![CDATA[
-				<code>insertcode.js</code>: Surround frontend output by new container <code>&kt;div class="codeContainer"&gt;&kt;/div&gt;</code> and add attribute <code>ariaLabel="..."</code>. 
+				<code>insertcode.js</code>: Surround frontend output by new container <code>&lt;div class="codeContainer"&gt;&lt;/div&gt;</code> and add attribute <code>ariaLabel="..."</code>. 
 			]]></item>
 			<item><![CDATA[
 				<code>syntaxhighlighterghsvs.xml</code>: <code>infourl</code>.
