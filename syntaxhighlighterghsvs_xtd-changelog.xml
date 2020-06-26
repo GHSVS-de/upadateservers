@@ -11,6 +11,78 @@
 		<element>syntaxhighlighterghsvs</element>
 		<type>plugin</type>
 		<folder>editors-xtd</folder>
+		<version>2020.06.26</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumJoomla:3.9.8<br>
+				allowDowngrades:1<br>
+			]]></entry>
+			<entry><![CDATA[
+				<b>Last tests:</b>
+				Joomla 3.9.19, JCE editor. This release not tested with TinyMCE editor.<br>
+				This release not tested with Joomla 4.0.0-dev.<br>
+				PHP 7.3, 7.4. Should work with alle PHP 7.x.
+			]]></entry>
+		</requirement>
+
+		<addition>
+			<item><![CDATA[
+				<code>.gitattributes</code> file on github to avoid line ending errors on WSL.
+			]]></item>
+			<item><![CDATA[
+				<code>.gitignore</code> entries on github.
+			]]></item>
+			<item><![CDATA[
+				<code>insertcode_tmpl.html</code>: New field <code>ariaLabel</code>. 
+			]]></item>
+			<item><![CDATA[
+				<code>insertcode.js</code>: Surround frontend output by new container <code><div class="codeContainer"></div></code> and add attribute <code>ariaLabel="..."</code>. 
+			]]></item>
+			<item><![CDATA[
+				<code>syntaxhighlighterghsvs.xml</code>: <code>infourl</code>.
+			]]></item>
+		</addition>
+
+		<fix>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code> after definition of <code>allowDowngrades</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Uninstall process failed under some circumstances
+				with versions higher than defined <code>maximumJoomla</code>, <code>maximumPhp</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>syntaxhighlighterghsvs.php</code>: Output of warning container (<code>P</code>) only if <code>$warning</code> not empty.
+			]]></item>
+		</fix>
+
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/archive/2020.06.26.zip"
+					target="blank">
+					plg_editors-xtd_syntaxhighlighterghsvs-2020.06.26.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=syntaxhighlighterghsvs_xtd&version=2020.06.26"
+					target="blank">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_syntaxhighlighterghsvs/compare/2019.06.29...2020.06.26"
+					target="blank">
+				Code changes since previous release
+				</a>
+			]]></item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
 		<version>2019.06.29</version>
 		<requirement>
 			<entry><![CDATA[
