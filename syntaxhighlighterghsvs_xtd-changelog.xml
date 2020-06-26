@@ -18,7 +18,7 @@
 				allowDowngrades:1<br>
 			]]></entry>
 			<entry><![CDATA[
-				<b>Last tests:</b>
+				<b>Last tests:</b><br>
 				Joomla 3.9.19, JCE editor. This release not tested with TinyMCE editor.<br>
 				This release not tested with Joomla 4.0.0-dev.<br>
 				PHP 7.3, 7.4. Should work with alle PHP 7.x.
