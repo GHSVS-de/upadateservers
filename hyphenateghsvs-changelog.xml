@@ -10,6 +10,60 @@
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
+		<version>2020.08.06</version>
+
+		<addition>
+			<item><![CDATA[
+				GitHub repository: Build logic via npm/node (package.json, build.js, plugin files moved into /src/ etc.).
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Hyphenopoly 4.7.0.
+			]]></item>
+			<item><![CDATA[
+				Hyphenopoly: *.hpb patterns replaced by *.wasm patterns.
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+			]]></item>
+		</fix>
+
+    <remove>
+      <item><![CDATA[
+			]]></item>
+    </remove>
+
+		<note>
+			<item><![CDATA[
+				Download/more info on 
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/tag/2020.08.06" target="blank">
+					Release page
+				</a>
+			]]></item>
+		</note>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+				<br>
+				minimumJoomla: 3.9.0
+				<br>
+				maximumJoomla: 3.10.99999
+				<br>
+				Last tests: Joomla 3.9.20
+			]]></entry>
+		</requirement>
+
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
 		<version>2020.03.28</version>
 		<requirement>
 			<entry><![CDATA[
