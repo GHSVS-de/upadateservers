@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_system_venoboxghsvs" projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs">
+<changelogs extension="plg_system_venoboxghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs"
+	description="Integrate Venobox JHtml/HTMLHelper helper in Joomla."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+>
+
+	<changelog>
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.08.09</version>
+
+		<change>
+			<item><![CDATA[
+				Update venobox library from version 1.8.6 to version 1.9.0
+			]]></item>
+			<item><![CDATA[
+				Change GitHub repository to node/npm building.
+			]]></item>
+		</change>
+
+		<note>
+			<item><![CDATA[
+				Download: 
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2020.08.09/plg_system_venoboxghsvs-2020.08.09_1.9.0.zip" target="blank">
+					plg_system_venoboxghsvs-2020.08.09_1.9.0.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/tag/2020.08.09" target="blank">
+					Release page, more infos
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2020.08.09">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+				<br>
+				minimumJoomla: 3.9.0 
+				<br>
+				maximumJoomla: 3.10.x
+			]]></entry>
+		</requirement>
+ 	</changelog>
 
 	<changelog>
 		<element>venoboxghsvs</element>

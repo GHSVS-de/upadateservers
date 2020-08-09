@@ -3,7 +3,29 @@
 
 	<update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
-		<description>Integrate Venobox JHtml helper.</description>
+		<description>Integrate Venobox JHtml/HTMLHelper helper in Joomla.</description>
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2020.08.09</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=venoboxghsvs</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2020.08.09/plg_system_venoboxghsvs-2020.08.09_1.9.0.zip</downloadurl>
+		</downloads>
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-changelog.xml</changelogurl>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.(9|10)"/>
+		<php_minimum>7.0.0</php_minimum>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+	</update>
+
+	<update>
+		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
+		<description>Integrate Venobox JHtml/HTMLHelper helper in Joomla.</description>
 		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
