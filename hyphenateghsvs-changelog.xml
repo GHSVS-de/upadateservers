@@ -37,8 +37,8 @@
 		<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.08.30" >Changelogs</a>
 		]]></item>
 		<item><![CDATA[
-		Last tests: PHP7.4
-		Joomla3.9.21
+		Last tests: PHP7.4<br />
+		Joomla3.9.21<br />
 		Edge (Chromium)/Firefox/Vivaldi
 		]]></item>
 		</note>
