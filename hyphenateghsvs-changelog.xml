@@ -10,6 +10,55 @@
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
+		<version>2020.08.30</version>
+		<language>
+		<item><![CDATA[
+		New "PLG_HYPHENATEGHSVS_SETUP_HIDE" and "PLG_HYPHENATEGHSVS_SETUP_HIDE_DESC" for new parameter "hide"
+		]]></item>
+		</language>
+		<addition>
+		<item><![CDATA[
+		New setup parameter "hide" in plugin configuration to avoid possible conflicts with other JS libraries.
+		]]></item>
+		</addition>
+		<fix>
+		<item><![CDATA[
+		Conflicts with "github.com/paypal/skipto" because Hyphenopoly is hiding elements with CSS (<code>visibility: hidden</code>) for a moment. SkipTo couldn't detect these elements. Fix: New setup parameter "hide" in plugin configuration.
+		]]></item>
+		</fix>
+		<note>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/download/2020.08.30/plg_system_hyphenateghsvs-2020.08.30_4.7.0.zip" >Direct download</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/tag/2020.08.30" >Release page, more infos</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.08.30" >Changelogs</a>
+		]]></item>
+		<item><![CDATA[
+		Last tests: PHP7.4
+		Joomla3.9.21
+		Edge (Chromium)/Firefox/Vivaldi
+		]]></item>
+		</note>
+		<requirement>
+		<entry><![CDATA[
+		minimumPhp: 7.0.0
+		]]></entry>
+		<entry><![CDATA[
+		minimumJoomla: 3.9.0
+		]]></entry>
+		<entry><![CDATA[
+		maximumJoomla: 3.10.x
+		]]></entry>
+		</requirement>
+	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
 		<version>2020.08.06</version>
 
 		<addition>
