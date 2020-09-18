@@ -6,6 +6,43 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 >
+	<changelog>
+		<element>syntaxhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<version>2020.09.18</version>
+		<fix>
+		<item><![CDATA[
+		Force JS reload in browser by time()-version string
+		]]></item>
+		</fix>
+		<note>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2020.08.09/plg_system_venoboxghsvs-2020.08.09_1.9.0.zip" >Direct download</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/tag/2020.08.09" >Release page, more infos</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2020.08.09" >Changelogs</a>
+		]]></item>
+		<item><![CDATA[
+		Last tests: Joomla 3.9.22-dev<br />
+		PHP 7.4<br />
+		Edge (chromium), Firefox<br />
+		JCE editor.<br />
+		Not tested with TinyMCE editor.
+		]]></item>
+		</note>
+		<requirement>
+		<entry><![CDATA[
+		allowDowngrades: 1
+		]]></entry>
+		<entry><![CDATA[
+		minimumJoomla: 3.9.0
+		]]></entry>
+		</requirement>
+	</changelog>
 
 	<changelog>
 		<element>syntaxhighlighterghsvs</element>
