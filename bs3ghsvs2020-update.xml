@@ -3,18 +3,18 @@
 
 	<update>
 		<name>PLG_SYSTEM_BS3GHSVS</name>
-		<description>Plugin for ghsvs.de templates. Don't use it if you don't need it.</description>
+		<description>Joomla system plugin to register and override JHtml helpers. And more. Plugin for ghsvs.de templates. Don't use it if you don't need it.</description>
 		<element>bs3ghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>site</client>
-		<version>2020.06.30</version>
-		<infourl>https://updates.ghsvs.de/changelog.php?file=bs3ghsvs</infourl>
+		<version>2021.02.26</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=bs3ghsvs2020</infourl>
 
-		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/bs3ghsvs-changelog.xml</changelogurl>
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/bs3ghsvs2020-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_bs3ghsvs/archive/2020.06.30.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_bs3ghsvs/raw/2021.02.26/dist/plg_system_bs3ghsvs-2021.02.26.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -22,7 +22,7 @@
 		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="3.*" />
-		<php_minimum>7.2.0</php_minimum>
+		<php_minimum>7.3.0</php_minimum>
 	</update>
 
 </updates>
