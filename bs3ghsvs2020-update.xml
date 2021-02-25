@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
-	<!-- <update>
+	<update>
 		<name>PLG_SYSTEM_BS3GHSVS</name>
 		<description>Joomla system plugin to register and override JHtml helpers. And more. Plugin for ghsvs.de templates. Don't use it if you don't need it.</description>
 		<element>bs3ghsvs</element>
@@ -23,6 +23,6 @@
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="3.*" />
 		<php_minimum>7.3.0</php_minimum>
-	</update> -->
+	</update>
 
 </updates>
