@@ -5,6 +5,57 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 >
+	<changelog>
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2021.02.27</version>
+
+		<change>
+			<item><![CDATA[
+				Update venobox library from version 1.9.0 to version 1.9.2
+			]]></item>
+			<item><![CDATA[
+				Hard coded default settings removed. Now in plugin settings! SAVE PLUGIN ONCE AFTER UPDATE!
+			]]></item>
+		</change>
+
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2021.02.27/plg_system_venoboxghsvs-2021.02.27_1.9.2.zip" target="blank">
+					plg_system_venoboxghsvs-2021.02.27_1.9.2.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/tag/2021.02.27" target="blank">
+					Release page, more infos
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2021.02.27">
+					Changelogs
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/tree/master#readme">
+					Readme.md
+				</a>
+			]]></item>
+		</note>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+				<br>
+				minimumJoomla: 3.9.0
+				<br>
+				maximumJoomla: 3.10.x
+				<br>
+				Maybe: Joomla 4
+			]]></entry>
+		</requirement>
+ 	</changelog>
 
 	<changelog>
 		<element>venoboxghsvs</element>
@@ -23,7 +74,7 @@
 
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2020.08.09/plg_system_venoboxghsvs-2020.08.09_1.9.0.zip" target="blank">
 					plg_system_venoboxghsvs-2020.08.09_1.9.0.zip
 				</a>
@@ -44,7 +95,7 @@
 			<entry><![CDATA[
 				minimumPhp: 7.0.0
 				<br>
-				minimumJoomla: 3.9.0 
+				minimumJoomla: 3.9.0
 				<br>
 				maximumJoomla: 3.10.x
 			]]></entry>
@@ -70,7 +121,7 @@
 		</fix>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2020.05.02.zip" target="blank">
 					plg_system_venoboxghsvs-2020.05.02.zip
 				</a>
@@ -128,11 +179,11 @@
 			]]></item>
 			<item><![CDATA[
 				<code>installerScript.php</code>: <code>use Joomla\CMS\Factory;</code>.
-			]]></item>			
+			]]></item>
 		</remove>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/archive/2019.07.04.zip" target="blank">
 					plg_system_venoboxghsvs-2019.07.04.zip
 				</a>
