@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
-	<update>
+	<!-- <update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS (save plugin once after update!)</name>
 		<description>Integrate Venobox JHtml/HTMLHelper helper in Joomla.</description>
 		<element>venoboxghsvs</element>
@@ -21,7 +21,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-	</update>
+	</update> -->
 
 	<update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
