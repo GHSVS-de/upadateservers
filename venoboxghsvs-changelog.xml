@@ -9,7 +9,7 @@
 		<element>venoboxghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>2021.02.30</version>
+		<version>2021.02.31</version>
 
 		<change>
 			<item><![CDATA[
@@ -23,8 +23,8 @@
 		<note>
 			<item><![CDATA[
 				Download:
-				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2021.02.30_/plg_system_venoboxghsvs-2021.02.30_1.9.2.zip" target="blank">
-					plg_system_venoboxghsvs-2021.02.30_1.9.2.zip
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2021.02.31_/plg_system_venoboxghsvs-2021.02.31_1.9.2.zip" target="blank">
+					plg_system_venoboxghsvs-2021.02.31_1.9.2.zip
 				</a>
 			]]></item>
 			<item><![CDATA[
@@ -33,7 +33,7 @@
 				</a>
 			]]></item>
 			<item><![CDATA[
-				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2021.02.30">
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2021.02.31">
 					Changelogs
 				</a>
 			]]></item>
