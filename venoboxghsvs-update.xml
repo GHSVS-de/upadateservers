@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
-	<update>
+	<!-- <update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS (save plugin once after update!)</name>
 		<description>Integrate Venobox JHtml/HTMLHelper helper in Joomla.</description>
 		<element>venoboxghsvs</element>
@@ -11,7 +11,7 @@
 		<version>2021.02.28</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=venoboxghsvs</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2021.02.28/plg_system_venoboxghsvs-2021.02.28_1.9.2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/download/2021.02.28/plg_system_venoboxghsvs-2021.02.27_1.9.2.zip</downloadurl>
 		</downloads>
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/venoboxghsvs-changelog.xml</changelogurl>
 		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
@@ -43,7 +43,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-	</update>
+	</update> -->
 
 	<update>
 		<name>PLG_SYSTEM_VENOBOXGHSVS</name>
