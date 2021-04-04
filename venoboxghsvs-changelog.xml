@@ -5,6 +5,53 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 >
+<changelog>
+<element>venoboxghsvs</element>
+<type>plugin</type>
+<folder>system</folder>
+<version>2021.04.03</version>
+<change>
+<item><![CDATA[
+Update venobox library from version 1.9.2 to version 1.9.3 (new option <code>noArrows</code>)
+]]></item>
+</change>
+<addition>
+<item><![CDATA[
+Experimental feature to load a <code>jquery-slim</code> compatible version of venobox.js without <code>animate</code> parts
+]]></item>
+<item><![CDATA[
+Load automatically an additional venobox.[.min].css in /css/ folder of site template. If present.
+]]></item>
+</addition>
+<note>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/raw/2021.04.03/dist/plg_system_venoboxghsvs-2021.04.03_1.9.3.zip" >Direct download</a>
+]]></item>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases/tag/2021.04.03" >Release page, more infos</a>
+]]></item>
+<item><![CDATA[
+<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs&version=2021.04.03" >Changelogs</a>
+]]></item>
+<item><![CDATA[
+Last tests: - Joomla 3.9.25<br />
+- PHP 7.4<br />
+- PHP 8.02 (xampp)
+]]></item>
+</note>
+<requirement>
+<entry><![CDATA[
+minimumPhp: 7.0.0
+]]></entry>
+<entry><![CDATA[
+minimumJoomla: 3.9.0
+]]></entry>
+<entry><![CDATA[
+maximumJoomla: 3.10.x
+]]></entry>
+</requirement>
+</changelog>
+
 	<changelog>
 		<element>venoboxghsvs</element>
 		<type>plugin</type>
