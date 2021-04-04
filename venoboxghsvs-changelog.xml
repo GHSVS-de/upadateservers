@@ -4,6 +4,8 @@
 	description="Integrate Venobox JHtml/HTMLHelper helper in Joomla."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	docDE="https://ghsvs.de/programmierer-schnipsel/joomla/294-jhtml-htmlhelper-helper-fuer-venobox-in-joomla"
+	docEN=""
 >
 <changelog>
 <element>venoboxghsvs</element>
