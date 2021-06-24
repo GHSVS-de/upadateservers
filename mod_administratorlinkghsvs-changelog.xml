@@ -32,9 +32,6 @@
 		<entry><![CDATA[
 		minimumJoomla: 4.0
 		]]></entry>
-		<entry><![CDATA[
-		minimumPhp: 7.2.0
-		]]></entry>
 		</requirement>
 		<note>
 		<item><![CDATA[
