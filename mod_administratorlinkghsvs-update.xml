@@ -8,11 +8,11 @@
 		<type>module</type>
 		<folder></folder>
 		<client>administrator</client>
-		<version>2020.05.23</version>
+		<version>2021.06.24</version>
 		<infourl>https://github.com/GHSVS-de/mod_administratorlinkghsvs/blob/master/README.md</infourl>
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_administratorlinkghsvs-changelog.xml</changelogurl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_administratorlinkghsvs/archive/2020.05.23.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_administratorlinkghsvs/archive/2021.06.24.zip</downloadurl>
 		</downloads>
 		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)</maintainer>
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>

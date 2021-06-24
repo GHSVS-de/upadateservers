@@ -5,7 +5,50 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
 >
-
+	<changelog>
+		<element>mod_administratorlinkghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<version>2021.06.24</version>
+		<docDE>https://github.com/GHSVS-de/mod_administratorlinkghsvs#readme</docDE>
+		<docEN>https://github.com/GHSVS-de/mod_administratorlinkghsvs#readme</docEN>
+		<change>
+		<item><![CDATA[
+		HTML code adjustments for layout "status" because Joomla 4 RC3 has changed the markup.
+		]]></item>
+		<item><![CDATA[
+		Code Style
+		]]></item>
+		</change>
+		<addition>
+		<item><![CDATA[
+		Copyright DocBlocks for JED.
+		]]></item>
+		</addition>
+		<requirement>
+		<entry><![CDATA[
+		minimumPhp: 7.2.0
+		]]></entry>
+		<entry><![CDATA[
+		minimumJoomla: 4.0
+		]]></entry>
+		<entry><![CDATA[
+		minimumPhp: 7.2.0
+		]]></entry>
+		</requirement>
+		<note>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/releases/tag/2021.06.24" >Release page, more infos</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://updates.ghsvs.de/changelog.php?file=mod_administratorlinkghsvs&version=2021.06.24" >Changelogs</a>
+		]]></item>
+		<item><![CDATA[
+		Last tests: PHP 8.0<br />
+		Joomla 4.0.0-rc3-dev (nightly build)
+		]]></item>
+		</note>
+	</changelog>
 
 	<changelog>
 		<element>mod_administratorlinkghsvs</element>
@@ -28,7 +71,7 @@
 				Initial version for Joomla 4.
 			</item>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/archive/2020.05.23.zip" target="blank">
 					mod_administratorlinkghsvs-2020.05.23.zip
 				</a>
