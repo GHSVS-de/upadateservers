@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_splideghsvs"
+	projecturl="https://github.com/GHSVS-de/mod_splideghsvs"
+	description="Joomla module. Image slider based on Splidejs / splide JS library."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+>
+	<changelog>
+
+	</changelog>
+</changelogs>
