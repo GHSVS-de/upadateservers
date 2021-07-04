@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="pkg_structuredataghsvs"
+	projecturl="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs"
+	description="Joomla package. Installs [spatie/schema-org](https://github.com/spatie/schema-org) library."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+>
+	<changelog>
+
+	</changelog>
+</changelogs>
