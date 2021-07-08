@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_bs3ghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs"
+	description="Joomla system plugin. Bootstrap 5 variant."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+>
+	<changelog>
+	<element>bs3ghsvs</element>
+	<type>plugin</type>
+	<folder>system</folder>
+	<version>2021.07.04</version>
+	<docDE></docDE>
+	<docEN></docEN>
+	<change>
+	<item><![CDATA[
+	Remove [spatie/schema-org] library from this plugin. Install https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/releases if you want to use the "Structured Data" feature of this plugin!
+	]]></item>
+	<item><![CDATA[
+	bootstrap ^5.0.1 → ^5.0.2
+	]]></item>
+	<item><![CDATA[
+	bootstrap-icons  1.5.0
+	]]></item>
+	<item><![CDATA[
+	Minimized fontawesome-free to only CSS needs.
+	]]></item>
+	</change>
+	<remove>
+	<item><![CDATA[
+	[spatie/schema-org] folders in /vendor/.
+	]]></item>
+	<item><![CDATA[
+	LESS
+	]]></item>
+	<item><![CDATA[
+	Older jquery-migrate versions
+	]]></item>
+	<item><![CDATA[
+	Animsition
+	]]></item>
+	<item><![CDATA[
+	SlickNav
+	]]></item>
+	</remove>
+	<note>
+	<item><![CDATA[
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.04/dist/plg_system_bs3ghsvs_bs5-2021.07.04_5.0.2.zip" >Direct download</a>
+	]]></item>
+	<item><![CDATA[
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs/releases" >Release page, more infos</a>
+	]]></item>
+	<item><![CDATA[
+	<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5" >Changelogs</a>
+	]]></item>
+	<item><![CDATA[
+	Last tests: PHP8<br />
+	Joomla3.9.29-dev<br />
+	Firefox/Vivaldi
+	]]></item>
+	</note>
+	<requirement>
+	<entry><![CDATA[
+	minimumPhp: 7.3
+	]]></entry>
+	<entry><![CDATA[
+	minimumJoomla: 3.9.8
+	]]></entry>
+	<entry><![CDATA[
+	maximumJoomla: 3.10.x
+	But removed J4 blockage for testing purposes.
+	]]></entry>
+	</requirement>
+	</changelog>
+</changelogs>
