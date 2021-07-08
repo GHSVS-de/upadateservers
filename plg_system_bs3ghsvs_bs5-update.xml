@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+	<update>
+		<name>PLG_SYSTEM_BS3GHSVS</name>
+		<description>Joomla system plugin to register and override JHtml helpers. And meanwhile more more more. Bootstrap 5 variant.</description>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.07.04</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_bs3ghsvs_bs5-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.04/dist/plg_system_bs3ghsvs_bs5-2021.07.04_5.0.2.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.3.0</php_minimum>
+	</update>
+
+</updates>
