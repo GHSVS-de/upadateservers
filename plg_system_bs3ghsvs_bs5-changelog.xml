@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_bs3ghsvs"
-	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5"
 	description="Joomla system plugin. Bootstrap 5 variant."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
@@ -48,7 +48,7 @@
 	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.04/dist/plg_system_bs3ghsvs_bs5-2021.07.04_5.0.2.zip" >Direct download</a>
 	]]></item>
 	<item><![CDATA[
-	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs/releases" >Release page, more infos</a>
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases" >Release page</a>
 	]]></item>
 	<item><![CDATA[
 	<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5" >Changelogs</a>
