@@ -48,7 +48,7 @@
 	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.04/dist/plg_system_bs3ghsvs_bs5-2021.07.04_5.0.2.zip" >Direct download</a>
 	]]></item>
 	<item><![CDATA[
-	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases" >Release page</a>
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases" >Release page, more infos</a>
 	]]></item>
 	<item><![CDATA[
 	<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5" >Changelogs</a>
@@ -57,6 +57,9 @@
 	Last tests: PHP8<br />
 	Joomla3.9.29-dev<br />
 	Firefox/Vivaldi
+	]]></item>
+	<item><![CDATA[
+	Be aware! If you use older versions with Bootstrap 4 you may get problems if you use the BS SCSS from the media folder of this plugin for compilation.
 	]]></item>
 	</note>
 	<requirement>
@@ -69,6 +72,9 @@
 	<entry><![CDATA[
 	maximumJoomla: 3.10.x
 	But removed J4 blockage for testing purposes.
+	]]></entry>
+	<entry><![CDATA[
+	allowDowngrades: true, 1
 	]]></entry>
 	</requirement>
 	</changelog>
