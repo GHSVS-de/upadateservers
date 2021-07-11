@@ -21,7 +21,7 @@
 		</tags>
 		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>
-		<targetplatform name="joomla" version=".*" />
+		<targetplatform name="joomla" version="3.*" />
 		<php_minimum>7.3.0</php_minimum>
 	</update>
 
