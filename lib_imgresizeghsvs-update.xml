@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
-		<update>
+	<update>
 		<name>pkg_imgresizeghsvs</name>
 		<description>Joomla package/library. Installs library intervention/image for image manipulation.</description>
 		<element>pkg_imgresizeghsvs</element>
