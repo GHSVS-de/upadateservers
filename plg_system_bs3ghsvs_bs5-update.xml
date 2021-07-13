@@ -8,7 +8,7 @@
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>site</client>
-		<version>2021.07.12</version>
+		<version>2021.07.13</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_bs3ghsvs_bs5-changelog.xml</changelogurl>
