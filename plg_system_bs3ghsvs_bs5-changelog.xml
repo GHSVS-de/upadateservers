@@ -5,6 +5,90 @@
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
 >
+
+	<changelog>
+	<element>bs3ghsvs</element>
+	<type>plugin</type>
+	<folder>system</folder>
+	<version>2021.07.12</version>
+	<docDE></docDE>
+	<docEN></docEN>
+	<change>
+	<item><![CDATA[
+	Remove [intervention/image] library from this plugin. Install https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/releases if you want to use the "Structured Data" feature of this plugin!
+	]]></item>
+	<item><![CDATA[
+	See https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2021.07.04...2021.07.12
+	]]></item>
+	</change>
+	<remove>
+	<item><![CDATA[
+	Joomla 4: Remove "PLG_SYSTEM_BS3GHSV_EMPTY_DESC". I presume: Joomla 4 is stupid enough to display the language placeholder below the field even if language string exists but is translated to an empty string.
+	]]></item>
+	<item><![CDATA[
+	[intervention/image] folders in /vendor/.
+	]]></item>
+	<item><![CDATA[
+	Composer actions. No /vendor/ folder anymore.
+	]]></item>
+	<item><![CDATA[
+	field "Enabledchecker" and rename tab.
+	]]></item>
+	<item><![CDATA[
+	never used field "ArticlesWithExtrafieldsInfo"
+	]]></item>
+	</remove>
+	<addition>
+	<item><![CDATA[
+	Jommla 4: New function extractImagePath() because image_intro and _fulltext have B\C breaking new format now.
+	]]></item>
+	<item><![CDATA[
+	Form field to inform user that lib_imgresizeghsvs not found.
+	]]></item>
+	</addition>
+	<note>
+	<item><![CDATA[
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.12/dist/plg_system_bs3ghsvs_bs5-2021.07.12_5.0.2.zip" >Direct download</a>
+	]]></item>
+	<item><![CDATA[
+	<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases" >Release page, more infos</a>
+	]]></item>
+	<item><![CDATA[
+	<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5" >Changelogs</a>
+	]]></item>
+	<item><![CDATA[
+	Last tests: PHP8<br />
+	Joomla3.9.29-dev<br />
+	Firefox/Vivaldi
+	]]></item>
+	</note>
+	<requirement>
+	<entry><![CDATA[
+	minimumPhp: 7.3
+	]]></entry>
+	<entry><![CDATA[
+	minimumJoomla: 3.9.8
+	]]></entry>
+	<entry><![CDATA[
+	maximumJoomla: 3.10.x
+	But removed J4 blockage for testing purposes.
+	]]></entry>
+	<entry><![CDATA[
+	allowDowngrades: true, 1
+	]]></entry>
+	</requirement>
+	<fix>
+	<item><![CDATA[
+	Several bug fixes when feature "Image Resize" disabled and/or pkg_lib_imgresizeghsvs not installed.
+	]]></item>
+	<item><![CDATA[
+	removeOldUpdateservers(). Additional outdated URL.
+	]]></item>
+	</fix>
+	</changelog>
+
+
+
 	<changelog>
 	<element>bs3ghsvs</element>
 	<type>plugin</type>
