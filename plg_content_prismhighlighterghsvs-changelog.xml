@@ -4,14 +4,19 @@
 	description="Joomla content plugin. Syntax highlightning of code snippets. Uses JS library Prismjs (prism.com). Uses PHP library laminas/laminas-dom."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+	docDE=""
+	docEN=""
+	bugs=""
 >
 <changelog>
 <element>prismhighlighterghsvs</element>
 <type>plugin</type>
 <folder>content</folder>
 <version>2021.07.18</version>
-<docDE></docDE>
-<docEN></docEN>
+<security>
+<item><![CDATA[
+]]></item>
+</security>
 <fix>
 <item><![CDATA[
 Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
