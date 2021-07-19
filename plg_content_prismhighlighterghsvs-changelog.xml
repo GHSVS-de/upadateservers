@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_prismhighlighterghsvs"
 	projecturl="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs"
-	description="Joomla content plugin. Code syntax highlighter by GHSVS.de based upon PrismJs library (prismjs.com)."
+	description="Joomla content plugin. Syntax highlightning of code snippets. Uses JS library Prismjs (prism.com). Uses PHP library laminas/laminas-dom."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
 >
