@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_content_prismhighlighterghsvs"
+	projecturl="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs"
+	description="Joomla content plugin. Code syntax highlighter by GHSVS.de based upon PrismJs library (prismjs.com)."
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+>
+<changelog>
+<element>prismhighlighterghsvs</element>
+<type>plugin</type>
+<folder>content</folder>
+<version>2021.07.18</version>
+<docDE></docDE>
+<docEN></docEN>
+<fix>
+<item><![CDATA[
+Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
+]]></item>
+</fix>
+<note>
+<item><![CDATA[
+<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases" >Release page, more infos</a>
+]]></item>
+<item><![CDATA[
+<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs" >Changelogs</a>
+]]></item>
+<item><![CDATA[
+Last tests: PHP8<br />
+Joomla3.9.29-dev<br />
+Firefox/Vivaldi
+]]></item>
+</note>
+<requirement>
+<entry><![CDATA[
+minimumPhp: 7.3
+]]></entry>
+<entry><![CDATA[
+minimumJoomla: 3.9.0
+]]></entry>
+<entry><![CDATA[
+maximumJoomla: 3.10.x
+But removed J4 blockage for testing purposes.
+]]></entry>
+<entry><![CDATA[
+allowDowngrades: true, 1
+]]></entry>
+</requirement>
+<change>
+<item><![CDATA[
+- See https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.07.07...2021.07.18
+- See there $this-&gt;count which is the temporary bug fix.
+]]></item>
+</change>
+</changelog>
+
+
+</changelogs>
