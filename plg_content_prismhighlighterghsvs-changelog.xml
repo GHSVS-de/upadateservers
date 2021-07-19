@@ -1,68 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_content_prismhighlighterghsvs"
+	description="Joomla content plugin. Syntax highlighting of code snippets. Uses JS library Prismjs (prism.com). Uses PHP library laminas/laminas-dom."
 	projecturl="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs"
-	description="Joomla content plugin. Syntax highlightning of code snippets. Uses JS library Prismjs (prism.com). Uses PHP library laminas/laminas-dom."
 	maintainerurl="https://www.ghsvs.de"
-	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
-	docDE=""
-	docEN=""
-	bugs=""
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
-<changelog>
-<element>prismhighlighterghsvs</element>
-<type>plugin</type>
-<folder>content</folder>
-<version>2021.07.18</version>
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.18-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.07.18</version>
 
-<note>
-<item><![CDATA[
-<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases" >Release page, more infos</a>
-]]></item>
-<item><![CDATA[
-<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs" >Changelogs</a>
-]]></item>
-<item><![CDATA[
-Last tests: PHP8<br />
-Joomla3.9.29-dev<br />
-Firefox/Vivaldi
-]]></item>
-<item><![CDATA[
-<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/master/dist/plg_content_prismhighlighterghsvs-2021.07.18_1.24.1.zip" >Direct download</a>
-]]></item>
-</note>
+		<addition>
 
-<security>
-<item><![CDATA[
-]]></item>
-</security>
-<fix>
-<item><![CDATA[
-Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
-]]></item>
-</fix>
+		</addition>
 
-<requirement>
-<entry><![CDATA[
-minimumPhp: 7.3
-]]></entry>
-<entry><![CDATA[
-minimumJoomla: 3.9.0
-]]></entry>
-<entry><![CDATA[
-maximumJoomla: 3.10.x
-But removed J4 blockage for testing purposes.
-]]></entry>
-<entry><![CDATA[
-allowDowngrades: true, 1
-]]></entry>
-</requirement>
-<change>
-<item><![CDATA[
-- See https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.07.07...2021.07.18
-- See there $this-&gt;count which is the temporary bug fix.
-]]></item>
-</change>
-</changelog>
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.07.07...2021.07.18">
+					Compare code 2021.07.07...2021.07.18
+				</a>
+			]]></item>
+		</change>
 
+		<fix>
+			<item><![CDATA[
+				Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.9.29-dev<br>J4.0.0-rc5-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2021.07.18/dist/plg_content_prismhighlighterghsvs-2021.07.18_1.24.1.zip">
+					Direct download plg_content_prismhighlighterghsvs-2021.07.18_1.24.1.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs with more infos
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.18-->
 
 </changelogs>
