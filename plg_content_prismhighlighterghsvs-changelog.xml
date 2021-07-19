@@ -13,14 +13,7 @@
 <type>plugin</type>
 <folder>content</folder>
 <version>2021.07.18</version>
-<security>
-<item></item>
-</security>
-<fix>
-<item><![CDATA[
-Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
-]]></item>
-</fix>
+
 <note>
 <item><![CDATA[
 <a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases" >Release page, more infos</a>
@@ -37,6 +30,17 @@ Firefox/Vivaldi
 <a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/master/dist/plg_content_prismhighlighterghsvs-2021.07.18_1.24.1.zip" >Direct download</a>
 ]]></item>
 </note>
+
+<security>
+<item><![CDATA[
+]]></item>
+</security>
+<fix>
+<item><![CDATA[
+Temporary bug fix: When plugin method runs twice =&gt; "irritation". E.g. when a module fires content.prepare.
+]]></item>
+</fix>
+
 <requirement>
 <entry><![CDATA[
 minimumPhp: 7.3
