@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+
+	<update>
+		<name>PLG_CONTENT_PRISMHIGHLIGHTERGHSVS</name>
+		<description>Joomla content plugin. Prism based syntax highlighter.</description>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.07.18</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_content_prismhighlighterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/master/dist/plg_content_prismhighlighterghsvs-2021.07.18_1.24.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+	</update>
+
+
 	<update>
 		<name>PLG_CONTENT_PRISMHIGHLIGHTERGHSVS</name>
 		<description>Joomla content plugin. Prism based syntax highlighter.</description>
