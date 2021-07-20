@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_footableghsvs"
+	description="Joomla system plugin. Integrates JHtml/HtmlHelper for Footable 3."
+	projecturl=""
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN=""
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_footableghsvs/issues"
+>
+
+<!--PLG_SYSTEM_FOOTABLEGHSVS Version 2021.07.19-->
+	<changelog>
+		<element>footableghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.07.19</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_footableghsvs/compare/main...2021.07.19">
+					Compare code main...2021.07.19
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests:
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_footableghsvs/raw/2021.07.19/dist/plg_system_footableghsvs-2021.07.19_3.1.6.zip">
+					Direct download plg_system_footableghsvs-2021.07.19_3.1.6.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs with more infos
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_footableghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.2.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_FOOTABLEGHSVS Version 2021.07.19-->
+
+</changelogs>
