@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--PLG_SYSTEM_FOOTABLEGHSVS Version 2021.07.19-->
+	<update>
+		<name>PLG_SYSTEM_FOOTABLEGHSVS</name>
+		<description>Joomla system plugin. Integrates JHtml/HtmlHelper for Footable 3.</description>
+		<element>footableghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.07.19</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_footableghsvs&amp;version=2021.07.19</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_footableghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_footableghsvs/raw/2021.07.19/dist/plg_system_footableghsvs-2021.07.19_3.1.6.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.2.0</php_minimum>
+	</update>
+<!--/PLG_SYSTEM_FOOTABLEGHSVS Version 2021.07.19-->
+</upates>
