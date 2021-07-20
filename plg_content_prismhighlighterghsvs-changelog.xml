@@ -10,6 +10,102 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
+
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.20-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.07.20</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.07.18...2021.07.20">
+					Compare code 2021.07.18...2021.07.20
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Optimisations in build.js and surrounding.
+			]]></item>
+
+			<item><![CDATA[
+				Atomatise basic update.xml and changelog.xml entries.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+			<item><![CDATA[
+				Some corrections and translations..
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.9.29-dev<br>J4.0.0-rc5-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2021.07.20/dist/plg_content_prismhighlighterghsvs-2021.07.20_1.24.1.zip">
+					Direct download plg_content_prismhighlighterghsvs-2021.07.20_1.24.1.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs with more infos
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.20-->
+
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.18-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
