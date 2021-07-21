@@ -11,7 +11,7 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
-<!--PLG_SYSTEM_BS3GHSVS Version 2021.07.21-->
+
 	<changelog>
 		<element>bs3ghsvs</element>
 		<type>plugin</type>
@@ -100,7 +100,7 @@
 		</security>
 
 	</changelog>
-<!--/PLG_SYSTEM_BS3GHSVS Version 2021.07.21-->
+
 
 	<changelog>
 	<element>bs3ghsvs</element>
