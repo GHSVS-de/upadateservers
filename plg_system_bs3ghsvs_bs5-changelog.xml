@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="plg_system_bs3ghsvs_bs5"
-	description="Joomla system plugin. Register and override JHtml helpers. And much more. BS5 variant."
-	projecturl=""
-	maintainerurl="https://www.ghsvs.de"
-	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
-	infosDE=""
-	infosEN=""
-	docsDE=""
-	docsEN=""
-	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
->
+<changelogs>
 
 
 <changelog>
