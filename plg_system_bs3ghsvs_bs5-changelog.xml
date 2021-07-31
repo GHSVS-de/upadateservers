@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_bs3ghsvs_bs5"
 	description="Joomla system plugin. Register and override JHtml helpers. And much more. BS5 variant."
-	projecturl=""
+	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5"
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
@@ -11,6 +11,97 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS Version 2021.07.31-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.07.31</version>
+
+		<addition>
+			<item><![CDATA[
+				PagebreakHelper. Merge provided params/options and plugin parameters.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2021.07.21...2021.07.31">
+					Compare code 2021.07.21...2021.07.31
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+				PagebreakHelper. New regex. At least minimize conflicts with plg_content_prismhighlighterghsvs.
+			]]></item>
+			<item><![CDATA[
+				Warning: Undefined array key "title" in PagebreakHelper.php
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: J3.9.28<br>PHP8
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.07.31/dist/plg_system_bs3ghsvs_bs5-2021.07.31_5.0.2.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2021.07.31_5.0.2.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs with more infos
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS Version 2021.07.31-->
 
 	<changelog>
 		<element>bs3ghsvs</element>
