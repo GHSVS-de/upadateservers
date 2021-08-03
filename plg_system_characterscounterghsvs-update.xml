@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.03-->
+	<update>
+		<name>PLG_SYSTEM_CHARACTERSCOUNTERGHSVS</name>
+		<description>Joomla system plugin. Adds characters counter to some text and textarea fields in back-end. Configurable. Establishes a JHtml helper, too. Edited JS based upon VCountdown|Pedro Rogério.</description>
+		<element>characterscounterghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.03</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_characterscounterghsvs&amp;version=2021.08.03</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_characterscounterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_characterscounterghsvs/raw/2021.08.03/dist/plg_system_characterscounterghsvs-2021.08.03.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+	</update>
+<!--/PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.03-->
+
+</updates>
