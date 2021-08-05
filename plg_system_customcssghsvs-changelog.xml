@@ -1,1 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_customcssghsvs"
+	description="Joomla system plugin. Load custom CSS files template specifically. BE and FE."
+	projecturl="https://github.com/GHSVS-de/plg_system_customcssghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_customcssghsvs#readme"
+	docsDE=""
+	docsEN="https://github.com/GHSVS-de/plg_system_customcssghsvs#readme"
+	bugs="https://github.com/GHSVS-de/plg_system_customcssghsvs/issues"
+>
+
+<!--PLG_SYSTEM_CUSTOMCSSGHSVS Version 2021.08.05-->
+	<changelog>
+		<element>customcssghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.05</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_customcssghsvs/compare/2021.08.05...2021.08.05">
+					Compare code 2021.08.05...2021.08.05
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.9.29-dev<br>J4.0.0-rc6-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.05/dist/plg_system_customcssghsvs-2021.08.05.zip">
+					Direct download plg_system_customcssghsvs-2021.08.05.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_customcssghsvs">
+					All changelogs with more infos
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_customcssghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_CUSTOMCSSGHSVS Version 2021.08.05-->
+
+</changelogs>

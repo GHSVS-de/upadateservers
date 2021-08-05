@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PLG_SYSTEM_CUSTOMCSSGHSVS Version 2021.08.05-->
+	<update>
+		<name>PLG_SYSTEM_CUSTOMCSSGHSVS</name>
+		<description>Joomla system plugin. Load custom CSS files template specifically. BE and FE.</description>
+		<element>customcssghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.05</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_customcssghsvs&amp;version=2021.08.05</infourl>
 
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_customcssghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_customcssghsvs/raw/2021.08.05/dist/plg_system_customcssghsvs-2021.08.05.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+	</update>
+<!--/PLG_SYSTEM_CUSTOMCSSGHSVS Version 2021.08.05-->
 </updates>
