@@ -20,7 +20,9 @@
 		<version>2021.08.06</version>
 
 		<addition>
-
+			<item><![CDATA[
+				Checksum in update XML.
+			]]></item>
 		</addition>
 
 		<change>
