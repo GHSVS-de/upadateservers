@@ -73,6 +73,9 @@
 					All releases page
 				</a>
 			]]></item>
+			<item><![CDATA[
+				Checksum: <sha256>d152d5f06c881a992b7a2d2b3d47768ecca2f3cc8098f2b8a86cdbf73a71fecc</sha256>
+			]]></item>
 		</note>
 
 		<remove>
