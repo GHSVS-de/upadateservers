@@ -11,6 +11,107 @@
 	bugs="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/issues"
 >
 
+<!--PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.14-->
+	<changelog>
+		<element>characterscounterghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.14</version>
+
+		<addition>
+			<item><![CDATA[
+				Setting "Sleep Mode" as alternative for "Disabled" state. Plugin settings keep alive but plugin does nothing on Joomla's edit pages.
+			]]></item>
+			<item><![CDATA[
+				Setting "Display Sleep Mode Info". Shows a reminder enqueueMessage if "Sleep Mode" active.
+			]]></item>
+			<item><![CDATA[
+				Setting "Plugin deactivation allowed?". Plugin settings protected by blocking the deactivation if user did not consent before.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/compare/2021.08.13...2021.08.14">
+					Compare code 2021.08.13...2021.08.14
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+				"When deactivating the already configured plugin, settings may be lost." (https://github.com/GHSVS-de/plg_system_characterscounterghsvs/issues/15)
+			]]></item>
+		</fix>
+
+		<language>
+			<item><![CDATA[
+				Some new strings for additional settings/features.
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.9.29-dev<br>J4.0.0-rc7-dev<br>J3.10.0-rc3-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/raw/2021.08.14/dist/plg_system_characterscounterghsvs-2021.08.14.zip">
+					Direct download plg_system_characterscounterghsvs-2021.08.14.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_characterscounterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a1546256dee5e37d572716bc4210092c3266981f23cab12e8fea06f109ec8f94&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.14-->
+
 <!--PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.13-->
 	<changelog>
 		<element>characterscounterghsvs</element>
