@@ -11,6 +11,108 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS Version 2021.08.13-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.13</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2021.07.31...2021.08.13">
+					Compare code 2021.07.31...2021.08.13
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Bootstrap 5.0 => 5.1.0
+			]]></item>
+
+		</change>
+
+		<fix>
+
+			<item><![CDATA[
+				Many fixes for Joomla 4.
+			]]></item>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				<strong>This version doesn't provide an update server entry because of changed Bootstrap version.</strong>
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: J3.9.28<br>3.10-RC-whatever<br>4.0-RC-whatever<br>PHP8
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.08.13/dist/plg_system_bs3ghsvs_bs5-2021.08.13_5.1.0.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2021.08.13_5.1.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;07cd8a2930b498b60f1c34aa2f50b551552bef661592af2703911e2e0689d8d3&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS Version 2021.08.13-->
+
 <!--PLG_SYSTEM_BS3GHSVS Version 2021.07.31-->
 	<changelog>
 		<element>bs3ghsvs</element>
