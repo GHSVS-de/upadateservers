@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_backupslogghsvs" projecturl="https://github.com/GHSVS-de/plg_system_backupslogghsvs">
 
-	<changelog excludeIfNoVersion="1">
-		<version>next</version>
-	</changelog>
 
 	<changelog>
 		<element>backupslogghsvs</element>
