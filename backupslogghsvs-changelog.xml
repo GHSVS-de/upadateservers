@@ -9,6 +9,27 @@
 		<element>backupslogghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
+		<version>2021.08.22</version>
+		<fix>
+			<item>
+				Support for com_akeebabackup 9 with Joomla 4.
+			</item>
+		</fix>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2021.08.22.zip" target="blank">
+					plg_system_backupslogghsvs-2021.08.22.zip
+				</a>
+			]]></item>
+
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>backupslogghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
 		<version>2019.06.20</version>
 		<requirement>
 			<entry><![CDATA[
@@ -31,7 +52,7 @@
 		</addition>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.20.zip" target="blank">
 					plg_system_backupslogghsvs-2019.06.20.zip
 				</a>
@@ -67,7 +88,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.09.zip" target="blank">
 					plg_system_backupslogghsvs-2019.06.09.zip
 				</a>
@@ -97,7 +118,7 @@
 		</fix>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.06.zip" target="blank">
 					plg_system_backupslogghsvs-2019.06.06.zip
 				</a>
@@ -125,7 +146,7 @@
 		<note>
 			<item>Initial release.</item>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_backupslogghsvs/archive/2019.06.01.zip" target="blank">
 					plg_system_backupslogghsvs-2019.06.01.zip
 				</a>
