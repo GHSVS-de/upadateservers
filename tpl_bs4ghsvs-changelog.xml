@@ -10,6 +10,98 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
+<!--TPL_BS4GHSVS Version 2021.08.27-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.27</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2021.08.16...2021.08.27">
+					Compare code 2021.08.16...2021.08.27
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		<item><![CDATA[
+			See https://github.com/GHSVS-de/tpl_bs4ghsvs/issues/19<br>
+			See https://github.com/GHSVS-de/tpl_bs4ghsvs/commit/eccf788184718a4818e8cb7b1e8adc3629be900f#diff-c9372cfdb6b966ce3c1c1a0ca76049d3446724c971198249b05f679b6a88660f<br>
+			See https://github.com/twbs/bootstrap/pull/34679/files
+		]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: J3.9.28<br>J3.10-RC-whatever<br>J4-RC-whatever<br>PHP8
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.27/dist/tpl_bs4ghsvs-2021.08.27_5.1.0.zip">
+					Direct download tpl_bs4ghsvs-2021.08.27_5.1.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a409ccecfa9abb7787ecadace6a755d4d1b7e1c99de6fbe35baefa35582a7871&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2021.08.27-->
 
 <!--TPL_BS4GHSVS Version 2021.08.16-->
 	<changelog>
