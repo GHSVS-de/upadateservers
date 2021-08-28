@@ -1,10 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_hyphenateghsvs"
+	description="Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages."
 	projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs"
-	description="Joomla-Plugin. Hyphenation for browsers that do NOT support CSS property hyphens (e.g. Chrome) or do not support languages you selected in this plugin."
 	maintainerurl="https://www.ghsvs.de"
-	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"	
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_hyphenateghsvs#readme"
+	docsDE="https://ghsvs.de/programmierer-schnipsel/joomla/191-joomla-silbentrennungs-plugin-hyphenateghsvs-fuer-doofe-browser"
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/issues"
 >
+
+<!--PLG_SYSTEM_HYPHENATEGHSVS Version 2021.08.28-->
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.28</version>
+
+		<addition>
+			<item><![CDATA[
+				Joomla 4 support.
+			]]></item>
+			<item><![CDATA[
+				Checksum (sha256) support for updates.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/compare/2020.08.30...2021.08.28">
+					Compare code 2020.08.30...2021.08.28
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				New node build procedure.
+			]]></item>
+
+			<item><![CDATA[
+				Update Hyphenopoly version 4.7.0 to 4.12.0.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J10.0.0<br>J4.0.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/raw/2021.08.28/dist/plg_system_hyphenateghsvs-2021.08.28_4.12.0.zip">
+					Direct download plg_system_hyphenateghsvs-2021.08.28_4.12.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_hyphenateghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;81f527d47869646471aff527033d8ce0d170f030e0f430c79f9b94a86c4834bc&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS Version 2021.08.28-->
 
 	<changelog>
 		<element>hyphenateghsvs</element>
@@ -88,7 +195,7 @@
 
 		<note>
 			<item><![CDATA[
-				Download/more info on 
+				Download/more info on
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/tag/2020.08.06" target="blank">
 					Release page
 				</a>
@@ -174,7 +281,7 @@
 
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2020.03.28.zip" target="blank">
 					plg_system_hyphenateghsvs-2020.03.28.zip
 				</a>
@@ -211,7 +318,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip" target="blank">
 					plg_system_hyphenateghsvs-2019.05.29.zip
 				</a>
@@ -247,7 +354,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.29.zip" target="blank">
 					plg_system_hyphenateghsvs-2019.04.29.zip
 				</a>
@@ -283,7 +390,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.18.zip" target="blank">
 					plg_system_hyphenateghsvs-2019.04.18.zip
 				</a>
@@ -322,7 +429,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.03.30.zip" target="blank">
 					plg_system_hyphenateghsvs-2019.03.30.zip
 				</a>
@@ -376,7 +483,7 @@
 		</change>
 		<note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.03.10.zip" target="blank">
 					plg_system_hyphenateghsvs-2019.03.10.zip
 				</a>

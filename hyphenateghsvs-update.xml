@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--PLG_SYSTEM_HYPHENATEGHSVS Version 2021.08.28-->
+	<update>
+		<name>PLG_SYSTEM_HYPHENATEGHSVS</name>
+		<description>Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages.</description>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.28</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&amp;version=2021.08.28</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/hyphenateghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_hyphenateghsvs/raw/2021.08.28/dist/plg_system_hyphenateghsvs-2021.08.28_4.12.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.0.0</php_minimum>
+		<sha256>81f527d47869646471aff527033d8ce0d170f030e0f430c79f9b94a86c4834bc</sha256>
+	</update>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS Version 2021.08.28-->
 
 	<update>
 		<name>PLG_SYSTEM_HYPHENATEGHSVS</name>
@@ -83,7 +109,7 @@
 		<targetplatform name="joomla" version="3.9" />
 		<php_minimum>7.0.0</php_minimum>
 	</update>
-	
+
 
 	<update>
 		<name>PLG_SYSTEM_HYPHENATEGHSVS</name>
