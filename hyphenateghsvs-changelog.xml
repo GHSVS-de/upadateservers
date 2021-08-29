@@ -53,7 +53,7 @@
 
 		<note>
 			<item><![CDATA[
-				Last tests: PHP8<br>J10.0.0<br>J4.0.0
+				Last tests: PHP8<br>J3.10.1<br>J4.0.0
 			]]></item>
 
 			<item><![CDATA[
