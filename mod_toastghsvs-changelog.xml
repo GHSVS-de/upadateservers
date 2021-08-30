@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_toastghsvs"
+	description="Joomla site module. Bootstrap 5 toast in module position. Hour intervall setting when to display again."
+	projecturl="https://github.com/GHSVS-de/mod_toastghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE="https://github.com/GHSVS-de/mod_toastghsvs#readme"
+	infosEN="https://github.com/GHSVS-de/mod_toastghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_toastghsvs/issues"
+>
+
+<!--MOD_TOASTGHSVS Version 2021.08.30-->
+	<changelog>
+		<element>mod_toastghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.30</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/compare/2021.05.28...2021.08.30">
+					Compare code 2021.05.28...2021.08.30
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.10<br>J4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/raw/2021.08.30/dist/mod_toastghsvs-2021.08.30.zip">
+					Direct download mod_toastghsvs-2021.08.30.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_toastghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;fb70f12b662260cdfc51704e6601863daf5b16d6b094e6af19a878b5ff9da262&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_TOASTGHSVS Version 2021.08.30-->
+
+</changelogs>

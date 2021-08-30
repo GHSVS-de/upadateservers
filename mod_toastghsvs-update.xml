@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--MOD_TOASTGHSVS Version 2021.08.30-->
+	<update>
+		<name>MOD_TOASTGHSVS</name>
+		<description>Joomla site module. Bootstrap 5 toast in module position. Hour intervall setting when to display again.</description>
+		<element>mod_toastghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.30</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_toastghsvs&amp;version=2021.08.30</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_toastghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_toastghsvs/raw/2021.08.30/dist/mod_toastghsvs-2021.08.30.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>fb70f12b662260cdfc51704e6601863daf5b16d6b094e6af19a878b5ff9da262</sha256>
+	</update>
+<!--/MOD_TOASTGHSVS Version 2021.08.30-->
+
+
+</updates>
