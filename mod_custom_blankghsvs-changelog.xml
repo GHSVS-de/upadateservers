@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_custom_blankghsvs"
+	description="Joomla site module, similar to mod_custom. Instead of editor, simple textarea field without text filtering."
+	projecturl="https://github.com/GHSVS-de/mod_custom_blankghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE="https://github.com/GHSVS-de/mod_custom_blankghsvs#readme"
+	infosEN="https://github.com/GHSVS-de/mod_custom_blankghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_custom_blankghsvs/issues"
+>
+
+<!--MOD_CUSTOM_BLANKGHSVS Version 2021.08.30-->
+	<changelog>
+		<element>mod_custom_blankghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.30</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_custom_blankghsvs/compare/2021.05.04...2021.08.30">
+					Compare code 2021.05.04...2021.08.30
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.10<br>J4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_custom_blankghsvs/raw/2021.08.30/dist/mod_custom_blankghsvs-2021.08.30.zip">
+					Direct download mod_custom_blankghsvs-2021.08.30.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_custom_blankghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_custom_blankghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;e783fcedc5e5e6de1a63de75adf4539ce056cca9a8a530118eabf8f119e38e57&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_CUSTOM_BLANKGHSVS Version 2021.08.30-->
+
+</changelogs>
