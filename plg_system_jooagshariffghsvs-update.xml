@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--PLG_SYSTEM_JOOAGSHARIFFGHSVS Version 2021.08.29-->
+	<update>
+		<name>PLG_SYSTEM_JOOAGSHARIFFGHSVS</name>
+		<description>Joomla system plugin. Combi of heiseonline/shariff and joomla-agency/plg_jooag_shariff. Embeds SVGs instead of loading fontawesome.</description>
+		<element>jooagshariffghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.29</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_jooagshariffghsvs&amp;version=2021.08.29</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_jooagshariffghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_jooagshariffghsvs/raw/2021.08.29/dist/plg_system_jooagshariffghsvs-2021.08.29_3.2.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.2.0</php_minimum>
+		<sha256>e44afe73e31882ae7b9a303176cdca1bf2e57c059f56e4793c65bbf372995583</sha256>
+	</update>
+<!--/PLG_SYSTEM_JOOAGSHARIFFGHSVS Version 2021.08.29-->
+
+</updates>
