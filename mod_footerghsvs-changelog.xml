@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_footerghsvs"
+	description="Joomla site module. Display copyright informations, e.g. in page footer."
+	projecturl="https://github.com/GHSVS-de/mod_footerghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE="https://github.com/GHSVS-de/mod_footerghsvs#readme"
+	infosEN=""
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_footerghsvs/issues"
+>
+
+<!--MOD_FOOTERGHSVS Version 2021.08.31-->
+	<changelog>
+		<element>mod_footerghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.31</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_footerghsvs/compare/2021.08.26...2021.08.31">
+					Compare code 2021.08.26...2021.08.31
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.10<br>J4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_footerghsvs/raw/2021.08.31/dist/mod_footerghsvs-2021.08.31.zip">
+					Direct download mod_footerghsvs-2021.08.31.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_footerghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_footerghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;961cd5da0699aa74f13e2fba6c55fadb793f8af3402c95584d0b19509d3de4f1&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_FOOTERGHSVS Version 2021.08.31-->
+
+</changelogs>
