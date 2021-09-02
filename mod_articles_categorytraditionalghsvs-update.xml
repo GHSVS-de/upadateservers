@@ -24,8 +24,9 @@
 		<maintainerurl>https://www.ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version=".*" />
 		<php_minimum>7.3.0</php_minimum>
-		<sha256>86fb70895319dc6449a9ce11b34b106f79400f212b2c8537f2e4891d78882227</sha256>
+		<sha256>e17243f33edc71ac5fad32188877e4a85acef5d530898d277db58a24ff1da380</sha256>
 	</update>
 <!--/MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2021.08.31-->
+
 
 </updates>
