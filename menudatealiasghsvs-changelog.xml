@@ -1,15 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs
-	extension="plg_content_menudatealiasghsvs"
+<changelogs extension="plg_content_menudatealiasghsvs"
+	description="Joomla content plugin. Bring back datetime alias for menu items of type System Links > Menu Item Alias."
 	projecturl="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs"
-	description="Joomla content plugin that brings back automatic alias as datetime stamp for menu items of type Menu Item Alias."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs#readme"
+	docsDE="https://www.ghsvs.de/programmierer-schnipsel/joomla/189-plugin-menuetyp-menuealias-alias-wieder-zeitstempel"
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/issues"
 >
 
-	<changelog excludeIfNoVersion="1">
-		<version>next</version>
+<!--PLG_CONTENT_MENUDATEALIASGHSVS Version 2021.09.02-->
+	<changelog>
+		<element>menudatealiasghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.09.02</version>
+
+		<addition>
+			<item><![CDATA[
+				New build procedure in repository. Not relevant for plugin usage.
+			]]></item>
+
+			<item><![CDATA[
+				Checksum support on update in Joomla 4. Not relevant for plugin usage.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/compare/2020.05.15...2021.09.02">
+					Compare code 2020.05.15...2021.09.02
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+			<item><![CDATA[
+				*.ini language strings instead of hard coded label and description of field.
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Jommla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/raw/2021.09.02/dist/plg_content_menudatealiasghsvs-2021.09.02.zip">
+					Direct download plg_content_menudatealiasghsvs-2021.09.02.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=menudatealiasghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;707d509b5b44eb280fa27d4f8ec5948c80f04461205e6a46bb54cc7d9f74635f&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
 	</changelog>
+<!--/PLG_CONTENT_MENUDATEALIASGHSVS Version 2021.09.02-->
 
 	<changelog>
 		<element>menudatealiasghsvs</element>
@@ -29,17 +126,17 @@
 				PHP 7.2, 7.3, 7.4
 			]]></entry>
 		</requirement>
-	
+
 		<fix>
 			<item><![CDATA[
 				<code>installerScript.php</code>: Uninstall process fails under some circumstances
 				with versions higher than defined <code>maximumJoomla</code>, <code>maximumPhp</code>.
 			]]></item>
 		</fix>
-	
+
 		<note>
 			<item><![CDATA[
-			Download: 
+			Download:
 				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2020.05.15.zip"
 					target="blank">
 				plg_content_menudatealiasghsvs-2020.05.15.zip
@@ -78,17 +175,17 @@
 				PHP 7.2, 7.3, 7.4
 			]]></entry>
 		</requirement>
-	
+
 		<fix>
 			<item><![CDATA[
 				<code>installerScript.php</code>: Move <code>parent::preflight()</code>
 				after defining <code>$this->downgrade</code>.
 			]]></item>
 		</fix>
-	
+
 		<note>
 			<item><![CDATA[
-			Download: 
+			Download:
 				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2020.05.05.zip" target="blank">
 				plg_content_menudatealiasghsvs-2020.05.05.zip
 				</a>
@@ -99,7 +196,7 @@
 				</a>
 			]]></item>
 		</note>
-	
+
 	</changelog>
 
   <changelog>
@@ -151,7 +248,7 @@
     <note>
       <item>During updates the outdated update server info url will be removed from database.</item>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2019.06.11.zip" target="blank">
 					plg_content_menudatealiasghsvs-2019.06.11.zip
 				</a>
@@ -183,7 +280,7 @@
 		</addition>
     <note>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2017.09.05.zip" target="blank">
 					plg_content_menudatealiasghsvs-2017.09.05.zip
 				</a>
@@ -210,7 +307,7 @@
     <note>
 			<item>Only some text changes. Nothing important since first version 2016.08.01.</item>
 			<item><![CDATA[
-				Download: 
+				Download:
 				<a href="https://github.com/GHSVS-de/plg_content_menudatealiasghsvs/archive/2016.08.14.zip" target="blank">
 					plg_content_menudatealiasghsvs-2016.08.14.zip
 				</a>
