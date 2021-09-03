@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.03-->
+	<update>
+		<name>PLG_SYSTEM_ARTICLESUBTITLEGHSVS</name>
+		<description>Joomla system plugin. A horrible code chaos from early days. Must be ported to Joomla 4 to eliminate it afterwards step by step because 2 sites still use it.</description>
+		<element>articlesubtitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.03</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_articlesubtitleghsvs&amp;version=2021.09.03</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_articlesubtitleghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/raw/2021.09.03/dist/plg_system_articlesubtitleghsvs-2021.09.03.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.2.0</php_minimum>
+		<sha256>2532a0963e6baf1c622e3afe880dc79c7cf97089c4e36a7b5e5a4cd2008b7e65</sha256>
+	</update>
+<!--/PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.03-->
+
+
+</updates>

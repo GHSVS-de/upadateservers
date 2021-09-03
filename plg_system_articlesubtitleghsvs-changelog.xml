@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_articlesubtitleghsvs"
+	description="Joomla system plugin. A horrible code chaos from early days. Must be ported to Joomla 4 to eliminate it afterwards step by step because 2 sites still use it."
+	projecturl="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/issues"
+>
+
+<!--PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.03-->
+	<changelog>
+		<element>articlesubtitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.03</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/compare/2015.07.07...2021.09.03">
+					Compare code 2015.07.07...2021.09.03
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/raw/2021.09.03/dist/plg_system_articlesubtitleghsvs-2021.09.03.zip">
+					Direct download plg_system_articlesubtitleghsvs-2021.09.03.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_articlesubtitleghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;2532a0963e6baf1c622e3afe880dc79c7cf97089c4e36a7b5e5a4cd2008b7e65&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.2.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.03-->
+
+</changelogs>
