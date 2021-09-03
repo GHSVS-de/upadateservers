@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_astroidghsvs"
+	description="Joomla system plugin to support templates based on the Astroid framework and others.E.g. for more controllable SCSS compilation."
+	projecturl="https://github.com/GHSVS-de/plg_system_astroidghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_astroidghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_astroidghsvs/issues"
+>
+
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.08.21-->
+	<changelog>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.21</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/compare/2021.07.02...2021.08.21">
+					Compare code 2021.07.02...2021.08.21
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J10.0.0<br>J4.0.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2021.08.21/dist/plg_system_astroidghsvs-2021.08.21_1.6.0.0.zip">
+					Direct download plg_system_astroidghsvs-2021.08.21_1.6.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;0adaf142e65ba070da739512754eb3c75636ae4561c247100e5b9223138e49ce&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2021.08.21-->
+
+</changelogs>
