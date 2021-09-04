@@ -11,6 +11,99 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS Version 2021.09.04-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.04</version>
+
+		<addition>
+			<item><![CDATA[
+				Mainly: New feature for sites with strange image filenames: New setting "imgSrcDetection": html4|html5.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2021.08.13...2021.09.04">
+					Compare code 2021.08.13...2021.09.04
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+				Mainly: New feature for sites with strange image filenames: New setting "imgSrcDetection": html4|html5.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.09.04/dist/plg_system_bs3ghsvs_bs5-2021.09.04_5.1.0.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2021.09.04_5.1.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c6f5caef26d91b17d4e3c6d42c8b8b257403f8f7201f0dd1479c8a049833853f&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS Version 2021.09.04-->
+
 <!--PLG_SYSTEM_BS3GHSVS Version 2021.08.13-->
 	<changelog>
 		<element>bs3ghsvs</element>
