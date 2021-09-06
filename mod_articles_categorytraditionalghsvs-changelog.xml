@@ -11,6 +11,95 @@
 	bugs="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/issues"
 >
 
+<!--MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2021.09.07-->
+	<changelog>
+		<element>mod_articles_categorytraditionalghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.09.07</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/compare/2021.09.05...2021.09.07">
+					Compare code 2021.09.05...2021.09.07
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Jommla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/raw/2021.09.07/dist/mod_articles_categorytraditionalghsvs-2021.09.07.zip">
+					Direct download mod_articles_categorytraditionalghsvs-2021.09.07.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_articles_categorytraditionalghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;8054c5ff2431a859f69288d5cccaf75eda4c944f7278d501142a99588f78ea50&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2021.09.07-->
+
 <!--MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2021.09.05-->
 	<changelog>
 		<element>mod_articles_categorytraditionalghsvs</element>
