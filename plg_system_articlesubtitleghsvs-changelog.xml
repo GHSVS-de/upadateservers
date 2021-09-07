@@ -11,6 +11,95 @@
 	bugs="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/issues"
 >
 
+<!--PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.07-->
+	<changelog>
+		<element>articlesubtitleghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.07</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/compare/2021.09.05...2021.09.07">
+					Compare code 2021.09.05...2021.09.07
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/raw/2021.09.07/dist/plg_system_articlesubtitleghsvs-2021.09.07.zip">
+					Direct download plg_system_articlesubtitleghsvs-2021.09.07.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_articlesubtitleghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articlesubtitleghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;aeb436e2bc640a1c22c801ca9aa7b3406f9a51034520a2342930def7d0b5473f&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.2.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.07-->
+
 <!--PLG_SYSTEM_ARTICLESUBTITLEGHSVS Version 2021.09.05-->
 	<changelog>
 		<element>articlesubtitleghsvs</element>
