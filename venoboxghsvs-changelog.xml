@@ -1,12 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_venoboxghsvs"
+	description="Joomla system plugin. Integrate Venobox via JHtml/HtmlHelper in Joomla."
 	projecturl="https://github.com/GHSVS-de/plg_system_venoboxghsvs"
-	description="Integrate Venobox JHtml/HTMLHelper helper in Joomla."
 	maintainerurl="https://www.ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
-	docDE="https://ghsvs.de/programmierer-schnipsel/joomla/294-jhtml-htmlhelper-helper-fuer-venobox-in-joomla"
-	docEN=""
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_venoboxghsvs#readme"
+	docsDE="https://ghsvs.de/programmierer-schnipsel/joomla/294-jhtml-htmlhelper-helper-fuer-venobox-in-joomla"
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_venoboxghsvs/issues"
 >
+
+<!--PLG_SYSTEM_VENOBOXGHSVS Version 2021.09.14-->
+	<changelog>
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.14</version>
+
+		<addition>
+			<item><![CDATA[
+First namespacing.
+			]]></item>
+			<item><![CDATA[
+New build procedure and folder structure..
+			]]></item>
+			<item><![CDATA[
+Joomla 4 update server info.
+			]]></item>
+			<item><![CDATA[
+Checksum support.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+No functional changes since V2021.04.03
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/compare/2021.04.03...2021.09.14">
+					Compare code 2021.04.03...2021.09.14
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/raw/2021.09.14/dist/plg_system_venoboxghsvs-2021.09.14_1.9.3.zip">
+					Direct download plg_system_venoboxghsvs-2021.09.14_1.9.3.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=venoboxghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;151a4bd4779277d30cf6bcf273f5763d5fce4121b3c87f3ca43f9664db3db78a&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+			<item><![CDATA[
+Some folders and files.
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_VENOBOXGHSVS Version 2021.09.14-->
+
 <changelog>
 <element>venoboxghsvs</element>
 <type>plugin</type>
