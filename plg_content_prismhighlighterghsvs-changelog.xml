@@ -11,6 +11,103 @@
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
 
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.09.16-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.09.16</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Mainly prismjs ^1.24.1 => ^1.25.0.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.07.18...2021.09.16">
+					Compare code 2021.07.18...2021.09.16
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/PrismJS/prism/blob/master/CHANGELOG.md">
+					Prism JS CHANGELOG.md
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.9.29-dev<br>J4.0.0-rc5-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2021.09.16/dist/plg_content_prismhighlighterghsvs-2021.09.16_1.25.0.zip">
+					Direct download plg_content_prismhighlighterghsvs-2021.09.16_1.25.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;1ac9da9aba02b7fd28396805d8fa61705e876562227f1d5df89db4ae5a5a9b2f&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.09.16-->
+
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.07.20-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
