@@ -11,6 +11,102 @@
 	bugs="https://github.com/GHSVS-de/plg_system_astroidghsvs/issues"
 >
 
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.22-->
+	<changelog>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.22</version>
+
+		<addition>
+			<item><![CDATA[
+				Add new feature "ignoreAstroidVariables".
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Bump scssphp/scssphp v1.7.0 to v1.8.1
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/compare/2021.09.16...2021.09.22">
+					Compare code 2021.09.16...2021.09.22
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+			<item><![CDATA[
+				Add new feature "ignoreAstroidVariables".
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 7.3<br>PHP 7.4<br>PHP 8<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2021.09.22/dist/plg_system_astroidghsvs-2021.09.22_1.8.1.0.zip">
+					Direct download plg_system_astroidghsvs-2021.09.22_1.8.1.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c89727c8b754af95bd2719db27dcc753a385a9c81f1707f6a944f84d12ce36cd&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.22-->
+
 <!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.16-->
 	<changelog>
 		<element>astroidghsvs</element>

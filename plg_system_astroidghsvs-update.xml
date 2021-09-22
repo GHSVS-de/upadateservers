@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.22-->
+	<update>
+		<name>PLG_SYSTEM_ASTROIDGHSVS</name>
+		<description>Joomla system plugin to support templates based on the Astroid framework and others.E.g. for more controllable SCSS compilation.</description>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.09.22</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs&amp;version=2021.09.22</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_astroidghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2021.09.22/dist/plg_system_astroidghsvs-2021.09.22_1.8.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>c89727c8b754af95bd2719db27dcc753a385a9c81f1707f6a944f84d12ce36cd</sha256>
+	</update>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.22-->
+
 <!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.09.16-->
 	<update>
 		<name>PLG_SYSTEM_ASTROIDGHSVS</name>
