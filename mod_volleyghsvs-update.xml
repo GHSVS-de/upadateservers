@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--MOD_VOLLEYGHSVS Version 0.0.1-dev-initial-->
+	<update>
+		<name>MOD_VOLLEYGHSVS</name>
+		<description>Joomla site module. Display HTML tables with data from XML sources.</description>
+		<element>mod_volleyghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>0.0.1-dev-initial</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_volleyghsvs&amp;version=0.0.1-dev-initial</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_volleyghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_volleyghsvs/raw/0.0.1-dev-initial/dist/mod_volleyghsvs-0.0.1-dev-initial.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>9848366cf6c70884c4d1020369e908fa231e852861aec4e2e0ebe1923b7e03d5</sha256>
+	</update>
+<!--/MOD_VOLLEYGHSVS Version 0.0.1-dev-initial-->
+
+</updates>

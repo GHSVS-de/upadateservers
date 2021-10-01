@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_volleyghsvs"
+	description="Joomla site module. Display HTML tables with data from XML sources."
+	projecturl="https://github.com/GHSVS-de/mod_volleyghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/mod_volleyghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_volleyghsvs/issues"
+>
+
+<!--MOD_VOLLEYGHSVS Version 0.0.1-dev-initial-->
+	<changelog>
+		<element>mod_volleyghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>0.0.1-dev-initial</version>
+
+		<addition>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_volleyghsvs/compare/0.0.0...0.0.1-dev-initial">
+					Compare code 0.0.0...0.0.1-dev-initial
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+		</fix>
+
+		<language>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+			<item><![CDATA[
+				Last tests: PHP8<br>Joomla 3.10
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_volleyghsvs/raw/0.0.1-dev-initial/dist/mod_volleyghsvs-0.0.1-dev-initial.zip">
+					Direct download mod_volleyghsvs-0.0.1-dev-initial.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_volleyghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_volleyghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;e2130f39c8746b41b71a4d0994bcb8991bac875062f2eda85476967fd7d962dc&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+		</remove>
+
+		<requirement>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+			<item><![CDATA[
+				THIS IS A TEST RELEASE! DON'T USE IT!
+			]]></item>
+		</security>
+
+	</changelog>
+<!--/MOD_VOLLEYGHSVS Version 0.0.1-dev-initial-->
+
+</changelogs>
