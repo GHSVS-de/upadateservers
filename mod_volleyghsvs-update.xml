@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+
+<!--MOD_VOLLEYGHSVS Version 2021.10.02-->
+	<update>
+		<name>MOD_VOLLEYGHSVS</name>
+		<description>Joomla site module. Display HTML tables with data from XML sources.</description>
+		<element>mod_volleyghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.02</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_volleyghsvs&amp;version=2021.10.02</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_volleyghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_volleyghsvs/raw/2021.10.02/dist/mod_volleyghsvs-2021.10.02_1.0.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>4704d96ba5fbf3aa9a6f493899ecb09e0e677ccd4d5ee6f1f7b61d27894c2814</sha256>
+	</update>
+<!--/MOD_VOLLEYGHSVS Version 2021.10.02-->
+
+
 <!--MOD_VOLLEYGHSVS Version 0.0.1-dev-initial-->
 	<update>
 		<name>MOD_VOLLEYGHSVS</name>
