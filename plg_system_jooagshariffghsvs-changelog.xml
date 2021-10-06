@@ -11,6 +11,97 @@
 	bugs="https://github.com/GHSVS-de/plg_system_jooagshariffghsvs/issues"
 >
 
+<!--PLG_SYSTEM_JOOAGSHARIFFGHSVS Version 2021.10.06-->
+	<changelog>
+		<element>jooagshariffghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.10.06</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_jooagshariffghsvs/compare/2021.08.29...2021.10.06">
+					Compare code 2021.08.29...2021.10.06
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+PHP 8. On save: Attempt to assign property "cacheDir" on null.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.10.1<br>J4.0.0<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_jooagshariffghsvs/raw/2021.10.06/dist/plg_system_jooagshariffghsvs-2021.10.06_3.2.1.zip">
+					Direct download plg_system_jooagshariffghsvs-2021.10.06_3.2.1.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_jooagshariffghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_jooagshariffghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c876abfa9abbeaf6fbf58123c44583267eb9af911c70c07d1ed82c2f7c7f4977&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.2.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_JOOAGSHARIFFGHSVS Version 2021.10.06-->
+
 <!--PLG_SYSTEM_JOOAGSHARIFFGHSVS Version 2021.08.29-->
 	<changelog>
 		<element>jooagshariffghsvs</element>
