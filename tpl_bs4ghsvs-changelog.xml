@@ -11,6 +11,98 @@
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
 
+<!--TPL_BS4GHSVS Version 2021.10.10-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.10</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2021.09.20...2021.10.10">
+					Compare code 2021.09.20...2021.10.10
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				<b>Needs plugin plg_system_astroidghsvs-2021.10.10_1.8.1.0 +.</b>
+			]]></item>
+			<item><![CDATA[
+				Last tests: Joomla 3.10<br>Joomla 4.0<br>PHP8
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.10/dist/tpl_bs4ghsvs-2021.10.10_5.1.1.zip">
+					Direct download tpl_bs4ghsvs-2021.10.10_5.1.1.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a555d3fc053d6a446516e236943b1ddc742d1e01676436bcbe8fc57f224bdd94&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2021.10.10-->
+
 <!--TPL_BS4GHSVS Version 2021.09.20-->
 	<changelog>
 		<element>bs4ghsvs</element>
