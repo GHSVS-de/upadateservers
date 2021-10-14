@@ -11,6 +11,99 @@
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
 
+<!--TPL_BS4GHSVS Version 2021.10.14-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.14</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Bootstrap 5.1.3
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2021.10.10...2021.10.14">
+					Compare code 2021.10.10...2021.10.14
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: Joomla 3.10<br>Joomla 4.0<br>PHP8
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.14/dist/tpl_bs4ghsvs-2021.10.14_5.1.3.zip">
+					Direct download tpl_bs4ghsvs-2021.10.14_5.1.3.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;ccd8237352539ee4cd3c213da988aa5341e2d31ef271478dcc9ee478e089f868&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2021.10.14-->
+
 <!--TPL_BS4GHSVS Version 2021.10.10-->
 	<changelog>
 		<element>bs4ghsvs</element>
