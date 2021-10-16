@@ -15,7 +15,7 @@
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/lib_structuredataghsvs-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/lib_structuredataghsvs/raw/2021.10.15/dist/pkg_lib_structuredataghsvs-2021.10.15_3.7.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/raw/2021.10.15/dist/pkg_lib_structuredataghsvs-2021.10.15_3.7.0.0.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
