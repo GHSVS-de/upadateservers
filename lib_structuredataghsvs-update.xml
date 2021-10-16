@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+
+<!--LIB_STRUCTUREDATAGHSVS Version 2021.10.15-->
+	<update>
+		<name>pkg_structuredataghsvs</name>
+		<description>Joomla package/library. Library spatie/schema-org for structured data.</description>
+		<element>pkg_structuredataghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.15</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=lib_structuredataghsvs&amp;version=2021.10.15</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/lib_structuredataghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/lib_structuredataghsvs/raw/2021.10.15/dist/pkg_lib_structuredataghsvs-2021.10.15_3.7.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>f84f8f7579aa4ebed482c8924ddf5f4b8860fb0aa725a9dd7d69bec6d30152b3</sha256>
+	</update>
+<!--/LIB_STRUCTUREDATAGHSVS Version 2021.10.15-->
+
 	<update>
 		<name>pkg_structuredataghsvs</name>
 		<description>Joomla package/library. Provides library spatie/schema-org for structured data.</description>

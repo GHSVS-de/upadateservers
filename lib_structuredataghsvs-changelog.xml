@@ -1,11 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="pkg_structuredataghsvs"
+	description="Joomla package/library. Library spatie/schema-org for structured data."
 	projecturl="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs"
-	description="Joomla package. Installs [spatie/schema-org](https://github.com/spatie/schema-org) library."
-	maintainerurl="https://www.ghsvs.de"
-	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/issues"
 >
+
+<!--LIB_STRUCTUREDATAGHSVS Version 2021.10.15-->
 	<changelog>
+		<element>pkg_structuredataghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.15</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				This package introduces spatie/schema-org 3.7.0 with schema.org:v12.0.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/compare/2021.07.03...2021.10.15">
+					Compare code 2021.07.03...2021.10.15
+				</a>
+			]]></item>
+			<item><![CDATA[
+				Some changes for GitHub build procedure. No functional changes for usage.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: Be careful with updates and test yourself!<br>This package introduces spatie/schema-org 3.7.0 with schema.org:v12.0!<br>PHP 8<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/raw/2021.10.15/dist/pkg_lib_structuredataghsvs-2021.10.15_3.7.0.0.zip">
+					Direct download pkg_lib_structuredataghsvs-2021.10.15_3.7.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=lib_structuredataghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;f84f8f7579aa4ebed482c8924ddf5f4b8860fb0aa725a9dd7d69bec6d30152b3&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
 
 	</changelog>
+<!--/LIB_STRUCTUREDATAGHSVS Version 2021.10.15-->
 </changelogs>
