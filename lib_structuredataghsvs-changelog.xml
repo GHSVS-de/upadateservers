@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="pkg_structuredataghsvs"
-	description="Joomla package/library. Library spatie/schema-org for structured data."
+	description="Joomla package/library. PHP library spatie/schema-org for structured data."
 	projecturl="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -10,6 +10,105 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/issues"
 >
+
+<!--LIB_STRUCTUREDATAGHSVS Version 2021.10.21-->
+	<changelog>
+		<element>pkg_structuredataghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.21</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				This package introduces spatie/schema-org 3.8.0 with schema.org:13.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/compare/2021.10.15...2021.10.21">
+					Compare code 2021.10.15...2021.10.21
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: Be careful with updates and test yourself!<br>This package introduces spatie/schema-org 3.8.0 with schema.org:13.0<br>PHP 8<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/raw/2021.10.21/dist/pkg_lib_structuredataghsvs-2021.10.21_3.8.0.0.zip">
+					Direct download pkg_lib_structuredataghsvs-2021.10.21_3.8.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=lib_structuredataghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;31698be2926f09ebd8752b87cad724cd11646caca0cd073ae6dd5dcc83c6f628&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/spatie/schema-org/blob/master/CHANGELOG.md">
+					CHANGELOG.md of spatie/schema-org
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/LIB_STRUCTUREDATAGHSVS Version 2021.10.21-->
 
 <!--LIB_STRUCTUREDATAGHSVS Version 2021.10.15-->
 	<changelog>
