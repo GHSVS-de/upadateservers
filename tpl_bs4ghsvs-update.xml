@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--TPL_BS4GHSVS Version 2021.10.24-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.24</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.10.24</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.24/dist/tpl_bs4ghsvs-2021.10.24_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>f860f897d8573d743b7ac73f427eada5488d577a986d31e2725d80ab3fa335a2</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.10.24-->
+
 <!--TPL_BS4GHSVS Version 2021.10.14-->
 	<update>
 		<name>TPL_BS4GHSVS</name>
