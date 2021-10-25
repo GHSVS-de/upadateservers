@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="pkg_imgresizeghsvs"
+	description="Joomla package/library. Installs library intervention/image for image manipulation."
+	projecturl="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/issues"
+>
+
+<!--LIB_IMGRESIZEGHSVS Version 2021.10.25-->
+	<changelog>
+		<element>pkg_imgresizeghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.25</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/compare/2021.07.12...2021.10.25">
+					Compare code 2021.07.12...2021.10.25
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: This package comes with intervention/image 2.7.0<br>PHP 8<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/raw/2021.10.25/dist/pkg_lib_imgresizeghsvs-2021.10.25_2.7.0.0.zip">
+					Direct download pkg_lib_imgresizeghsvs-2021.10.25_2.7.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=lib_imgresizeghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d128eb0fddc0d1302d64cd2b499794338acb3f65ec6dfb7b7a6859d753b8d97a&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/spatie/schema-org/blob/master/CHANGELOG.md">
+					CHANGELOG.md of spatie/schema-org
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/LIB_IMGRESIZEGHSVS Version 2021.10.25-->
+
+</changelogs>

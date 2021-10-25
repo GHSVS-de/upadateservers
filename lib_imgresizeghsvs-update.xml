@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+
+<!--LIB_IMGRESIZEGHSVS Version 2021.10.25-->
+	<update>
+		<name>pkg_imgresizeghsvs</name>
+		<description>Joomla package/library. Installs library intervention/image for image manipulation.</description>
+		<element>pkg_imgresizeghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.25</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=lib_imgresizeghsvs&amp;version=2021.10.25</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/lib_imgresizeghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/raw/2021.10.25/dist/pkg_lib_imgresizeghsvs-2021.10.25_2.7.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>d128eb0fddc0d1302d64cd2b499794338acb3f65ec6dfb7b7a6859d753b8d97a</sha256>
+	</update>
+<!--/LIB_IMGRESIZEGHSVS Version 2021.10.25-->
+
 	<update>
 		<name>pkg_imgresizeghsvs</name>
 		<description>Joomla package/library. Installs library intervention/image for image manipulation.</description>
