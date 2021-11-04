@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+
+	<update>
+		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
+		<description>Button for editors for content plugin PrismHighlighterGhsvs by GHSVS.de.</description>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2021.11.04</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_editors-xtd_prismhighlighterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2021.11.04/dist/plg_editors-xtd_prismhighlighterghsvs_2021.11.04.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+	</update>
+
 	<update>
 		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
 		<description>Button for editors for content plugin PrismHighlighterGhsvs by GHSVS.de.</description>
