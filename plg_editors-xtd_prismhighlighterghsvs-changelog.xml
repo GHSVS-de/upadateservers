@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_editors-xtd_prismhighlighterghsvs"
+	description="Joomla editor button. Helps to insert code snippets into editor/article text that will be 'highlighted' by content plugin PrismHighlighterGhsvs when you display the article in front-end."
+	projecturl="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/issues"
+>
+
+<!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2021.11.05</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/compare/2021.07.07...2021.11.05">
+					Compare code 2021.07.07...2021.11.05
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/PrismJS/prism/blob/master/CHANGELOG.md">
+					Prism JS CHANGELOG.md
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 7.4<br>PHP 8.0<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2021.11.05/dist/plg_editors-xtd_prismhighlighterghsvs-2021.11.05.zip">
+					Direct download plg_editors-xtd_prismhighlighterghsvs-2021.11.05.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;20b79b702d2371621d7b0cc9b9de20f41de362069e5e8e464fd4842de2668203&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
+
+</changelogs>

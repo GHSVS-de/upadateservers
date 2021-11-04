@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
+	<update>
+		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
+		<description>Joomla editor button. Helps to insert code snippets into editor/article text that will be 'highlighted' by content plugin PrismHighlighterGhsvs when you display the article in front-end.</description>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2021.11.05</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs&amp;version=2021.11.05</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_editors-xtd_prismhighlighterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2021.11.05/dist/plg_editors-xtd_prismhighlighterghsvs-2021.11.05.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>20b79b702d2371621d7b0cc9b9de20f41de362069e5e8e464fd4842de2668203</sha256>
+	</update>
+<!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
+
 	<update>
 		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
 		<description>Button for editors for content plugin PrismHighlighterGhsvs by GHSVS.de.</description>
