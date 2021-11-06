@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_editors-xtd_pagebreakghsvs"
+	description="Joomla editor button. For pagebreakghsvs feature of system plugin bs3ghsvs. Insert shortcodes into editor/article text that will be rendered to slides/accordions."
+	projecturl="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/issues"
+>
+
+<!--PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2021.11.06-->
+	<changelog>
+		<element>pagebreakghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2021.11.06</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/compare/2020.09.18...2021.11.06">
+					Compare code 2020.09.18...2021.11.06
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 7.4<br>PHP 8.0<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/raw/2021.11.06/dist/plg_editors-xtd_pagebreakghsvs-2021.11.06.zip">
+					Direct download plg_editors-xtd_pagebreakghsvs-2021.11.06.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_pagebreakghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;126655399196ebd76c8481acaa1b39564c79c586764fec3dd90745b774212bcc&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.10
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2021.11.06-->
+
+<!--PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2020.09.18-->
+	<changelog>
+		<element>pagebreakghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2020.09.18</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/compare/...2020.09.18">
+					Compare code ...2020.09.18
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 7.4<br>PHP 8.0<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/raw/2020.09.18/dist/plg_editors-xtd_pagebreakghsvs-2020.09.18.zip">
+					Direct download plg_editors-xtd_pagebreakghsvs-2020.09.18.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_pagebreakghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d8c5472dace4bb742cba721dca1b454e02fab994a8f9f8c2c272fde4b1427831&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.10
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2020.09.18-->
+
+</changelogs>
