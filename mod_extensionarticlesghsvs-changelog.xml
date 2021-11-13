@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_extensionarticlesghsvs"
+	description="Joomla site module. Collects and displays articles that have a key 'extension' in database table '#__bs3ghsvs_article'. Needs class 'ArticleHelper' of 'plg_system_bs3ghsvs'."
+	projecturl="https://github.com/GHSVS-de/mod_extensionarticlesghsvs"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/mod_extensionarticlesghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_extensionarticlesghsvs/issues"
+>
+
+<!--MOD_EXTENSIONARTICLESGHSVS Version 2021.11.15-->
+	<changelog>
+		<element>mod_extensionarticlesghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.11.15</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_extensionarticlesghsvs/compare/2021.07.17...2021.11.15">
+					Compare code 2021.07.17...2021.11.15
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_extensionarticlesghsvs/raw/2021.11.15/dist/mod_extensionarticlesghsvs-2021.11.15.zip">
+					Direct download mod_extensionarticlesghsvs-2021.11.15.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_extensionarticlesghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_extensionarticlesghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;08bdeb9994f339068331c1dce1554640c66983765fa3771531e26449187063b0&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_EXTENSIONARTICLESGHSVS Version 2021.11.15-->
+
+</changelogs>
