@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--PLG_SYSTEM_BS3GHSVS Version 2021.11.22-->
+	<update>
+		<name>PLG_SYSTEM_BS3GHSVS</name>
+		<description>Joomla system plugin. Register and override JHtml helpers. And much more. BS5 variant.</description>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.11.22</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5&amp;version=2021.11.22</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_bs3ghsvs_bs5-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2021.11.22/dist/plg_system_bs3ghsvs_bs5-2021.11.22_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>d34d00df7a6611fe16cd03a3084018a8cdb8d2af7aeb3ba70a041562b7d0f0d0</sha256>
+	</update>
+<!--/PLG_SYSTEM_BS3GHSVS Version 2021.11.22-->
+
 <!--PLG_SYSTEM_BS3GHSVS Version 2021.10.31-->
 	<update>
 		<name>PLG_SYSTEM_BS3GHSVS</name>
