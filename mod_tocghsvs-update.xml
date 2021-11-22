@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+
+<!--MOD_TOCGHSVS Version 2021.11.22-->
+	<update>
+		<name>MOD_TOCGHSVS</name>
+		<description>Joomla site module. Automatically creates a table of contents on the current page. Links/anchors as list that jump to bookmarks, e.g. headings.</description>
+		<element>mod_tocghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.11.22</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_tocghsvs&amp;version=2021.11.22</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_tocghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_tocghsvs/raw/2021.11.22/dist/mod_tocghsvs-2021.11.22.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>b864b24b113ba6dd8fe0da8ba97971a7e0f2fc5fa4185505090ede3e6ca19ed4</sha256>
+	</update>
+<!--/MOD_TOCGHSVS Version 2021.11.22-->
+
+</updates>
