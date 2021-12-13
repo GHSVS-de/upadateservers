@@ -2,7 +2,7 @@
 <changelogs extension="plg_system_astroidghsvs"
 	description="Joomla system plugin to support templates based on the Astroid framework and others.E.g. for more controllable SCSS compilation."
 	projecturl="https://github.com/GHSVS-de/plg_system_astroidghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
 	infosEN="https://github.com/GHSVS-de/plg_system_astroidghsvs#readme"
@@ -10,6 +10,103 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_system_astroidghsvs/issues"
 >
+
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.12.13-->
+	<changelog>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.12.13</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/compare/2021.10.10...2021.12.13">
+					Compare code 2021.10.10...2021.12.13
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				ScssPhp: v1.9.0
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 7.3<br>PHP 7.4<br>PHP 8<br>Joomla 3.10<br>Joomla 4.0
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2021.12.13/dist/plg_system_astroidghsvs-2021.12.13_1.9.0.0.zip">
+					Direct download plg_system_astroidghsvs-2021.12.13_1.9.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;120b0b120a9c563e5150aa17a1a51e7b566aaa27fb60528ddcbf09bf692b2b02&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2021.12.13-->
 
 <!--PLG_SYSTEM_ASTROIDGHSVS Version 2021.10.10-->
 	<changelog>
