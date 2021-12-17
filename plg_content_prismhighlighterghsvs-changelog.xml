@@ -11,6 +11,109 @@
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
 
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.12.17-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2021.12.17</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Mainly: Update laminas/laminas-dom to version 2.12.0 (has PHP 8.1 fixes).
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2021.09.16...2021.12.17">
+					Compare code 2021.09.16...2021.12.17
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/PrismJS/prism/blob/master/CHANGELOG.md">
+					Prism JS CHANGELOG.md
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10.4<br>Joomla 4.0.5<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2021.12.17/dist/plg_content_prismhighlighterghsvs-2021.12.17_1.25.0.zip">
+					Direct download plg_content_prismhighlighterghsvs-2021.12.17_1.25.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;79191aefc5e4a6677ec172194cb5d28daf382ea2835297d825e5422369a7d581&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.12.17-->
+
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2021.09.16-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
