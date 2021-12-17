@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+	<update>
+		<name>mod_teaserghsvs</name>
+		<description>Lade Version 2021.12.15 von deinem lokalen Ordner runter!.</description>
+		<element>mod_teaserghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.12.15</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_teaserghsvs/raw/2021.11.22/dist/mod_teaserghsvs-2021.12.15.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.2</php_minimum>
+	</update>
+
 </updates>
