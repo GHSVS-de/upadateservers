@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_articleconnectghsvs"
+	description="Joomla system plugin. Connect articles ('Cross linking')."
+	projecturl="https://github.com/GHSVS-de/plg_system_articleconnectghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_articleconnectghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_articleconnectghsvs/issues"
+>
+
+<!--PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18-->
+	<changelog>
+		<element>articleconnectghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.12.18</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articleconnectghsvs/compare/2019.08.08...2021.12.18">
+					Compare code 2019.08.08...2021.12.18
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 7.4<br>Joomla 3.10.4
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articleconnectghsvs/raw/2021.12.18/dist/plg_system_articleconnectghsvs-2021.12.18.zip">
+					Direct download plg_system_articleconnectghsvs-2021.12.18.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_articleconnectghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_articleconnectghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;3908506fe6167e90c37e5ad44d582b69677e1c858097c39268d6bb2980ecc0f4&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: MySql/MariaDb database
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.4
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18-->
+
+</changelogs>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18 Target platform: 3.*-->
+	<update>
+		<name>PLG_SYSTEM_ARTICLECONNECTGHSVS</name>
+		<description>Joomla system plugin. Connect articles ('Cross linking').</description>
+		<element>articleconnectghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.12.18</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_articleconnectghsvs&amp;version=2021.12.18</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_articleconnectghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_articleconnectghsvs/raw/2021.12.18/dist/plg_system_articleconnectghsvs-2021.12.18.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>3908506fe6167e90c37e5ad44d582b69677e1c858097c39268d6bb2980ecc0f4</sha256>
+	</update>
+<!--/PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18 Target platform: 3.*-->
+<!--PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18 Target platform: 4.*-->
+	<update>
+		<name>PLG_SYSTEM_ARTICLECONNECTGHSVS</name>
+		<description>Joomla system plugin. Connect articles ('Cross linking').</description>
+		<element>articleconnectghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.12.18</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_articleconnectghsvs&amp;version=2021.12.18</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_articleconnectghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_articleconnectghsvs/raw/2021.12.18/dist/plg_system_articleconnectghsvs-2021.12.18.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>3908506fe6167e90c37e5ad44d582b69677e1c858097c39268d6bb2980ecc0f4</sha256>
+	</update>
+<!--/PLG_SYSTEM_ARTICLECONNECTGHSVS Version 2021.12.18 Target platform: 4.*-->
+
+</updates>
