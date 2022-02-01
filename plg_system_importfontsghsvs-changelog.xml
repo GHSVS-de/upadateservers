@@ -129,10 +129,6 @@
 	</changelog>
 <!--/PLG_SYSTEM_IMPORTFONTSGHSVS Version 2022.02.01-->
 
-</changelogs>
-
-
-
 	<changelog>
 		<element>importfontsghsvs</element>
 		<type>plugin</type>
