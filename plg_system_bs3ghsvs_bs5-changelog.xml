@@ -2,7 +2,7 @@
 <changelogs extension="plg_system_bs3ghsvs_bs5"
 	description="Joomla system plugin. Register and override JHtml helpers. And much more. BS5 variant."
 	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
 	infosEN=""
@@ -10,6 +10,130 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
+
+<!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.02.06-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.02.06</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2021.11.22...2022.02.06">
+					Compare code 2021.11.22...2022.02.06
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				template.js Replace jQuery remove/add class from &lt;html&gt; with vanilla.
+			]]></item>
+
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8<br>PHP 7.4<br>Joomla 3.10.5<br>Joomla 4.0.6
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2022.02.06/dist/plg_system_bs3ghsvs_bs5-2022.02.06_5.1.3.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2022.02.06_5.1.3.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;747cbb1372bc44787ed72084efdb2b601046fc0c4ae9662833b957c9639f1fd2&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contains packages (sub Joomla extensions):
+
+			]]></item>
+
+		</note>
+
+		<remove>
+
+			<item><![CDATA[
+				Remove buggy and never used feature "vorschaltseite".
+			]]></item>
+
+			<item><![CDATA[
+				Remove type="mediajce". See github.com/widgetfactory/jce/issues/104
+			]]></item>
+
+			<item><![CDATA[
+				Remove "frontendEditing" for modules. Nice but seldomly used.
+			]]></item>
+
+			<item><![CDATA[
+				Remove SVG icons from /media/ in favor of pkg_file_iconsghsvs.
+			]]></item>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Optional: For feature "Structured Data" pkg_lib_structuredataghsvs<br>Optional: For feature "Image Resize" pkg_lib_imgresizeghsvs<br>Optional: For feature "Embed SVG" pkg_file_iconsghsvs
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.02.06-->
 
 <!--PLG_SYSTEM_BS3GHSVS Version 2021.11.22-->
 	<changelog>
