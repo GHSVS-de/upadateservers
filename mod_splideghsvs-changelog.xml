@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_splideghsvs"
+	description="Joomla site module. Slider based upon JavaScript library @splidejs/splide."
+	projecturl="https://github.com/GHSVS-de/mod_splideghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/mod_splideghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_splideghsvs/issues"
+>
+
+<!--MOD_SPLIDEGHSVS Version 2022.02.07-->
+	<changelog>
+		<element>mod_splideghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.02.07</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+
+			<item><![CDATA[
+				Bump @splidejs/splide 3.6.9 > 3.6.12
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/compare/2021.12.26...2022.02.07">
+					Compare code 2021.12.26...2022.02.07
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/Splidejs
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 7.4<br>Joomla 4.0.6<br>JCE
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/raw/2022.02.07/dist/mod_splideghsvs-2022.02.07_3.6.12.zip">
+					Direct download mod_splideghsvs-2022.02.07_3.6.12.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_splideghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;59cd63e11877b2af91b0714aaaac3f5dd1bac2b5f42dce1f6ff26156f1432af2&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 4.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_SPLIDEGHSVS Version 2022.02.07-->
+
+</changelogs>
