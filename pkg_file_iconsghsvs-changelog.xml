@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="pkg_iconsghsvs"
-	description="Joomla package/file. SVG icons in dir media/iconsghsvs."
+	description="Joomla package/file. Customised SVG icons in dir media/iconsghsvs."
 	projecturl="https://github.com/GHSVS-de/pkg_file_iconsghsvs"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -10,6 +10,119 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/pkg_file_iconsghsvs/issues"
 >
+
+<!--FILE_ICONSGHSVS Version 2022.02.08-->
+	<changelog>
+		<element>pkg_iconsghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.02.08</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				bootstrap-icons 1.8.0 > 1.8.1 (Several fixes contained. No new Icons.)
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/compare/2022.02.05...2022.02.08">
+					Compare code 2022.02.05...2022.02.08
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Some not relevant build procedure changes/additions.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/twbs/icons (V1.8.1)<br>https://github.com/FortAwesome/Font-Awesome (V5.15.4)
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8<br>Joomla 3.10.5<br>Joomla 4.0.6
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/raw/2022.02.08/dist/pkg_file_iconsghsvs-2022.02.08_1.8.1.zip">
+					Direct download pkg_file_iconsghsvs-2022.02.08_1.8.1.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_iconsghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;ad6ac17fb0230db8746e5252060914ce6e9aa7b17e8d49bc7f5d1a596bc036e7&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="iconsghsvs"&gt;file_iconsghsvs-2022.02.08_1.8.1.zip&lt;/file&gt;
+</pre>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/FILE_ICONSGHSVS Version 2022.02.08-->
 
 <!--FILE_ICONSGHSVS Version 2022.02.05-->
 	<changelog>
