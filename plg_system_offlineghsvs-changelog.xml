@@ -32,7 +32,9 @@
 		</change>
 
 		<fix>
+		<item><![CDATA[
 Bug fix. Only redirect not logged-in user.
+]]></item>
 		</fix>
 
 		<language>
