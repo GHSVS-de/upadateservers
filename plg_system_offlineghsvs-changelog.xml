@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_offlineghsvs"
+	description="Joomla system plugin. Select a template style that will be used to display the offline page in frontend."
+	projecturl="https://github.com/GHSVS-de/plg_system_offlineghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_offlineghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_offlineghsvs/issues"
+>
+
+<!--PLG_SYSTEM_OFFLINEGHSVS Version 2022.02.11-->
+	<changelog>
+		<element>offlineghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.02.11</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_offlineghsvs/compare/2021.02.11...2022.02.11">
+					Compare code 2021.02.11...2022.02.11
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 7.4<br>Joomla 3.10.5<br>Joomla 4.0.6
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_offlineghsvs/raw/2022.02.11/dist/plg_system_offlineghsvs-2022.02.11.zip">
+					Direct download plg_system_offlineghsvs-2022.02.11.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_offlineghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_offlineghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;9c0f62471f25530e009770a7bc6766fd3765dafd8e699433b70ee138ad67a33b&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.4
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_OFFLINEGHSVS Version 2022.02.11-->
+
+</changelogs>
