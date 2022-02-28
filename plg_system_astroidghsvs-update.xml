@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2022.02.28 Target platform: 3.*-->
+	<update>
+		<name>PLG_SYSTEM_ASTROIDGHSVS</name>
+		<description>Joomla system plugin to support templates based on the Astroid framework and others. E.g. for more controllable SCSS compilation.</description>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.02.28</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs&amp;version=2022.02.28</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_astroidghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2022.02.28/dist/plg_system_astroidghsvs-2022.02.28_1.10.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>99552c1c191978990afaae8b25ad437bd286bcf0952670d2af463b62e47af563</sha256>
+	</update>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2022.02.28 Target platform: 3.*-->
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2022.02.28 Target platform: 4.*-->
+	<update>
+		<name>PLG_SYSTEM_ASTROIDGHSVS</name>
+		<description>Joomla system plugin to support templates based on the Astroid framework and others. E.g. for more controllable SCSS compilation.</description>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.02.28</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs&amp;version=2022.02.28</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_system_astroidghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2022.02.28/dist/plg_system_astroidghsvs-2022.02.28_1.10.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>99552c1c191978990afaae8b25ad437bd286bcf0952670d2af463b62e47af563</sha256>
+	</update>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2022.02.28 Target platform: 4.*-->
+
 <!--PLG_SYSTEM_ASTROIDGHSVS Version 2022.01.10 Target platform: 3.*-->
 	<update>
 		<name>PLG_SYSTEM_ASTROIDGHSVS</name>
