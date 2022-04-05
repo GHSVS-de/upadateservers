@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--MOD_SPLIDEGHSVS Version 2022.04.05 Target platform: 4.*-->
+	<update>
+		<name>MOD_SPLIDEGHSVS</name>
+		<description>Joomla site module. Slider based upon JavaScript library @splidejs/splide.</description>
+		<element>mod_splideghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.04.05</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_splideghsvs&amp;version=2022.04.05</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_splideghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_splideghsvs/raw/2022.04.05/dist/mod_splideghsvs-2022.04.05_4.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>19fe4be278e8a98c149d3a1f2421f7f30bfcdd961686fa3396b9e6cffa6a86a5</sha256>
+	</update>
+<!--/MOD_SPLIDEGHSVS Version 2022.04.05 Target platform: 4.*-->
+
 <!--MOD_SPLIDEGHSVS Version 2022.03.23 Target platform: 4.*-->
 	<update>
 		<name>MOD_SPLIDEGHSVS</name>
