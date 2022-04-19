@@ -11,6 +11,104 @@
 	bugs="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/issues"
 >
 
+<!--LIB_STRUCTUREDATAGHSVS Version 2022.04.19-->
+	<changelog>
+		<element>pkg_structuredataghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.04.19</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Upgrade to schema: v14.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/compare/2021.10.21...2022.04.19">
+					Compare code 2021.10.21...2022.04.19
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: Be careful with updates and test yourself!<br>This package introduces spatie/schema-org 3.8.0 with schema.org:13.0<br>PHP 8<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/raw/2022.04.19/dist/pkg_lib_structuredataghsvs-2022.04.19_3.11.0.0.zip">
+					Direct download pkg_lib_structuredataghsvs-2022.04.19_3.11.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=lib_structuredataghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_structuredataghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;376362f43965448adcc82ae34176b7aab8e683ae9535f82a8c87dff03f4cb450&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/spatie/schema-org/blob/master/CHANGELOG.md">
+					CHANGELOG.md of spatie/schema-org
+				</a>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/LIB_STRUCTUREDATAGHSVS Version 2022.04.19-->
+
 <!--LIB_STRUCTUREDATAGHSVS Version 2021.10.21-->
 	<changelog>
 		<element>pkg_structuredataghsvs</element>
