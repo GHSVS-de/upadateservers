@@ -11,6 +11,114 @@
 	bugs="https://github.com/GHSVS-de/pkg_file_iconsghsvs/issues"
 >
 
+<!--FILE_ICONSGHSVS Version 2022.05.14-->
+	<changelog>
+		<element>pkg_iconsghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.05.14</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Bump Bootstrap icons to v1.8.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/compare/2022.02.08...2022.05.14">
+					Compare code 2022.02.08...2022.05.14
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/twbs/icons (V1.8.1)<br>https://github.com/FortAwesome/Font-Awesome (V5.15.4)
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/raw/2022.05.14/dist/pkg_file_iconsghsvs-2022.05.14_1.8.2.zip">
+					Direct download pkg_file_iconsghsvs-2022.05.14_1.8.2.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_iconsghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_iconsghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;7a7858f2b7929e2444a020ba8c6595b7d14cb5daf633a8730864f9b80b9e2149&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="iconsghsvs"&gt;file_iconsghsvs-2022.05.14_1.8.2.zip&lt;/file&gt;
+</pre>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/FILE_ICONSGHSVS Version 2022.05.14-->
 <!--FILE_ICONSGHSVS Version 2022.02.08-->
 	<changelog>
 		<element>pkg_iconsghsvs</element>
