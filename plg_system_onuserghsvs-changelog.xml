@@ -11,6 +11,114 @@
 	bugs="https://github.com/GHSVS-de/plg_system_onuserghsvs/issues"
 >
 
+<!--PLG_SYSTEM_ONUSERGHSVS Version 2022.06.11-->
+	<changelog>
+		<element>onuserghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.06.11</version>
+
+		<addition>
+			<item><![CDATA[
+Namespacing (J4).
+			]]></item>
+			<item><![CDATA[
+Review (J3/J4 compatibility).
+			]]></item>
+			<item><![CDATA[
+Add feature "users_to_block".
+			]]></item>
+			<item><![CDATA[
+ Add setting "allow_admins: Only Super Users".
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_onuserghsvs/compare/2022.04.25...2022.06.11">
+					Compare code 2022.04.25...2022.06.11
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+			<item><![CDATA[
+Languages review and completion. de-DE, en-GB.
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_onuserghsvs/raw/2022.06.11/dist/plg_system_onuserghsvs-2022.06.11.zip">
+					Direct download plg_system_onuserghsvs-2022.06.11.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_onuserghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_onuserghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;142a65e3bd583e4d2538e45f673313f21e755952bc042b9702698e663151e189&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ONUSERGHSVS Version 2022.06.11-->
+
 <!--PLG_SYSTEM_ONUSERGHSVS Version 2022.04.25-->
 	<changelog>
 		<element>onuserghsvs</element>
