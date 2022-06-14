@@ -2,7 +2,7 @@
 <changelogs extension="mod_tocghsvs"
 	description="Joomla site module. Automatically creates a table of contents on the current page. Links/anchors as list that jump to bookmarks, e.g. headings."
 	projecturl="https://github.com/GHSVS-de/mod_tocghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
 	infosEN="https://github.com/GHSVS-de/mod_tocghsvs#readme"
@@ -10,6 +10,107 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/mod_tocghsvs/issues"
 >
+
+<!--MOD_TOCGHSVS Version 2022.06.17-->
+	<changelog>
+		<element>mod_tocghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.17</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_tocghsvs/compare/2021.11.22...2022.06.17">
+					Compare code 2021.11.22...2022.06.17
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+PHP8.1 fix.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses:
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_tocghsvs/raw/2022.06.17/dist/mod_tocghsvs-2022.06.17.zip">
+					Direct download mod_tocghsvs-2022.06.17.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_tocghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_tocghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;08af70b5bd8df2ca439c018d94e0272be5eda3f97032aea5e1ec4909f25c8d0a&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.1
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_TOCGHSVS Version 2022.06.17-->
 
 <!--MOD_TOCGHSVS Version 2021.11.22-->
 	<changelog>
