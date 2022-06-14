@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--MOD_CUSTOM_BLANKGHSVS Version 2022.06.14 Target platform: 3.*-->
+	<update>
+		<name>MOD_CUSTOM_BLANKGHSVS</name>
+		<description>Joomla site module, similar to mod_custom. Instead of editor, simple textarea field without text filtering.</description>
+		<element>mod_custom_blankghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.14</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_custom_blankghsvs&amp;version=2022.06.14</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_custom_blankghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_custom_blankghsvs/raw/2022.06.14/dist/mod_custom_blankghsvs-2022.06.14.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>b46560be2b82057ffc09e90e56e5952a4f064758ea964c8f86ac7be12ecb1861</sha256>
+	</update>
+<!--/MOD_CUSTOM_BLANKGHSVS Version 2022.06.14 Target platform: 3.*-->
+
+<!--MOD_CUSTOM_BLANKGHSVS Version 2022.06.14 Target platform: 4.*-->
+	<update>
+		<name>MOD_CUSTOM_BLANKGHSVS</name>
+		<description>Joomla site module, similar to mod_custom. Instead of editor, simple textarea field without text filtering.</description>
+		<element>mod_custom_blankghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.14</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_custom_blankghsvs&amp;version=2022.06.14</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_custom_blankghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_custom_blankghsvs/raw/2022.06.14/dist/mod_custom_blankghsvs-2022.06.14.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.3.0</php_minimum>
+		<sha256>b46560be2b82057ffc09e90e56e5952a4f064758ea964c8f86ac7be12ecb1861</sha256>
+	</update>
+<!--/MOD_CUSTOM_BLANKGHSVS Version 2022.06.14 Target platform: 4.*-->
 
 <!--MOD_CUSTOM_BLANKGHSVS Version 2021.08.30-->
 	<update>
@@ -9,7 +62,7 @@
 		<type>module</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2021.08.30</version>
+		<version>2021.12.02</version>
 		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_custom_blankghsvs&amp;version=2021.08.30</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_custom_blankghsvs-changelog.xml</changelogurl>

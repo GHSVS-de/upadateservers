@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<changelogs extension="mod_pictureseriesghsvs" projecturl="https://github.com/GHSVS-de/mod_pictureseriesghsvs">
+<changelogs extension="mod_pictureseriesghsvs"
+	projecturl="https://github.com/GHSVS-de/mod_pictureseriesghsvs"
+	description="EXTENSIONDESCRIPTION"
+	maintainerurl="https://www.ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+>
+
+
+	<changelog excludeIfNoVersion="1">
+		<version>next</version>
+	</changelog>
 
 	<changelog>
 		<element>mod_pictureseriesghsvs</element>
@@ -16,11 +26,11 @@
 				<br>
 				maximumJoomla: 3.9.99999
 				<br>
-				Bootstrap 4
+				Bootstrap 4 (CSS)
 				<br>
 				Plugin plg_system_bs3ghsvs
 				<br>
-				Plugin plg_system_venobox
+				Plugin plg_system_venoboxghsvs
 			]]></entry>
 		</requirement>
 		<note>
