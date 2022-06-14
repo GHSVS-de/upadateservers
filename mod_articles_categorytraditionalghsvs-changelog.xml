@@ -2,7 +2,7 @@
 <changelogs extension="mod_articles_categorytraditionalghsvs"
 	description="Joomla site module from early days but still used on some sites. Whyever."
 	projecturl="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
 	infosEN="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs#readme"
@@ -10,6 +10,103 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/issues"
 >
+
+<!--MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2022.06.14-->
+	<changelog>
+		<element>mod_articles_categorytraditionalghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.14</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/compare/2021.09.07...2022.06.14">
+					Compare code 2021.09.07...2022.06.14
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+PHP8.1 bug fix: Deprecated: htmlspecialchars(): Passing null to parameter # 1
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Jommla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/raw/2022.06.14/dist/mod_articles_categorytraditionalghsvs-2022.06.14.zip">
+					Direct download mod_articles_categorytraditionalghsvs-2022.06.14.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_articles_categorytraditionalghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_articles_categorytraditionalghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;2ea01303491d9aab253ea88b7582ba375e6eb34a5eb9d5998cf7d18d4ac806c3&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2022.06.14-->
 
 <!--MOD_ARTICLES_CATEGORYTRADITIONALGHSVS Version 2021.09.07-->
 	<changelog>
