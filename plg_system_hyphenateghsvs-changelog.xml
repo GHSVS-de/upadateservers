@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_hyphenateghsvs"
+	description="Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages."
+	projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_hyphenateghsvs#readme"
+	docsDE="https://ghsvs.de/programmierer-schnipsel/joomla/191-joomla-silbentrennungs-plugin-hyphenateghsvs-fuer-doofe-browser"
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/issues"
+>
+
+<!--PLG_SYSTEM_HYPHENATEGHSVS Version 2022.06.22-->
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.06.22</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/compare/2021.08.28...2022.06.22">
+					Compare code 2021.08.28...2022.06.22
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Bugfix for Joomla 4. Register helper early. Under some weird circumstances you can get an error "Class "PlgHyphenateGhsvsHelper" not found".
+			]]></item>
+			<item><![CDATA[
+Add nonces to avoid conflicts with Joomla plugin "HTTP Header".
+			]]></item>
+			<item><![CDATA[
+Exchange update server during installation. Remove outdated one.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/raw/2022.06.22/dist/plg_system_hyphenateghsvs-2022.06.22_4.12.0.zip">
+					Direct download plg_system_hyphenateghsvs-2022.06.22_4.12.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_hyphenateghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;891657fb9cbac1fb801da2d78002dc0d4541cb7a5c0281722780f66b4b1699b5&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS Version 2022.06.22-->
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2021.08.28</version>
+
+		<addition>
+			<item><![CDATA[
+				Joomla 4 support.
+			]]></item>
+			<item><![CDATA[
+				Checksum (sha256) support for updates.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/compare/2020.08.30...2021.08.28">
+					Compare code 2020.08.30...2021.08.28
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				New node build procedure.
+			]]></item>
+
+			<item><![CDATA[
+				Update Hyphenopoly version 4.7.0 to 4.12.0.
+			]]></item>
+
+			<item><![CDATA[
+				Default mode is now "Hyphenopoly" when plugin newly installed.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP8<br>J3.10.1<br>J4.0.0<br>Chrome<br>Edge<br>Vivaldi<br>Firefox<br>Opera
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/raw/2021.08.28/dist/plg_system_hyphenateghsvs-2021.08.28_4.12.0.zip">
+					Direct download plg_system_hyphenateghsvs-2021.08.28_4.12.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;81f527d47869646471aff527033d8ce0d170f030e0f430c79f9b94a86c4834bc&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.08.30</version>
+		<language>
+		<item><![CDATA[
+		New "PLG_HYPHENATEGHSVS_SETUP_HIDE" and "PLG_HYPHENATEGHSVS_SETUP_HIDE_DESC" for new parameter "hide"
+		]]></item>
+		</language>
+		<addition>
+		<item><![CDATA[
+		New setup parameter "hide" in plugin configuration to avoid possible conflicts with other JS libraries.
+		]]></item>
+		</addition>
+		<fix>
+		<item><![CDATA[
+		Conflicts with "github.com/paypal/skipto" because Hyphenopoly is hiding elements with CSS (<code>visibility: hidden</code>) for a moment. SkipTo couldn't detect these elements. Fix: New setup parameter "hide" in plugin configuration.
+		]]></item>
+		</fix>
+		<note>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/download/2020.08.30/plg_system_hyphenateghsvs-2020.08.30_4.7.0.zip" >Direct download</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/tag/2020.08.30" >Release page, more infos</a>
+		]]></item>
+		<item><![CDATA[
+		<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.08.30" >Changelogs</a>
+		]]></item>
+		<item><![CDATA[
+		Last tests: PHP7.4<br />
+		Joomla3.9.21<br />
+		Edge (Chromium)/Firefox/Vivaldi
+		]]></item>
+		</note>
+		<requirement>
+		<entry><![CDATA[
+		minimumPhp: 7.0.0
+		]]></entry>
+		<entry><![CDATA[
+		minimumJoomla: 3.9.0
+		]]></entry>
+		<entry><![CDATA[
+		maximumJoomla: 3.10.x
+		]]></entry>
+		</requirement>
+	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.08.06</version>
+
+		<addition>
+			<item><![CDATA[
+				GitHub repository: Build logic via npm/node (package.json, build.js, plugin files moved into /src/ etc.).
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				Hyphenopoly 4.7.0.
+			]]></item>
+			<item><![CDATA[
+				Hyphenopoly: *.hpb patterns replaced by *.wasm patterns.
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+			]]></item>
+		</fix>
+
+    <remove>
+      <item><![CDATA[
+			]]></item>
+    </remove>
+
+		<note>
+			<item><![CDATA[
+				Download/more info on
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/releases/tag/2020.08.06" target="blank">
+					Release page
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.08.06">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+				<br>
+				minimumJoomla: 3.9.0
+				<br>
+				maximumJoomla: 3.10.99999
+				<br>
+				Last tests: Joomla 3.9.20
+			]]></entry>
+		</requirement>
+
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2020.03.28</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.0.0
+				<br>
+				minimumJoomla: 3.9.0
+				<br>
+				maximumJoomla: 3.9.99999
+			]]></entry>
+		</requirement>
+
+		<fix>
+			<item><![CDATA[
+				Replace hard coded cleanupMarker string with <code>$this-&gt;cleanupMarker</code>
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Namespace forgotten <code>JLog::</code> to <code>Log::</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.php</code>: Wrong <code>empty()</code> for object <code>$subformData</code>.
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>: Move <code>parent::preflight()</code> after definition of <code>allowDowngrades</code>.
+			]]></item>
+		</fix>
+
+		<addition>
+			<item><![CDATA[
+				<code>hyphenateghsvs.xml</code>: Tag <code>changelogurl</code> for Joomla 4.
+			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.xml</code>: <code>allowDowngrades: 1</code>. <b>But not tested!!</b>
+			]]></item>
+			<item><![CDATA[
+				<code>installerScript.php</code>:
+				Function <code>removeOldUpdateservers()</code> to remove outdated update servers from Joomla db
+				(Extensions: Update Sites).
+			]]></item>
+			<item><![CDATA[
+				<code>hyphenateghsvs.php</code>: Stop browser caching in Joomla debug mode: <code>$version = JDEBUG ? 'auto' : time();</code>.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<code>hyphenateghsvs.xml</code>: Replace <code>versionHistory</code> entries with changelog.php link.
+			]]></item>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.4.0 (2019-12-26) library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.4.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.4.0/CHANGELOG.md
+			]]></item>
+		</change>
+
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2020.03.28.zip" target="blank">
+					plg_system_hyphenateghsvs-2020.03.28.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2020.03.28">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.05.29</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.1.0 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.1.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.1.0/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.05.29.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.05.29.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.05.29">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.04.29</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.0.2 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.2<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.0.2/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.29.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.04.29.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.04.29">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.04.18</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.0.1 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.1<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.0.1/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.04.18.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.04.18.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.04.18">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.03.30</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+		<addition>
+			<item>New language pattern Pali pi.hpb</item>
+		</addition>
+		<change>
+			<item><![CDATA[
+				Update to Hyphenopoly 3.0.0 library.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/v3.0.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/v3.0.0/CHANGELOG.md
+			]]></item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.03.30.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.03.30.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.03.30">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2019.03.10</version>
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp:7.0.0
+				<br>
+				minimumJoomla:3.9.0
+				<br>
+				maximumJoomla:3.9.99999
+			]]></entry>
+		</requirement>
+		<addition>
+			<item><![CDATA[
+				First integration of
+				<a href="https://github.com/mnater/Hyphenopoly" target="blank">
+				Hyphenopoly library of Mathias Nater
+				</a>; Version 2.8.0.<br>
+				https://github.com/mnater/Hyphenopoly/releases/tag/2.8.0<br>
+				https://github.com/mnater/Hyphenopoly/blob/2.8.0/CHANGELOG.md
+			]]></item>
+			<item><![CDATA[
+				<b>From now on "Hyphenopoly" is the recommended mode of Joomla plugin "plg_system_hyphenateghsvs".</b>
+			]]></item>
+			<item>
+				Many new features (only) in mode "Hyphenopoly" that can help to configure and debug the Hyphenation settings.
+			</item>
+			<item><code>installerScript.php</code> for additional PHP, Joomla version checks and downgrade possibility.</item>
+		</addition>
+		<change>
+			<item>Detailed options descriptions and hints inside plugin (en and de).</item>
+			<item>Rework of whole plugin code.</item>
+			<item>
+				Still backwards-compatible for updating users that use old "Hyphenator" and don't want to change the mode to recommended "Hyphenopoly".
+				Be aware that old "Hyphenator" library is no longer maintained by the author Mathias Nater.
+			</item>
+		</change>
+		<note>
+			<item><![CDATA[
+				Download:
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/archive/2019.03.10.zip" target="blank">
+					plg_system_hyphenateghsvs-2019.03.10.zip
+				</a>
+			]]></item>
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=hyphenateghsvs&version=2019.03.10">
+					Changelogs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>2017.11.29 and older versions</version>
+		<note>
+			<item><![CDATA[
+				See headline "Changelogs of older versions" at:<br>
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs/wiki/Version-history-plg_system_hyphenateghsvs"
+					target="blank">
+					https://github.com/GHSVS-de/plg_system_hyphenateghsvs/wiki/Version-history-plg_system_hyphenateghsvs
+				</a>
+			]]></item>
+		</note>
+ 	</changelog>
+</changelogs>
