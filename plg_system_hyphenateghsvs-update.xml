@@ -23,7 +23,7 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="3.*" />
 		<php_minimum>7.0.0</php_minimum>
-		<sha256>891657fb9cbac1fb801da2d78002dc0d4541cb7a5c0281722780f66b4b1699b5</sha256>
+		<sha256>96ea85563e6d7824a8fa881b2e2a697bac7538c0e58b19e85b998493b5d26450</sha256>
 	</update>
 <!--/PLG_SYSTEM_HYPHENATEGHSVS Version 2022.06.22 Target platform: 3.*-->
 <!--PLG_SYSTEM_HYPHENATEGHSVS Version 2022.06.22 Target platform: 4.*-->
@@ -49,7 +49,7 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.0.0</php_minimum>
-		<sha256>891657fb9cbac1fb801da2d78002dc0d4541cb7a5c0281722780f66b4b1699b5</sha256>
+		<sha256>96ea85563e6d7824a8fa881b2e2a697bac7538c0e58b19e85b998493b5d26450</sha256>
 	</update>
 <!--/PLG_SYSTEM_HYPHENATEGHSVS Version 2022.06.22 Target platform: 4.*-->
 
