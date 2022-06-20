@@ -2,7 +2,7 @@
 <changelogs extension="tpl_bs4ghsvs"
 	description="Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5."
 	projecturl="https://github.com/GHSVS-de/tpl_bs4ghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE=""
 	infosEN=""
@@ -10,6 +10,114 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
+
+<!--TPL_BS4GHSVS Version 2022.06.20-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.20</version>
+
+		<addition>
+			<item><![CDATA[
+mod_tocghsvs\tocGhsvs-modal.php. Use vanilla for modal.hide().<br>
+index.php. Nonces + add SCRIPT tag for stickyCompensation.<br>
+src\js\template.js. Add parameter for nonce handling.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.03.31...2022.06.20">
+					Compare code 2022.03.31...2022.06.20
+				</a>
+			]]></item>
+		</change>
+			<item><![CDATA[
+Bug fixes com_search:<br>
+Remove closing DIV.<br>
+Move P out of LABEL.
+			]]></item>
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: Joomla 3.10<br>Joomla 4.1<br>PHP 8.0<br>PHP 8.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.06.20/dist/tpl_bs4ghsvs-2022.06.20_5.1.3.zip">
+					Direct download tpl_bs4ghsvs-2022.06.20_5.1.3.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;84beaf04e6994969734670042a02082afc7c033942711b42aa553d01e02c70f0&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+			<item><![CDATA[
+Some code garbage and unused files.
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: plg_system_astroidghsvs<br>plg_system_bs3ghsvs_bs5
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2022.06.20-->
 
 <!--TPL_BS4GHSVS Version 2022.03.31-->
 	<changelog>
