@@ -2,7 +2,7 @@
 <changelogs extension="plg_system_characterscounterghsvs"
 	description="Joomla system plugin. Character counter (and more) for some text/textarea fields in back-end (each configurable). Also helper to avoid data loss after Joomla 3-4 migration."
 	projecturl="https://github.com/GHSVS-de/plg_system_characterscounterghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
 	infosDE="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/blob/master/README-DE.md#plg_system_characterscounterghsvs"
 	infosEN="https://github.com/GHSVS-de/plg_system_characterscounterghsvs#readme"
@@ -10,6 +10,111 @@
 	docsEN="https://github.com/GHSVS-de/plg_system_characterscounterghsvs#readme"
 	bugs="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/issues"
 >
+
+<!--PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2022.06.21-->
+	<changelog>
+		<element>characterscounterghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.06.21</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+- No functional changes since last version.<br>
+- Review of build procedure.<br>
+- Add/run php-cs-fixer.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/compare/2021.08.15...2022.06.21">
+					Compare code 2021.08.15...2022.06.21
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/pinceladasdaweb/VCountdown
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/raw/2022.06.21/dist/plg_system_characterscounterghsvs-2022.06.21.zip">
+					Direct download plg_system_characterscounterghsvs-2022.06.21.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_characterscounterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_characterscounterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;13e11d586a1c751b71fd3d94be7fab6aa70ec3033cbf60ccfcfe81567c97b594&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla:
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2022.06.21-->
 
 <!--PLG_SYSTEM_CHARACTERSCOUNTERGHSVS Version 2021.08.14-->
 	<changelog>
