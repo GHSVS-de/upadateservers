@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--MOD_ADMINISTRATORLINKGHSVS Version 2022.06.24 Target platform: 4.*-->
+	<update>
+		<name>MOD_ADMINISTRATORLINKGHSVS</name>
+		<description>Joomla administrator module. Backend button to open additional administration in a new browser tabulator.</description>
+		<element>mod_administratorlinkghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>administrator</client>
+		<version>2022.06.24</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_administratorlinkghsvs&amp;version=2022.06.24</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_administratorlinkghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_administratorlinkghsvs/raw/2022.06.24/dist/mod_administratorlinkghsvs-2022.06.24.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.2.0</php_minimum>
+		<sha256>c16e2acef63e21a706a33b29f1e608d745f997cc6d1e0de31e9b2cc61ad30f60</sha256>
+	</update>
+<!--/MOD_ADMINISTRATORLINKGHSVS Version 2022.06.24 Target platform: 4.*-->
+
 	<update>
 		<name>MOD_ADMINISTRATORLINKGHSVS</name>
 		<description>Joomla 4 module. Backend button to open additional administration in a new browser tabulator.</description>
