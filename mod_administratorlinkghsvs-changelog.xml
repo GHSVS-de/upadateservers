@@ -1,10 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="mod_administratorlinkghsvs"
+	description="Joomla administrator module. Backend button to open additional administration in a new browser tabulator."
 	projecturl="https://github.com/GHSVS-de/mod_administratorlinkghsvs"
-	description="Joomla 4 module. Backend button to open additional administration in a new browser tabulator."
-	maintainerurl="https://www.ghsvs.de"
-	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE="https://github.com/GHSVS-de/mod_administratorlinkghsvs#readme"
+	infosEN="https://github.com/GHSVS-de/mod_administratorlinkghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_administratorlinkghsvs/issues"
 >
+
+<!--MOD_ADMINISTRATORLINKGHSVS Version 2022.06.24-->
+	<changelog>
+		<element>mod_administratorlinkghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>administrator</client>
+		<version>2022.06.24</version>
+
+		<addition>
+			<item><![CDATA[
+3 new settings iconClass, labelling, titleAttr.
+			]]></item>
+		</addition>
+
+		<change>
+
+			<item><![CDATA[
+PHP code adaptions for new settings.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/compare/2021.06.24...2022.06.24">
+					Compare code 2021.06.24...2022.06.24
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+			<item><![CDATA[
+Some new strings for new settings.
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/raw/2022.06.24/dist/mod_administratorlinkghsvs-2022.06.24.zip">
+					Direct download mod_administratorlinkghsvs-2022.06.24.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_administratorlinkghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_administratorlinkghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c16e2acef63e21a706a33b29f1e608d745f997cc6d1e0de31e9b2cc61ad30f60&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.2.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 4.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_ADMINISTRATORLINKGHSVS Version 2022.06.24-->
+
 	<changelog>
 		<element>mod_administratorlinkghsvs</element>
 		<type>module</type>
