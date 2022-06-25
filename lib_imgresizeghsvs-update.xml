@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!--PKG_IMGRESIZEGHSVS Version 2022.06.25 Target platform: 3.*-->
+	<update>
+		<name>PKG_IMGRESIZEGHSVS</name>
+		<description>Joomla package/library. Installs PHP library intervention/image for image manipulation. Not more.</description>
+		<element>pkg_imgresizeghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.25</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=lib_imgresizeghsvs&amp;version=2022.06.25</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/lib_imgresizeghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/raw/2022.06.25/dist/pkg_lib_imgresizeghsvs-2022.06.25_2.7.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>73ef4e6ce193c5e402b561fd2a8852ae44bc62f130850862b78dca2e09314537</sha256>
+	</update>
+<!--/PKG_IMGRESIZEGHSVS Version 2022.06.25 Target platform: 3.*-->
+<!--PKG_IMGRESIZEGHSVS Version 2022.06.25 Target platform: 4.*-->
+	<update>
+		<name>PKG_IMGRESIZEGHSVS</name>
+		<description>Joomla package/library. Installs PHP library intervention/image for image manipulation. Not more.</description>
+		<element>pkg_imgresizeghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.25</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=lib_imgresizeghsvs&amp;version=2022.06.25</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/lib_imgresizeghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/raw/2022.06.25/dist/pkg_lib_imgresizeghsvs-2022.06.25_2.7.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>73ef4e6ce193c5e402b561fd2a8852ae44bc62f130850862b78dca2e09314537</sha256>
+	</update>
+<!--/PKG_IMGRESIZEGHSVS Version 2022.06.25 Target platform: 4.*-->
+
 <!--LIB_IMGRESIZEGHSVS Version 2021.10.25-->
 	<update>
 		<name>pkg_imgresizeghsvs</name>
