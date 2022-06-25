@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="pkg_imgresizeghsvs"
-	description="Joomla package/library. Installs library intervention/image for image manipulation."
+	description="Joomla package/library. Installs PHP library intervention/image for image manipulation."
 	projecturl="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -10,6 +10,121 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/issues"
 >
+
+<!--PKG_IMGRESIZEGHSVS Version 2022.06.25-->
+	<changelog>
+		<element>pkg_imgresizeghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.25</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Bump intervention/image from 2.7.0 to 2.7.2 (PHP 8.1 bug fixes).
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/compare/2021.10.25...2022.06.25">
+					Compare code 2021.10.25...2022.06.25
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+- Complete review and renewal of build procedure of Joomla packages.<br>
+- Use repo buildkramghsvs. Deletion of garbage.
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/intervention/image
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/raw/2022.06.25/dist/pkg_lib_imgresizeghsvs-2022.06.25_2.7.2.0.zip">
+					Direct download pkg_lib_imgresizeghsvs-2022.06.25_2.7.2.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=lib_imgresizeghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_lib_imgresizeghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;73ef4e6ce193c5e402b561fd2a8852ae44bc62f130850862b78dca2e09314537&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="library" id="imgresizeghsvs"&gt;lib_imgresizeghsvs-2022.06.25_2.7.2.0.zip&lt;/file&gt;
+</pre>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PKG_IMGRESIZEGHSVS Version 2022.06.25-->
 
 <!--LIB_IMGRESIZEGHSVS Version 2021.10.25-->
 	<changelog>
