@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--MOD_CONTACTGHSVS Version 2022.06.27 Target platform: 4.*-->
+	<update>
+		<name>MOD_CONTACTGHSVS</name>
+		<description>Joomla site module. Display contact data in two BS cards.</description>
+		<element>mod_contactghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.27</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=mod_contactghsvs&amp;version=2022.06.27</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_contactghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_contactghsvs/raw/2022.06.27/dist/mod_contactghsvs-2022.06.27.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>d043dab1c069d5d3991c71c9c678531788ba03d1486804179134b679f4fcbec2</sha256>
+	</update>
+<!--/MOD_CONTACTGHSVS Version 2022.06.27 Target platform: 4.*-->
+
+</updates>

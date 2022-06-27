@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="mod_contactghsvs"
+	description="Joomla site module. Display contact data in two BS cards."
+	projecturl="https://github.com/GHSVS-de/mod_contactghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/mod_contactghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/mod_contactghsvs/issues"
+>
+
+<!--MOD_CONTACTGHSVS Version 2022.06.27-->
+	<changelog>
+		<element>mod_contactghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.27</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_contactghsvs/compare/2022.05.19...2022.06.27">
+					Compare code 2022.05.19...2022.06.27
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 4.1<br>Joomla 4.2.0-dev
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_contactghsvs/raw/2022.06.27/dist/mod_contactghsvs-2022.06.27.zip">
+					Direct download mod_contactghsvs-2022.06.27.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_contactghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_contactghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d043dab1c069d5d3991c71c9c678531788ba03d1486804179134b679f4fcbec2&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Joomla core component com_contact<br>Bootstrap 5 (card CSS)
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 4.1.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_CONTACTGHSVS Version 2022.06.27-->
+
+
+</changelogs>
