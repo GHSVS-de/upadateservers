@@ -113,7 +113,7 @@ if (isset($_GET['version']) && ($whichVersion = trim($_GET['version'])))
 {
 	if ($whichElement && $whichElement !== $whichFile)
 	{
-		$paraElement = '&element=' . $whichElement;
+		//$paraElement = '&element=' . $whichElement;
 	}
 
 	#if ($whichElement === $whichFile)
@@ -151,8 +151,34 @@ if ($output = trim($xml->attributes()->maintainerurl))
 	echo '<p>Maintainer URL: <a href="' . $output . '">' . $output . '</a></p>';
 }
 
-echo $allLogs;
+if ($output = trim($xml->attributes()->infosDE))
+{
+	echo '<p>Infos (DE): <a href="' . $output . '">' . $output . '</a></p>';
+}
 
+if ($output = trim($xml->attributes()->infosEN))
+{
+	echo '<p>Infos (EN): <a href="' . $output . '">' . $output . '</a></p>';
+}
+
+if ($output = trim($xml->attributes()->docsDE))
+{
+	echo '<p>Docs (DE): <a href="' . $output . '">' . $output . '</a></p>';
+}
+
+if ($output = trim($xml->attributes()->docsEN))
+{
+	echo '<p>Docs (EN): <a href="' . $output . '">' . $output . '</a></p>';
+}
+
+
+if ($output = trim($xml->attributes()->bugs))
+{
+	echo '<p>Bugs and questions (DE and EN): <a href="' . $output . '">' . $output . '</a></p>';
+}
+
+echo $allLogs;
+// echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($whichFile, true) . '</pre>';exit;
 $data = array();
 
 foreach ($xml->changelog as $changelog)
@@ -160,24 +186,24 @@ foreach ($xml->changelog as $changelog)
 	$version = trim($changelog->version);
 #echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	$excludeIfNoVersion = $changelog->attributes()->excludeIfNoVersion;
-
+//echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($version, true) . '</pre>';exit;
 	if (
 		! $version
 		|| ($whichVersion && $whichVersion !== $version)
 	){
 		continue;
 	}
-#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
+//echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	if (
 		$excludeIfNoVersion
 		&& (! $whichVersion || $whichVersion !== $version)
 	){
 		continue;
 	}
-#echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
+// echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($changelog, true) . '</pre>';#exit;
 	$element = trim($changelog->element);
 
-	if ($element !== $whichElement) continue;
+	//if ($element !== $whichElement) continue;
 
 	$do = array('element', 'folder', 'type');
 
@@ -220,7 +246,7 @@ foreach ($xml->changelog as $changelog)
 			&& ($changelog->$key->$subTag instanceof SimpleXMLElement)
 		){
 			$collect = array();
-			
+
 			foreach ($changelog->$key->$subTag as $item)
 			{
 				$collect[] = trim($item);
