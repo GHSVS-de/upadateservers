@@ -2,15 +2,118 @@
 <changelogs extension="mod_toastghsvs"
 	description="Joomla site module. Bootstrap 5 toast in module position. Hour intervall setting when to display again."
 	projecturl="https://github.com/GHSVS-de/mod_toastghsvs"
-	maintainerurl="https://www.ghsvs.de"
+	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
-	infosDE="https://github.com/GHSVS-de/mod_toastghsvs#readme"
+	infosDE=""
 	infosEN="https://github.com/GHSVS-de/mod_toastghsvs#readme"
 	docsDE=""
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/mod_toastghsvs/issues"
 >
 
+<!--MOD_TOASTGHSVS Version 2022.07.06-->
+	<changelog>
+		<element>mod_toastghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.06</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Build procedure uses local repo fork of https://github.com/GHSVS-de/buildKramGhsvs now.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/compare/2021.08.30...2022.07.06">
+					Compare code 2021.08.30...2022.07.06
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+PHP 8.1 bug fix ("Deprecated: htmlspecialchars(): Passing null to parameter #1").
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/raw/2022.07.06/dist/mod_toastghsvs-2022.07.06.zip">
+					Direct download mod_toastghsvs-2022.07.06.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_toastghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_toastghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a445c9a7aea246e49540e57d0b8e810799aa4f8e3423c5de1b70533e1036461e&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Bootstrap 5 (Toast CSS, Toast JS)
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/MOD_TOASTGHSVS Version 2022.07.06-->
 <!--MOD_TOASTGHSVS Version 2021.08.30-->
 	<changelog>
 		<element>mod_toastghsvs</element>
