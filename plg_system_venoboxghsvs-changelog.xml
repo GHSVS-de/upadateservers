@@ -11,6 +11,112 @@
 	bugs="https://github.com/GHSVS-de/plg_system_venoboxghsvs/issues"
 >
 
+<!--PLG_SYSTEM_VENOBOXGHSVS Version 2022.07.07-->
+	<changelog>
+		<element>venoboxghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.07.07</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+
+			<item><![CDATA[
+- No functional changes since last release.<br>
+- Move main method venobox() to VenoboxGhsvsHelper (avoid redundancy).<br>
+- Add a namespaced version for Joomla 4 (Html/VenoboxGhsvs).<br>
+- Use HTMLHelper::getServiceRegistry() to register the HTMLHelper if Joomla 4.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/compare/2022.06.20...2022.07.07">
+					Compare code 2022.06.20...2022.07.07
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/nicolafranchini/VenoBox
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/raw/2022.07.07/dist/plg_system_venoboxghsvs-2022.07.07_2.0.4.zip">
+					Direct download plg_system_venoboxghsvs-2022.07.07_2.0.4.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_venoboxghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_venoboxghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;71035686d423a1794e58834c38fbd1c2a26ae3e6a855bc73059e4aacd37c4604&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.4
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_VENOBOXGHSVS Version 2022.07.07-->
 <!--PLG_SYSTEM_VENOBOXGHSVS Version 2022.06.20-->
 	<changelog>
 		<element>venoboxghsvs</element>
