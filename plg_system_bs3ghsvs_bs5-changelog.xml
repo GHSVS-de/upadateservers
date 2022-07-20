@@ -11,6 +11,106 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.19-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.07.19</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Bump to bootstrap 5.2.0
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2022.07.14...2022.07.19">
+					Compare code 2022.07.14...2022.07.19
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2022.07.19/dist/plg_system_bs3ghsvs_bs5-2022.07.19_5.2.0.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2022.07.19_5.2.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c75dd11122d2a2ef10e828ee6e83501d6c957fc57c0c80cbbb73bed90808865c&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Optional: For feature "Structured Data" pkg_lib_structuredataghsvs<br>Optional: For feature "Image Resize" pkg_lib_imgresizeghsvs<br>Optional: For feature "Embed SVG" pkg_file_iconsghsvs
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.19-->
 <!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.14-->
 	<changelog>
 		<element>bs3ghsvs</element>
