@@ -11,6 +11,117 @@
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
 
+<!--TPL_BS4GHSVS Version 2022.07.24-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.24</version>
+
+		<addition>
+			<item><![CDATA[
+pkg_file_assetghsvs dependency.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Uses now assets of pkg_file_assetghsvs. Many B\C breaking adaptions, deletions and changes.
+			]]></item>
+			<item><![CDATA[
+plgSystemBs3Ghsvs.json. Use pkg_file_assetghsvs. Delete garbage.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.07.20...2022.07.24">
+					Compare code 2022.07.20...2022.07.24
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: Joomla 3.10<br>Joomla 4.1<br>PHP 8.0<br>PHP 8.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.07.24/dist/tpl_bs4ghsvs-2022.07.24_5.2.0.zip">
+					Direct download tpl_bs4ghsvs-2022.07.24_5.2.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;17ea7bf620312c3abfe27934498d7567fb3ecd09d04511c46a34fd5019d0f463&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+			<item><![CDATA[
+A lot!
+			]]></item>
+			<item><![CDATA[
+SCSS. Removed some garbage files.
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: plg_system_astroidghsvs<br>plg_system_bs3ghsvs_bs5<br>pkg_file_assetghsvs
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2022.07.24-->
 <!--TPL_BS4GHSVS Version 2022.07.20-->
 	<changelog>
 		<element>bs4ghsvs</element>
