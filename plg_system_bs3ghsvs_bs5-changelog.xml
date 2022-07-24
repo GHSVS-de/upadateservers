@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="plg_system_bs3ghsvs_bs5"
-	description="Joomla system plugin. Register and override JHtml helpers. And much more. BS5 variant."
+	description="Joomla system plugin. Register and override JHtml helpers. And much more."
 	projecturl="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -11,6 +11,114 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.24-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.07.24</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2022.07.19...2022.07.24">
+					Compare code 2022.07.19...2022.07.24
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+J!4 bug. parent category JLayout. Use parent_id, not parent_slug. Doesn't exist in Joomla 4.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2022.07.24/dist/plg_system_bs3ghsvs_bs5-2022.07.24.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2022.07.24.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d4cdf4d2cb0c3e2045a6bbf2d35e6ca24b34e744951e2e1f621de60cf4b3d148&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+			<item><![CDATA[
+Deleted /media/plg_system_bs3ghsvs/scss/bootstrap in favor of pkg_file_assetghsvs.
+]]></item>
+<item><![CDATA[
+media/. Removed several assets in favor of pkg_file_assetghsvs.<br>
+- '/media/plg_system_bs3ghsvs/scss/bootstrap',<br>
+- '/media/plg_system_bs3ghsvs/js/bootstrap',<br>
+- '/media/plg_system_bs3ghsvs/css/bootstrap',<br>
+- '/media/plg_system_bs3ghsvs/js/jquery',<br>
+- '/media/plg_system_bs3ghsvs/js/jquery-migrate'
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Optional: For feature "Structured Data" pkg_lib_structuredataghsvs<br>Optional: For feature "Image Resize" pkg_lib_imgresizeghsvs<br>Optional: For feature "Embed SVG" pkg_file_iconsghsvs<br>Optional: For assets (e.g. Bootstrap) pkg_file_assetghsvs. Lots of assets have been removed from this plugin (Bootstrap CSS, JS, SCSS. JQuery JS. JQuery-slim. JQuery-migrate.).
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.24-->
 <!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.19-->
 	<changelog>
 		<element>bs3ghsvs</element>
