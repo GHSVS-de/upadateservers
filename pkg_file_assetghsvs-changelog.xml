@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="pkg_assetghsvs"
+	description="Joomla package/file. A collection of asset files that I often use. Not more."
+	projecturl="https://github.com/GHSVS-de/pkg_file_assetghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/pkg_file_assetghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/pkg_file_assetghsvs/issues"
+>
+
+<!--PKG_ASSETGHSVS Version 2022.07.24-->
+	<changelog>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.24</version>
+
+		<addition>
+			<item><![CDATA[
+- Bootstrap Js, CSS.<br>- JQuery.<br>- JQuery-Migrate.<br>- My custom bootstrap.bundle.js.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/compare/2022.07.23...2022.07.24">
+					Compare code 2022.07.23...2022.07.24
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+Uses: https://github.com/twbs/bootstrap<br>https://github.com/jquery/jquery<br>https://github.com/jquery/jquery-migrate
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2022.07.24/dist/pkg_file_assetghsvs-2022.07.24.zip">
+					Direct download pkg_file_assetghsvs-2022.07.24.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_assetghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;74e4bd0b1c68b0351f765de97ffccb5e2daebde9f6137560bddf8d0e6d595d86&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="assetghsvs"&gt;file_assetghsvs-2022.07.24.zip&lt;/file&gt;
+</pre>
+			]]></item>
+
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PKG_ASSETGHSVS Version 2022.07.24-->
+
+</changelogs>
