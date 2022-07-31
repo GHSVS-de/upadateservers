@@ -20,10 +20,16 @@
 		<version>2022.04.19</version>
 
 		<addition>
-
+			<item><![CDATA[
+Needs PHP 8.0.0 !!!!!!!!!!!!!
+			]]></item>
 		</addition>
 
 		<change>
+			<item><![CDATA[
+Needs PHP 8.0.0 !!!!!!!!!!!!!
+			]]></item>
+		</addition>
 			<item><![CDATA[
 Upgrade to schema: v14.
 			]]></item>
@@ -82,7 +88,7 @@ Upgrade to schema: v14.
 
 		<requirement>
 			<entry><![CDATA[
-				minimumPhp: 7.4.0
+				minimumPhp: 8.0.0
 			]]></entry>
 
 			<entry><![CDATA[
@@ -90,7 +96,7 @@ Upgrade to schema: v14.
 			]]></entry>
 
 			<entry><![CDATA[
-				minimumJoomla: 3.9.8
+				minimumJoomla: 3.10.0
 			]]></entry>
 
 			<entry><![CDATA[
