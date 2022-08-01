@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="tpl_bs4ghsvs"
-	description="Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5."
+	description="Joomla site template with several dependencies(!)."
 	projecturl="https://github.com/GHSVS-de/tpl_bs4ghsvs"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -11,6 +11,112 @@
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
 
+<!--TPL_BS4GHSVS Version 2022.08.01-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.08.01</version>
+
+		<addition>
+			<item><![CDATA[
+Use WAM and joomla.asset.json if environment is Joomla 4.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Check if class PlgSystemBS3Ghsvs exists before going on in index.php.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.07.24...2022.08.01">
+					Compare code 2022.07.24...2022.08.01
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Fix installerscript. $deleteFiles in wrong array.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: Joomla 3.10<br>Joomla 4.1<br>PHP 8.0<br>PHP 8.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.01/dist/tpl_bs4ghsvs-2022.08.01_5.2.0.zip">
+					Direct download tpl_bs4ghsvs-2022.08.01_5.2.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;f91139b7a46350d1bd508807df8d574efddf239030af210da27dda22271e11fa&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+			<item><![CDATA[
+Remove fontawesome-free SCSS.
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: plg_system_astroidghsvs<br>plg_system_bs3ghsvs_bs5<br>pkg_file_assetghsvs
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2022.08.01-->
 <!--TPL_BS4GHSVS Version 2022.07.24-->
 	<changelog>
 		<element>bs4ghsvs</element>
