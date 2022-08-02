@@ -11,6 +11,107 @@
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
 
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.02-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2022.08.02</version>
+
+		<addition>
+			<item><![CDATA[
+New setting/feature "removeInlineWithoutLangClass". Read description in plugin configuration!
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2022.06.08...2022.08.02">
+					Compare code 2022.06.08...2022.08.02
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Bug fix Undefined variable $fileHighlightFound.
+			]]></item>
+		</fix>
+
+		<language>
+			<item><![CDATA[
+New strings for new setting/feature "removeInlineWithoutLangClass".
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/PrismJS/prism<br>https://github.com/zenorocha/clipboard.js<br>https://github.com/laminas/laminas-dom<br>https://github.com/matthiasmullie/minify
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2022.08.02/dist/plg_content_prismhighlighterghsvs-2022.08.02_1.28.0.zip">
+					Direct download plg_content_prismhighlighterghsvs-2022.08.02_1.28.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;2ad4ec4ce5c4c2db2a88469966fa4e592bf5d96f1f5d4b654aa380e921d25ef9&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.02-->
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.06.08-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
