@@ -10,14 +10,13 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
-
-<!--TPL_BS4GHSVS Version 2022.08.01-->
+<!--TPL_BS4GHSVS Version 2022.08.02-->
 	<changelog>
 		<element>bs4ghsvs</element>
 		<type>template</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2022.08.01</version>
+		<version>2022.08.02</version>
 
 		<addition>
 			<item><![CDATA[
@@ -30,12 +29,18 @@ Use WAM and joomla.asset.json if environment is Joomla 4.
 Check if class PlgSystemBS3Ghsvs exists before going on in index.php.
 			]]></item>
 			<item><![CDATA[
-				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.07.24...2022.08.01">
-					Compare code 2022.07.24...2022.08.01
+Check if class PlgSystemBS3Ghsvs exists before going on in index.php.
+			]]></item>
+			<item><![CDATA[
+- SCSS. $font-size-root: 18px; instead of 20px.<br>
+- New CSS compilation. bs-root-font-size: 18px; instead of 20px.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.07.24...2022.08.02">
+					Compare code 2022.07.24...2022.08.02
 				</a>
 			]]></item>
 		</change>
-
 		<fix>
 			<item><![CDATA[
 Fix installerscript. $deleteFiles in wrong array.
@@ -56,8 +61,8 @@ Fix installerscript. $deleteFiles in wrong array.
 			]]></item>
 
 			<item><![CDATA[
-				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.01/dist/tpl_bs4ghsvs-2022.08.01_5.2.0.zip">
-					Direct download tpl_bs4ghsvs-2022.08.01_5.2.0.zip
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.02/dist/tpl_bs4ghsvs-2022.08.02_5.2.0.zip">
+					Direct download tpl_bs4ghsvs-2022.08.02_5.2.0.zip
 				</a>
 			]]></item>
 
@@ -74,7 +79,7 @@ Fix installerscript. $deleteFiles in wrong array.
 			]]></item>
 
 			<item><![CDATA[
-				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;f91139b7a46350d1bd508807df8d574efddf239030af210da27dda22271e11fa&lt;/sha256&gt;</span>
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a935e0b9f6e072a702fcdd7e3b9fac17be91a83a90a16c429565e00aaa55c9e7&lt;/sha256&gt;</span>
 			]]></item>
 
 		</note>
@@ -116,7 +121,7 @@ Remove fontawesome-free SCSS.
 		</security>
 
 	</changelog>
-<!--/TPL_BS4GHSVS Version 2022.08.01-->
+<!--/TPL_BS4GHSVS Version 2022.08.02-->
 <!--TPL_BS4GHSVS Version 2022.07.24-->
 	<changelog>
 		<element>bs4ghsvs</element>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
-<!--TPL_BS4GHSVS Version 2022.08.01 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.08.02 Target platform: 3.*-->
 	<update>
 		<name>TPL_BS4GHSVS</name>
 		<description>Joomla site template with several dependencies(!).</description>
@@ -8,13 +8,13 @@
 		<type>template</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2022.08.01</version>
-		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.01</infourl>
+		<version>2022.08.02</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.02</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.01/dist/tpl_bs4ghsvs-2022.08.01_5.2.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.02/dist/tpl_bs4ghsvs-2022.08.02_5.2.0.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -23,10 +23,10 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="3.*" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>f91139b7a46350d1bd508807df8d574efddf239030af210da27dda22271e11fa</sha256>
+		<sha256>a935e0b9f6e072a702fcdd7e3b9fac17be91a83a90a16c429565e00aaa55c9e7</sha256>
 	</update>
-<!--/TPL_BS4GHSVS Version 2022.08.01 Target platform: 3.*-->
-<!--TPL_BS4GHSVS Version 2022.08.01 Target platform: 4.*-->
+<!--/TPL_BS4GHSVS Version 2022.08.02 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.08.02 Target platform: 4.*-->
 	<update>
 		<name>TPL_BS4GHSVS</name>
 		<description>Joomla site template with several dependencies(!).</description>
@@ -34,13 +34,13 @@
 		<type>template</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2022.08.01</version>
-		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.01</infourl>
+		<version>2022.08.02</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.02</infourl>
 
 		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
 
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.01/dist/tpl_bs4ghsvs-2022.08.01_5.2.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.02/dist/tpl_bs4ghsvs-2022.08.02_5.2.0.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -49,10 +49,9 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>f91139b7a46350d1bd508807df8d574efddf239030af210da27dda22271e11fa</sha256>
+		<sha256>a935e0b9f6e072a702fcdd7e3b9fac17be91a83a90a16c429565e00aaa55c9e7</sha256>
 	</update>
-<!--/TPL_BS4GHSVS Version 2022.08.01 Target platform: 4.*-->
-
+<!--/TPL_BS4GHSVS Version 2022.08.02 Target platform: 4.*-->
 <!--TPL_BS4GHSVS Version 2022.07.24 Target platform: 3.*-->
 	<update>
 		<name>TPL_BS4GHSVS</name>
