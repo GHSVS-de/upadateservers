@@ -11,6 +11,113 @@
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
 
+<!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.08.01-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.08.01</version>
+
+		<addition>
+			<item><![CDATA[
+Web Asset Manager (WAM), J!4: Load/Use the plugin's own media\joomla.asset.json.<br>
+WAM: Add asset plg_system_bs3ghsvs.templatejs and use in JHtml.<br>
+WAM: html/bootstrapghsvs::framework().<br>
+WAM: html\bs3ghsvs.php addsprungmarke.<br>
+Provide &ast;.gz files in /media/.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2022.07.24...2022.08.01">
+					Compare code 2022.07.24...2022.08.01
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2022.08.01/dist/plg_system_bs3ghsvs_bs5-2022.08.01.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2022.08.01.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;57a0d098caeb04462d32562dae26462565ae967fbd901ce167cbc561f58691a6&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+			<item><![CDATA[
+Remove fontawesome-free. No replacement.<br>
+Remove JLayout scroll-to-article-modal. bs3ghsvs.smoothscroll.<br>
+Remove bloglisttoggle. PHP, JS, JHtml.
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Optional: For feature "Structured Data" pkg_lib_structuredataghsvs<br>Optional: For feature "Image Resize" pkg_lib_imgresizeghsvs<br>Optional: For feature "Embed SVG" pkg_file_iconsghsvs<br>Recommended: For assets (e.g. Bootstrap) pkg_file_assetghsvs. Lots of assets have been removed from this plugin (Bootstrap CSS, JS, SCSS. JQuery JS. JQuery-slim. JQuery-migrate.).
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.3.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.8
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.08.01-->
 <!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.07.24-->
 	<changelog>
 		<element>bs3ghsvs</element>
