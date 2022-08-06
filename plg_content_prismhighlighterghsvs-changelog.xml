@@ -10,7 +10,146 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.06-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2022.08.06</version>
 
+		<addition>
+			<item><![CDATA[
+gz files for all PrimJs core assets (min.css.gz, min.js.gz).
+			]]></item>
+
+			<item><![CDATA[
+Use Web Asset Manager WAM support if Joomla 4.
+			]]></item>
+
+			<item><![CDATA[
+PrismHighlighterGhsvsHelper.php<br>
+-New method getMediaVersion(). Get from /prismjs/package.json.<br>
+-New method checkAndAddExt(). Adds file extension to filename if missing.
+			]]></item>
+
+			<item><![CDATA[
+New setting "wamWeight". weight option for WAM to reorder asset loading.
+			]]></item>
+
+			<item><![CDATA[
+New setting "gzFiles". Shall on-the-fly generated assets also been saved as *.gz files?
+			]]></item>
+
+		</addition>
+
+		<change>
+
+			<item><![CDATA[
+Always build minified and unminified combined asset files from now on during same run. More files in media folder cache but easier to handle.
+			]]></item>
+
+			<item><![CDATA[
+Minifier: Use minified sources if already exist. Huge effect on file sizes of combined minified end files.
+			]]></item>
+
+			<item><![CDATA[
+Add possibility to use plugin's joomla.asset.json. Not implemented yet (maybe never).
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2022.08.02...2022.08.06">
+					Compare code 2022.08.02...2022.08.06
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+
+			<item><![CDATA[
+Bug fix. Autoloader. "Prism.plugins.autoloader.languages_path". Couldn't find files.
+			]]></item>
+
+			<item><![CDATA[
+Bug fix. selected "CSS StyleSheet" (theme) not loading.<br>
+- <b>After update: CHECK THE CONFIGURATION OF THE PLUGIN! SET PARAMETER "CSS StyleSheet" NEWLY AND SAVE PLUGIN!</b>
+			]]></item>
+		</fix>
+
+		<language>
+
+			<item><![CDATA[
+New strings. Some reviews and new translstions.
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/PrismJS/prism<br>https://github.com/zenorocha/clipboard.js<br>https://github.com/laminas/laminas-dom<br>https://github.com/matthiasmullie/minify
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.1<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2022.08.06/dist/plg_content_prismhighlighterghsvs-2022.08.06_1.28.0.zip">
+					Direct download plg_content_prismhighlighterghsvs-2022.08.06_1.28.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;5d1a21794741b34d3425c07e6b00ec94e10a069fb5b5f3cac98e8d229debad62&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.06-->
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.02-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
