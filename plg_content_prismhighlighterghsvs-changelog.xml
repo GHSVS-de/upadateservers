@@ -10,6 +10,114 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
 >
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_content_prismhighlighterghsvs"
+	description="Joomla content plugin. Syntax highlighting of code snippets. Uses JS library Prismjs (prism.com). Uses PHP library laminas/laminas-dom."
+	projecturl="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/issues"
+>
+
+<!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.17-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>content</folder>
+		<client>site</client>
+		<version>2022.08.17</version>
+
+		<addition>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/compare/2022.08.06...2022.08.17">
+					Compare code 2022.08.06...2022.08.17
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_content_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Fixes really stupid strpos() bug. Classes not correctly detected when first one.
+			]]></item>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/PrismJS/prism<br>https://github.com/zenorocha/clipboard.js<br>https://github.com/laminas/laminas-dom<br>https://github.com/matthiasmullie/minify
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.1<br>Joomla 4.2<br>Joomla 4.3-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/raw/2022.08.17/dist/plg_content_prismhighlighterghsvs-2022.08.17_1.28.0.zip">
+					Direct download plg_content_prismhighlighterghsvs-2022.08.17_1.28.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;b819ca2ad6ea4ac0668f8e71f119a8d6bdbea801319e26ba6d40768484ba8aad&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.17-->
 <!--PLG_CONTENT_PRISMHIGHLIGHTERGHSVS Version 2022.08.06-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
