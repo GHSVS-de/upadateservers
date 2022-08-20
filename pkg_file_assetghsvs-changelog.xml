@@ -10,6 +10,113 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/pkg_file_assetghsvs/issues"
 >
+
+<!--PKG_ASSETGHSVS Version 2022.08.20-->
+	<changelog>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.08.20</version>
+
+		<addition>
+			<item><![CDATA[
+Added SASS variants of Bootstrap 3-latest and Bootstrap 33.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/compare/2022.08.01...2022.08.20">
+					Compare code 2022.08.01...2022.08.20
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_assetghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/twbs/bootstrap<br>https://github.com/twbs/bootstrap-sass<br>https://github.com/jquery/jquery<br>https://github.com/jquery/jquery-migrate
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.1<br>Joomla 4.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2022.08.20/dist/pkg_file_assetghsvs-2022.08.20.zip">
+					Direct download pkg_file_assetghsvs-2022.08.20.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;c8c4aafec7301c903ebefd9cd8ff3d2de8647518767536a28645e4ddb925e665&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="assetghsvs"&gt;file_assetghsvs-2022.08.20.zip&lt;/file&gt;
+</pre>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PKG_ASSETGHSVS Version 2022.08.20-->
+
 <!--PKG_ASSETGHSVS Version 2022.08.01-->
 	<changelog>
 		<element>pkg_assetghsvs</element>
