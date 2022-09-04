@@ -10,7 +10,108 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_system_astroidghsvs/issues"
 >
+<!--PLG_SYSTEM_ASTROIDGHSVS Version 2022.09.04-->
+	<changelog>
+		<element>astroidghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.09.04</version>
 
+		<addition>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Upgrading scssphp/scssphp (v1.10.5 to v1.11.0)
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/compare/2022.08.02...2022.09.04">
+					Compare code 2022.08.02...2022.09.04
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_astroidghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Bug fix. unlink($gzFilename). No such file or directory.
+			]]></item>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/scssphp/scssphp
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/raw/2022.09.04/dist/plg_system_astroidghsvs-2022.09.04_1.11.0.0.zip">
+					Direct download plg_system_astroidghsvs-2022.09.04_1.11.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_astroidghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d243b0ede0ea96a84caebcee7dc7eb73d07fbc9deb7846ef854c7727d3340d12&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Astroid Framework greater than 2.5.12 for feature "removeFields" if you use an Astroid template and activate that feature.
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.24
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_ASTROIDGHSVS Version 2022.09.04-->
 <!--PLG_SYSTEM_ASTROIDGHSVS Version 2022.08.02-->
 	<changelog>
 		<element>astroidghsvs</element>
