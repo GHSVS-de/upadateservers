@@ -11,6 +11,106 @@
 	bugs="https://github.com/GHSVS-de/mod_splideghsvs/issues"
 >
 
+<!--MOD_SPLIDEGHSVS Version 2022.09.12-->
+	<changelog>
+		<element>mod_splideghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.09.12</version>
+
+		<addition>
+			<item><![CDATA[
+Add xy.mim.gz variants for .min.js and .min.css files.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Update splidejs/splide 4.0.7 to 4.0.17 (bug fix release)
+			]]></item>
+
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/compare/2022.08.15...2022.09.12">
+					Compare code 2022.08.15...2022.09.12
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=mod_splideghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/Splidejs/splide
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 7.4<br>PHP 8.0<br>PHP 8.1<br>Joomla 4.2<br>JCE (conerning image selection)
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/raw/2022.09.12/dist/mod_splideghsvs-2022.09.12_4.0.17.zip">
+					Direct download mod_splideghsvs-2022.09.12_4.0.17.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/mod_splideghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;20f8605c3842d01966502c4b0de0438fd70a5992afb3a390e6d024611d805c11&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 4.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/MOD_SPLIDEGHSVS Version 2022.09.12-->
 <!--MOD_SPLIDEGHSVS Version 2022.08.15-->
 	<changelog>
 		<element>mod_splideghsvs</element>
