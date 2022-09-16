@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_convertformsghsvs"
+	description="Joomla system plugin. Performs additional actions when extension ConvertForms is used."
+	projecturl="https://github.com/GHSVS-de/plg_system_convertformsghsvs"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_convertformsghsvs#readme"
+	docsDE=""
+	docsEN="https://github.com/GHSVS-de/plg_system_convertformsghsvs#readme"
+	bugs="https://github.com/GHSVS-de/plg_system_convertformsghsvs/issues"
+>
+
+<!--PLG_SYSTEM_CONVERTFORMSGHSVS Version 2022.09.15-->
+	<changelog>
+		<element>convertformsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.09.15</version>
+
+		<addition>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+- Readme. Add warning.<br>
+- src\convertformsghsvs.php. Remove garbage. Use loadCss().<br>
+- Manifest. Add "sendCopy" but hidden.<br>
+- src\joomla.asset.json. Remove garbage.<br>
+- Lang. Wrong placeholders.<br>
+- Helper. Use $data instead of DB query in loadCss(). Remove garbage. WAM.
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_convertformsghsvs/compare/2022.06.12...2022.09.15">
+					Compare code 2022.06.12...2022.09.15
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_convertformsghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 7.4<br>Joomla 3.10
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_convertformsghsvs/raw/2022.09.15/dist/plg_system_convertformsghsvs-2022.09.15.zip">
+					Direct download plg_system_convertformsghsvs-2022.09.15.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_convertformsghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;8c7c4f50f753478ddd6e2d212a3f8816e8b2f8a7dec14f61afb6cde0682f9596&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: https://www.tassos.gr/joomla-extensions/convert-forms
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_CONVERTFORMSGHSVS Version 2022.09.15-->
+
+</changelogs>
