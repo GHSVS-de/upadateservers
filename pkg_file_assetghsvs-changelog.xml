@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs extension="pkg_assetghsvs"
-	description="Joomla package/file. A collection of asset files that I often use. Not more."
+	description="Joomla file package. Different versions of asset files that I often need. For example, Bootstrap, JQuery, JQuery-Slim. The assets are stored in Joomla folder `/media/assetghsvs/. Not more."
 	projecturl="https://github.com/GHSVS-de/pkg_file_assetghsvs"
 	maintainerurl="https://ghsvs.de"
 	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
@@ -11,6 +11,124 @@
 	bugs="https://github.com/GHSVS-de/pkg_file_assetghsvs/issues"
 >
 
+<!--PKG_ASSETGHSVS Version 2022.09.30-->
+	<changelog>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.09.30</version>
+
+		<addition>
+			<item><![CDATA[
+Add dropzone /5/ and /current/.
+			]]></item>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+Bootstrap 5.2.0 to 5.2.1
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/compare/2022.08.26...2022.09.30">
+					Compare code 2022.08.26...2022.09.30
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_assetghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/twbs/bootstrap<br>https://github.com/jquery/jquery<br>https://github.com/jquery/jquery-migrate<br>https://github.com/twbs/bootstrap-sass<br>https://github.com/dropzone/dropzone
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2022.09.30/dist/pkg_file_assetghsvs-2022.09.30.zip">
+					Direct download pkg_file_assetghsvs-2022.09.30.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;e4929910bb950d20deb73021a19a766ce006df76de6c7fd42b397af465d2d490&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="assetghsvs"&gt;file_assetghsvs-2022.09.30.zip&lt;/file&gt;
+</pre>
+			]]></item>
+
+			<item><![CDATA[
+#### Package contains<br>
+- bootstrap V4.6.2<br>
+- bootstrap V5.1.3<br>
+- bootstrap V5.2.1<br>
+- bootstrap-sass V3.3.7<br>
+- bootstrap-sass V3.4.3<br>
+- dropzone V5.9.3<br>
+- dropzone V6.0.0-beta.2<br>
+- jquery V3.6.1<br>
+- jquery-migrate V3.4.0
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PKG_ASSETGHSVS Version 2022.09.30-->
 <!--PKG_ASSETGHSVS Version 2022.08.26-->
 	<changelog>
 		<element>pkg_assetghsvs</element>
