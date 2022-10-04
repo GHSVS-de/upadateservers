@@ -19,7 +19,13 @@
 		<client>site</client>
 		<version>2022.10.04</version>
 
-<additionalinfos>
+		<addition>
+			<item><![CDATA[
+Custom bootstrap-bundle 5.2: added Offcanvas component.
+			]]></item>
+		</addition>
+
+		<additionalinfos>
 <entry><![CDATA[
 #### Package contains<br>
 - bootstrap v4.6.2 ("The most popular front-end framework for developing responsive, mobile first projects on the web.")<br>
@@ -33,12 +39,6 @@
 - jquery-migrate v3.4.0 ("Migrate older jQuery code to jQuery 3.0+")
 ]]></entry>
 </additionalinfos>
-
-		<addition>
-			<item><![CDATA[
-Custom bootstrap-bundle 5.2: added Offcanvas component.
-			]]></item>
-		</addition>
 
 		<change>
 			<item><![CDATA[
