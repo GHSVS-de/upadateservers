@@ -11,6 +11,111 @@
 	bugs="https://github.com/GHSVS-de/pkg_file_assetghsvs/issues"
 >
 
+<!--PKG_ASSETGHSVS Version 2022.10.04-->
+	<changelog>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.04</version>
+
+		<addition>
+
+		</addition>
+			<item><![CDATA[
+Custom bootstrap-bundle 5.2: added Offcanvas component.
+			]]></item>
+		<change>
+			<item><![CDATA[
+Update Bootstrap 5.2.1 to 5.2.2
+			]]></item>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/compare/2022.09.30...2022.10.04">
+					Compare code 2022.09.30...2022.10.04
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_assetghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/twbs/bootstrap<br>https://github.com/jquery/jquery<br>https://github.com/jquery/jquery-migrate<br>https://github.com/twbs/bootstrap-sass<br>https://github.com/dropzone/dropzone
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2022.10.04/dist/pkg_file_assetghsvs-2022.10.04.zip">
+					Direct download pkg_file_assetghsvs-2022.10.04.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_assetghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;9066a06b8905dab94b07a4ad14dd659f818bf9d16ab6823927a66898e786c166&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="assetghsvs"&gt;file_assetghsvs-2022.10.04.zip&lt;/file&gt;
+</pre>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PKG_ASSETGHSVS Version 2022.10.04-->
 <!--PKG_ASSETGHSVS Version 2022.09.30-->
 	<changelog>
 		<element>pkg_assetghsvs</element>
