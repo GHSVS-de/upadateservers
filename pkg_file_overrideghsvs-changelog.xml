@@ -11,6 +11,110 @@
 	bugs="https://github.com/GHSVS-de/pkg_file_overrideghsvs/issues"
 >
 
+<!--PKG_OVERRIDEGHSVS Version 2022.10.10-->
+	<changelog>
+		<element>pkg_overrideghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.10</version>
+
+		<addition>
+		</addition>
+
+		<additionalinfos></additionalinfos>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_overrideghsvs/compare/2022.08.20...2022.10.10">
+					Compare code 2022.08.20...2022.10.10
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=pkg_file_overrideghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses:
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 4.2<br>Joomla 4.3
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_overrideghsvs/raw/2022.10.10/dist/pkg_file_overrideghsvs-2022.10.10.zip">
+					Direct download pkg_file_overrideghsvs-2022.10.10.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/pkg_file_overrideghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;b1bea793f56ae8df5f5a70f7e11837c2a66d13278a215ce6277aeea10abab96a&lt;/sha256&gt;</span>
+			]]></item>
+
+			<item><![CDATA[
+				Contained packages (sub Joomla extensions):
+				<pre>
+&lt;file type="file" id="overrideghsvs"&gt;file_overrideghsvs-2022.10.10.zip&lt;/file&gt;
+</pre>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires:
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 4.0.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PKG_OVERRIDEGHSVS Version 2022.10.10-->
 <!--PKG_OVERRIDEGHSVS Version 2022.08.20-->
 	<changelog>
 		<element>pkg_overrideghsvs</element>

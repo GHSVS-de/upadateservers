@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PKG_OVERRIDEGHSVS Version 2022.10.10 Target platform: 4.*-->
+	<update>
+		<name>PKG_OVERRIDEGHSVS</name>
+		<description>Joomla package/file. A collection of overrides for Joomla 4 that I often use. Not more.</description>
+		<element>pkg_overrideghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.10</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=pkg_file_overrideghsvs&amp;version=2022.10.10</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_file_overrideghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_file_overrideghsvs/raw/2022.10.10/dist/pkg_file_overrideghsvs-2022.10.10.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>b1bea793f56ae8df5f5a70f7e11837c2a66d13278a215ce6277aeea10abab96a</sha256>
+	</update>
+<!--/PKG_OVERRIDEGHSVS Version 2022.10.10 Target platform: 4.*-->
 <!--PKG_OVERRIDEGHSVS Version 2022.08.20 Target platform: 4.*-->
 	<update>
 		<name>PKG_OVERRIDEGHSVS</name>
