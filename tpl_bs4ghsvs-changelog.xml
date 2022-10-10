@@ -10,6 +10,129 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/tpl_bs4ghsvs/issues"
 >
+
+<!--TPL_BS4GHSVS Version 2022.10.10-->
+	<changelog>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.10</version>
+
+		<addition>
+		</addition>
+
+		<additionalinfos></additionalinfos>
+
+		<change>
+
+			<item><![CDATA[
+Bootstrap 5.2.2
+			]]></item>
+
+			<item><![CDATA[
+Back to $font-size-root: 20px;.
+			]]></item>
+
+			<item><![CDATA[
+SCSS. Make block-* classes nicer.
+			]]></item>
+
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/compare/2022.07.24...2022.10.10">
+					Compare code 2022.07.24...2022.10.10
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+com_/mod_search. Remove inline scripts.
+			]]></item>
+			<item><![CDATA[
+layouts\ghsvs\readmore.php PHP8 fix
+			]]></item>
+			<item><![CDATA[
+plg_content_pagenavigation\default.php bs3ghsvs.addsprungmarke wants array.
+			]]></item>
+			<item><![CDATA[
+Layout extensions.php. PHP8.1 fixes
+			]]></item>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: Joomla 4.2<br>PHP 8.1
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.10.10/dist/tpl_bs4ghsvs-2022.10.10_5.2.2.zip">
+					Direct download tpl_bs4ghsvs-2022.10.10_5.2.2.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/tpl_bs4ghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;4cc4bad4702f9bccf08ffbef67261e725d26a6fb3ebefdec7e208c491000f407&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+			<item><![CDATA[
+SCSS. Remove syntaxhighlighter
+			]]></item>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: plg_system_astroidghsvs<br>plg_system_bs3ghsvs_bs5<br>pkg_file_assetghsvs
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.25
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/TPL_BS4GHSVS Version 2022.10.10-->
 <!--TPL_BS4GHSVS Version 2022.08.02-->
 	<changelog>
 		<element>bs4ghsvs</element>
