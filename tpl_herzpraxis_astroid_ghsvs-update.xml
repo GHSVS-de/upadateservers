@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
-
-<!--TPL_HERZPRAXIS_ASTROID_GHSVS Version 2021.12.13-->
+<!--TPL_HERZPRAXIS_ASTROID_GHSVS Version 2022.11.30 Target platform: 4.*-->
 	<update>
 		<name>TPL_HERZPRAXIS_ASTROID_GHSVS</name>
-		<description>Joomla site template.</description>
+		<description>Joomla 4 site template with several dependencies(!).</description>
 		<element>herzpraxis_astroid_ghsvs</element>
 		<type>template</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2021.12.13</version>
-		<infourl></infourl>
+		<version>2022.11.30</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_herzpraxis_astroid_ghsvs&amp;version=2022.11.30</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_herzpraxis_astroid_ghsvs-changelog.xml</changelogurl>
+
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.12.13/dist/tpl_herzpraxis_astroid_ghsvs-2021.12.13.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_herzpraxis_astroid_ghsvs/raw/2022.11.30/dist/tpl_herzpraxis_astroid_ghsvs-2022.11.30_5.1.3.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -21,6 +23,7 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.4.0</php_minimum>
+		<sha256>ad0b2ff1a62f5d871d30021bb553a0a8f3984aac0ff6ad9eeaf61fb03fa51aaf</sha256>
 	</update>
-<!--/TPL_HERZPRAXIS_ASTROID_GHSVS Version 2021.12.13-->
+<!--/TPL_HERZPRAXIS_ASTROID_GHSVS Version 2022.11.30 Target platform: 4.*-->
 </updates>
