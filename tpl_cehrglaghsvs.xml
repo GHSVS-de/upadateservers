@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--TPL_BS4GHSVS Version 2022.10.10 Target platform: 3.*-->
+	<update>
+		<name>cehrglaghsvs</name>
+		<description>CehrglaGhsvs Frontend Template. A fork of the template Allrounder v4 by Thomas Hunziker. Edited for Cehrgla.com by ghsvs.de.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.10</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.10.10</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.10.10/dist/tpl_bs4ghsvs-2022.10.10_5.2.2.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>4cc4bad4702f9bccf08ffbef67261e725d26a6fb3ebefdec7e208c491000f407</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.10.10 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.10.10 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template with several dependencies(!).</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.10.10</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.10.10</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.10.10/dist/tpl_bs4ghsvs-2022.10.10_5.2.2.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>4cc4bad4702f9bccf08ffbef67261e725d26a6fb3ebefdec7e208c491000f407</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.10.10 Target platform: 4.*-->
+<!--TPL_BS4GHSVS Version 2022.08.02 Target platform: 3.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template with several dependencies(!).</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.08.02</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.02</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.02/dist/tpl_bs4ghsvs-2022.08.02_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a935e0b9f6e072a702fcdd7e3b9fac17be91a83a90a16c429565e00aaa55c9e7</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.08.02 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.08.02 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template with several dependencies(!).</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.08.02</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.08.02</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.08.02/dist/tpl_bs4ghsvs-2022.08.02_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a935e0b9f6e072a702fcdd7e3b9fac17be91a83a90a16c429565e00aaa55c9e7</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.08.02 Target platform: 4.*-->
+<!--TPL_BS4GHSVS Version 2022.07.24 Target platform: 3.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template with several dependencies(!).</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.24</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.07.24</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.07.24/dist/tpl_bs4ghsvs-2022.07.24_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>17ea7bf620312c3abfe27934498d7567fb3ecd09d04511c46a34fd5019d0f463</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.07.24 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.07.24 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.24</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.07.24</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.07.24/dist/tpl_bs4ghsvs-2022.07.24_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>17ea7bf620312c3abfe27934498d7567fb3ecd09d04511c46a34fd5019d0f463</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.07.24 Target platform: 4.*-->
+<!--TPL_BS4GHSVS Version 2022.07.20 Target platform: 3.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.20</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.07.20</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.07.20/dist/tpl_bs4ghsvs-2022.07.20_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>644ce0624b35a9af6ae9cd180396f6ba58ff84b6b8d67a462db6bd9fa0c27bce</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.07.20 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.07.20 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.07.20</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.07.20</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.07.20/dist/tpl_bs4ghsvs-2022.07.20_5.2.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>644ce0624b35a9af6ae9cd180396f6ba58ff84b6b8d67a462db6bd9fa0c27bce</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.07.20 Target platform: 4.*-->
+<!--TPL_BS4GHSVS Version 2022.06.20 Target platform: 3.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.20</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.06.20</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.06.20/dist/tpl_bs4ghsvs-2022.06.20_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>84beaf04e6994969734670042a02082afc7c033942711b42aa553d01e02c70f0</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.06.20 Target platform: 3.*-->
+<!--TPL_BS4GHSVS Version 2022.06.20 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.06.20</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.06.20</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.06.20/dist/tpl_bs4ghsvs-2022.06.20_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>84beaf04e6994969734670042a02082afc7c033942711b42aa553d01e02c70f0</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.06.20 Target platform: 4.*-->
+
+<!--TPL_BS4GHSVS Version 2022.03.31 Target platform: 3.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.03.31</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.03.31</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.03.31/dist/tpl_bs4ghsvs-2022.03.31_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>2835cc2c70d2f80e7aaab4490e338036587dfe92cf43cadc3e505ad2bd16ccd9</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.03.31 Target platform: 3.*-->
+
+<!--TPL_BS4GHSVS Version 2022.03.31 Target platform: 4.*-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2022.03.31</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2022.03.31</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2022.03.31/dist/tpl_bs4ghsvs-2022.03.31_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>2835cc2c70d2f80e7aaab4490e338036587dfe92cf43cadc3e505ad2bd16ccd9</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2022.03.31 Target platform: 4.*-->
+
+<!--TPL_BS4GHSVS Version 2021.11.22-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.11.22</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.11.22</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.11.22/dist/tpl_bs4ghsvs-2021.11.22_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>c6e387d65a087a0544f6a229a13b571a9f34c8610c5900f47a0b363d34f8fc13</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.11.22-->
+
+<!--TPL_BS4GHSVS Version 2021.10.24-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.24</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.10.24</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.24/dist/tpl_bs4ghsvs-2021.10.24_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>f860f897d8573d743b7ac73f427eada5488d577a986d31e2725d80ab3fa335a2</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.10.24-->
+
+<!--TPL_BS4GHSVS Version 2021.10.14-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.14</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.10.14</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.14/dist/tpl_bs4ghsvs-2021.10.14_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>ccd8237352539ee4cd3c213da988aa5341e2d31ef271478dcc9ee478e089f868</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.10.14-->
+
+<!--TPL_BS4GHSVS Version 2021.10.10-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.10.10</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.10.10</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.10.10/dist/tpl_bs4ghsvs-2021.10.10_5.1.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a555d3fc053d6a446516e236943b1ddc742d1e01676436bcbe8fc57f224bdd94</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.10.10-->
+
+<!--TPL_BS4GHSVS Version 2021.09.20-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.09.20</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.09.20</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.09.20/dist/tpl_bs4ghsvs-2021.09.20_5.1.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a03fdafbd26b4cc71032800b53e5a1f751c98925b77bd55f645382f8e51bf4a0</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.09.20-->
+
+<!--TPL_BS4GHSVS Version 2021.09.12-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.09.12</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.09.12</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.09.12/dist/tpl_bs4ghsvs-2021.09.12_5.1.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>1cc13bf808e2789f2df8129c80efddab21d4675d6f603408cad3a1ee56980f64</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.09.12-->
+
+<!--TPL_BS4GHSVS Version 2021.09.07-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.09.07</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.09.07</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.09.07/dist/tpl_bs4ghsvs-2021.09.07_5.1.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>ff8d3f2055b97457cf908404c9d6bc32fc001cf81e4f46085fe964f7e27b0a77</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.09.07-->
+
+<!--TPL_BS4GHSVS Version 2021.08.31-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.31</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.08.31</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.31/dist/tpl_bs4ghsvs-2021.08.31_5.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>9f035e1659150ffcb7ffdf5e3669c2fe09bd0ec562c88862e1f9a124899365d9</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.08.31-->
+
+<!--TPL_BS4GHSVS Version 2021.08.27-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.27</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.08.27</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.27/dist/tpl_bs4ghsvs-2021.08.27_5.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a409ccecfa9abb7787ecadace6a755d4d1b7e1c99de6fbe35baefa35582a7871</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.08.27-->
+
+<!--TPL_BS4GHSVS Version 2021.08.16-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.16</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.08.16</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.16/dist/tpl_bs4ghsvs-2021.08.16_5.1.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>8f431fcf8b0c8dc4e72c6412e02251090ce0522cd5b7544329adc22ae050b850</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.08.16-->
+
+<!--TPL_BS4GHSVS Version 2021.08.15-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.15</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.08.15</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.15/dist/tpl_bs4ghsvs-2021.08.15.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>7251ce8ac3bad11c4a79c09c41431b91555dd92f9851511293197389750fc3c0</sha256>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.08.15-->
+
+<!--TPL_BS4GHSVS Version 2021.08.14-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.08.14</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.08.14</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.08.14/dist/tpl_bs4ghsvs-2021.08.14.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.08.14-->
+
+<!--TPL_BS4GHSVS Version 2021.07.31-->
+	<update>
+		<name>TPL_BS4GHSVS</name>
+		<description>Joomla site template. Needs plugin plg_system_bs3ghsvs_bs5.</description>
+		<element>bs4ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2021.07.31</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_bs4ghsvs&amp;version=2021.07.31</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_bs4ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_bs4ghsvs/raw/2021.07.31/dist/tpl_bs4ghsvs-2021.07.31.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://www.ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version=".*" />
+		<php_minimum>7.4.0</php_minimum>
+	</update>
+<!--/TPL_BS4GHSVS Version 2021.07.31-->
+
+</updates>
