@@ -10,6 +10,109 @@
 	docsEN=""
 	bugs="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/issues"
 >
+<!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.12.20-->
+	<changelog>
+		<element>bs3ghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.12.20</version>
+
+		<addition>
+			<item><![CDATA[
+Contact form XML. Allow hidden phone field.
+			]]></item>
+		</addition>
+
+		<additionalinfos></additionalinfos>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/compare/2022.10.10...2022.12.20">
+					Compare code 2022.10.10...2022.12.20
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_bs3ghsvs_bs5">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+J!4.3 ArrayHelper::getColumn() fixes. Use array_column instead.
+			]]></item>
+		</fix>
+
+		<language>
+			<item><![CDATA[
+typos "Structured Date" versus "Structured Data".
+			]]></item>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.2<br>Joomla 4.3-dev
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/raw/2022.12.20/dist/plg_system_bs3ghsvs_bs5-2022.12.20.zip">
+					Direct download plg_system_bs3ghsvs_bs5-2022.12.20.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;a62fc3f8a675dcb730573f39400d46e5a1874ead1281ad62ffee71aeeefa4849&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				Requires: Optional: For feature "Structured Data" pkg_lib_structuredataghsvs<br>Optional: For feature "Image Resize" pkg_lib_imgresizeghsvs<br>Optional: For feature "Embed SVG" pkg_file_iconsghsvs<br>Recommended: For assets (e.g. Bootstrap) pkg_file_assetghsvs. Lots of assets have been removed from this plugin (Bootstrap CSS, JS, SCSS. JQuery JS. JQuery-slim. JQuery-migrate.).
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.12.20-->
 <!--PLG_SYSTEM_BS3GHSVS_BS5 Version 2022.10.10-->
 	<changelog>
 		<element>bs3ghsvs</element>
