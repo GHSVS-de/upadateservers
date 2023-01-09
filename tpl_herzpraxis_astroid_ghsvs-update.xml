@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--TPL_HERZPRAXIS_ASTROID_GHSVS Version 2023.01.09 Target platform: 4.*-->
+	<update>
+		<name>TPL_HERZPRAXIS_ASTROID_GHSVS</name>
+		<description>Joomla 4 site template with several dependencies(!).</description>
+		<element>herzpraxis_astroid_ghsvs</element>
+		<type>template</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2023.01.09</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=tpl_herzpraxis_astroid_ghsvs&amp;version=2023.01.09</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/tpl_herzpraxis_astroid_ghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/tpl_herzpraxis_astroid_ghsvs/raw/2023.01.09/dist/tpl_herzpraxis_astroid_ghsvs-2023.01.09_5.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>17fdd5912f3098c2e906af79b20b063ab841a3bea61732c902ac72a4a0ebafe1</sha256>
+	</update>
+<!--/TPL_HERZPRAXIS_ASTROID_GHSVS Version 2023.01.09 Target platform: 4.*-->
 <!--TPL_HERZPRAXIS_ASTROID_GHSVS Version 2022.11.30 Target platform: 4.*-->
 	<update>
 		<name>TPL_HERZPRAXIS_ASTROID_GHSVS</name>
