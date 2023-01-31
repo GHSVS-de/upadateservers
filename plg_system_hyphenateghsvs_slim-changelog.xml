@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs extension="plg_system_hyphenateghsvs_slim"
+	description="Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages. Hyphenopoly-only variant."
+	projecturl="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim"
+	maintainerurl="https://ghsvs.de"
+	maintainer="G@HService Berlin Neukölln, Volkmar Volli Schlothauer"
+	infosDE=""
+	infosEN="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim#readme"
+	docsDE=""
+	docsEN=""
+	bugs="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/issues"
+>
+
+<!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.01.06-->
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.01.06</version>
+
+		<addition>
+		</addition>
+
+		<additionalinfos></additionalinfos>
+
+		<change>
+			<item><![CDATA[
+				Bump Hyphenopoly v4 to v5.0.0
+			]]></item>
+
+			<item><![CDATA[
+				Correct PHP namespace. Not Joomla, but GHSVS.
+			]]></item>
+
+			<item><![CDATA[
+				@since hyphenopoly v5.0.0. Use `Hyphenopoly.config()`, not `var Hyphenopoly`.
+			]]></item>
+
+			<item><![CDATA[
+				@since hyphenopoly 5.0.0. Loader must be loaded before `Hyphenopoly.config()` in combined init JS.
+			]]></item>
+
+			<item><![CDATA[
+				`joomla.asset.json` and build: Use placeholders.
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/compare/2022.08.27...2023.01.06">
+					Compare code 2022.08.27...2023.01.06
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_hyphenateghsvs_slim">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/mnater/Hyphenopoly
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.2<br>Joomla 4.3-dev<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/raw/2023.01.06/dist/plg_system_hyphenateghsvs_slim-2023.01.06_5.0.0.zip">
+					Direct download plg_system_hyphenateghsvs_slim-2023.01.06_5.0.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;3e23d58dac8d0443acf62771bbe7aa2b448b72c98026c115aa324f2b97248819&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.999.999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.01.06-->
+<!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2022.08.27-->
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.08.27</version>
+
+		<addition>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/compare/2022.08.01...2022.08.27">
+					Compare code 2022.08.01...2022.08.27
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_hyphenateghsvs_slim">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+Some forgotten files.
+			]]></item>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/mnater/Hyphenopoly
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.1<br>Joomla 4.2<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/raw/2022.08.27/dist/plg_system_hyphenateghsvs_slim-2022.08.27_4.12.0.zip">
+					Direct download plg_system_hyphenateghsvs_slim-2022.08.27_4.12.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;e13be844f87d45e431a089182fe944bc2982b2254a6982313aad81ca8545c2e3&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.999.999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2022.08.27-->
+<!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2022.08.26-->
+	<changelog>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2022.08.26</version>
+
+		<addition>
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/compare/2022.08.01...2022.08.26">
+					Compare code 2022.08.01...2022.08.26
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_system_hyphenateghsvs_slim">
+					All changelogs
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+		</fix>
+
+		<language>
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Joomla-Target-Platform: 3.*, 4.*
+			]]></item>
+
+			<item><![CDATA[
+				Uses: https://github.com/mnater/Hyphenopoly
+			]]></item>
+
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.1<br>Joomla 4.2<br>Vivaldi<br>Firefox
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/raw/2022.08.26/dist/plg_system_hyphenateghsvs_slim-2022.08.26_4.12.0.zip">
+					Direct download plg_system_hyphenateghsvs_slim-2022.08.26_4.12.0.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d8d6b80d1d4ce73dbc85d5a37fe862b0fd15510f2dea069d370a46be4f558694&lt;/sha256&gt;</span>
+			]]></item>
+
+		</note>
+
+		<remove>
+		</remove>
+
+		<requirement>
+
+			<entry><![CDATA[
+				minimumPhp: 7.4.2
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.999.999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.10.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+		</security>
+
+	</changelog>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2022.08.26-->
+
+</changelogs>
