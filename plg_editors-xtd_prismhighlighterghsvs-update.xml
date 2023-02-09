@@ -23,7 +23,7 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="3.*" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>d554ade2bf11700624a196a4977b0e794c37508781baf8dc0e51867366fa3810</sha256>
+		<sha256>fba24e8e23834445961f6790e84f66ad6cc0989d730c1e85db4ddbb630594c3d</sha256>
 	</update>
 <!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
 <!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
@@ -49,7 +49,7 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>d554ade2bf11700624a196a4977b0e794c37508781baf8dc0e51867366fa3810</sha256>
+		<sha256>fba24e8e23834445961f6790e84f66ad6cc0989d730c1e85db4ddbb630594c3d</sha256>
 	</update>
 <!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
 
