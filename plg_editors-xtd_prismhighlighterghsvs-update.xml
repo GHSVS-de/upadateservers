@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
+	<update>
+		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
+		<description>Joomla editor button. Helps to insert code snippets into editor/article text that will be 'highlighted' by content plugin PrismHighlighterGhsvs when you display the article in front-end.</description>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2023.02.09</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs&amp;version=2023.02.09</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_editors-xtd_prismhighlighterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2023.02.09/dist/plg_editors-xtd_prismhighlighterghsvs-2023.02.09.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>d554ade2bf11700624a196a4977b0e794c37508781baf8dc0e51867366fa3810</sha256>
+	</update>
+<!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
+<!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
+	<update>
+		<name>PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS</name>
+		<description>Joomla editor button. Helps to insert code snippets into editor/article text that will be 'highlighted' by content plugin PrismHighlighterGhsvs when you display the article in front-end.</description>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2023.02.09</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs&amp;version=2023.02.09</infourl>
+
+		<changelogurl>https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/plg_editors-xtd_prismhighlighterghsvs-changelog.xml</changelogurl>
+
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2023.02.09/dist/plg_editors-xtd_prismhighlighterghsvs-2023.02.09.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>d554ade2bf11700624a196a4977b0e794c37508781baf8dc0e51867366fa3810</sha256>
+	</update>
+<!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
 
 <!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
 	<update>

@@ -11,6 +11,100 @@
 	bugs="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/issues"
 >
 
+<!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
+	<changelog>
+		<element>prismhighlighterghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2023.02.09</version>
+
+		<addition>
+
+		</addition>
+
+		<change>
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/compare/2021.11.05...2023.02.09">
+					Compare code 2021.11.05...2023.02.09
+				</a>
+			]]></item>
+		</change>
+
+		<fix>
+			<item><![CDATA[
+BC break in Joomla 4.2.7. Use unique name.
+			]]></item>
+		</fix>
+
+		<language>
+
+		</language>
+
+		<note>
+			<item><![CDATA[
+				Last tests: PHP 8.0<br>PHP 8.1<br>Joomla 3.10<br>Joomla 4.2
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/raw/2023.02.09/dist/plg_editors-xtd_prismhighlighterghsvs-2023.02.09.zip">
+					Direct download plg_editors-xtd_prismhighlighterghsvs-2023.02.09.zip
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://updates.ghsvs.de/changelog.php?file=plg_editors-xtd_prismhighlighterghsvs">
+					All changelogs
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				<a href="https://github.com/GHSVS-de/plg_editors-xtd_prismhighlighterghsvs/releases">
+					All releases page
+				</a>
+			]]></item>
+
+			<item><![CDATA[
+				Checksum: <span style="word-wrap:anywhere;">&lt;sha256&gt;d554ade2bf11700624a196a4977b0e794c37508781baf8dc0e51867366fa3810&lt;/sha256&gt;</span>
+			]]></item>
+		</note>
+
+		<remove>
+
+		</remove>
+
+		<requirement>
+			<entry><![CDATA[
+				minimumPhp: 7.4.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumPhp: 8.99999.99999
+			]]></entry>
+
+			<entry><![CDATA[
+				minimumJoomla: 3.9.0
+			]]></entry>
+
+			<entry><![CDATA[
+				maximumJoomla: 4.9999.9999
+			]]></entry>
+
+			<entry><![CDATA[
+				allowDowngrades: 1
+			]]></entry>
+		</requirement>
+
+		<security>
+
+		</security>
+
+	</changelog>
+<!--/PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2023.02.09-->
+
+</changelogs>
+
+
 <!--PLG_EDITORS-XTD_PRISMHIGHLIGHTERGHSVS Version 2021.11.05-->
 	<changelog>
 		<element>prismhighlighterghsvs</element>
