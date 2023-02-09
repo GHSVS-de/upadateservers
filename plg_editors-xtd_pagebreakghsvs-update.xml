@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
-
+<!--PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2023.02.09 Target platform: 3.*-->
+	<update>
+		<name>PLG_EDITORS-XTD_PAGEBREAKGHSVS</name>
+		<description>Joomla editor button. For pagebreakghsvs feature of system plugin bs3ghsvs. Insert shortcodes into editor/article text that will be rendered to slides/accordions.</description>
+		<element>pagebreakghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2023.02.09</version>
+		<infourl>https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/releases?file=plg_editors-xtd_pagebreakghsvs&amp;version=2023.02.09</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/raw/2023.02.09/dist/plg_editors-xtd_pagebreakghsvs-2023.02.09.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>afb9f3cb486b7c46560413294cd5abb27b33a5840afa364b7eb82b5c08ff48d4</sha256>
+	</update>
+<!--/PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2023.02.09 Target platform: 3.*-->
+<!--PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2023.02.09 Target platform: 4.*-->
+	<update>
+		<name>PLG_EDITORS-XTD_PAGEBREAKGHSVS</name>
+		<description>Joomla editor button. For pagebreakghsvs feature of system plugin bs3ghsvs. Insert shortcodes into editor/article text that will be rendered to slides/accordions.</description>
+		<element>pagebreakghsvs</element>
+		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<client>site</client>
+		<version>2023.02.09</version>
+		<infourl>https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/releases?file=plg_editors-xtd_pagebreakghsvs&amp;version=2023.02.09</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_editors-xtd_pagebreakghsvs/raw/2023.02.09/dist/plg_editors-xtd_pagebreakghsvs-2023.02.09.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>afb9f3cb486b7c46560413294cd5abb27b33a5840afa364b7eb82b5c08ff48d4</sha256>
+	</update>
+<!--/PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2023.02.09 Target platform: 4.*-->
 <!--PLG_EDITORS-XTD_PAGEBREAKGHSVS Version 2021.11.06-->
 	<update>
 		<name>PLG_EDITORS-XTD_PAGEBREAKGHSVS</name>
