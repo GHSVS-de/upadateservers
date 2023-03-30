@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PLG_SYSTEM_ONUSERGHSVS Version 2023.03.30 Target platform: 4.[23456789]-->
+	<update>
+		<name>PLG_SYSTEM_ONUSERGHSVS</name>
+		<description>Joomla system plugin. Performs additional actions when users are edited or saved.</description>
+		<element>onuserghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.03.30</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_onuserghsvs&amp;version=2023.03.30</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_onuserghsvs/raw/2023.03.30/dist/plg_system_onuserghsvs-2023.03.30.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.[23456789]" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>0df94c2962e095f8000c82253e208af13844fac91a1070ad2ce06ca01c42bc59</sha256>
+	</update>
+<!--/PLG_SYSTEM_ONUSERGHSVS Version 2023.03.30 Target platform: 4.[23456789]-->
 <!--PLG_SYSTEM_ONUSERGHSVS Version 2022.06.11 Target platform: 3.*-->
 	<update>
 		<name>PLG_SYSTEM_ONUSERGHSVS</name>
