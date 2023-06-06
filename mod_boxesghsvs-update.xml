@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--MOD_BOXESGHSVS Version 2023.06.05 Target platform: 4.[23456789]-->
+	<update>
+		<name>MOD_BOXESGHSVS</name>
+		<description>Joomla site module. Backend: Enter title, image, text in separate form fields instead of everything in the editor. More controllable output in the frontend e.g. as cards. Written and styled for an individual website.</description>
+		<element>mod_boxesghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2023.06.05</version>
+		<infourl>https://github.com/GHSVS-de/mod_boxesghsvs/releases/tag/2023.06.05</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_boxesghsvs/raw/2023.06.05/dist/mod_boxesghsvs-2023.06.05.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.[23456789]" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>a930bbc4696c251b6ae813b6f7a674c847d043d31f56fd6d987f0ccb53b772eb</sha256>
+	</update>
+<!--/MOD_BOXESGHSVS Version 2023.06.05 Target platform: 4.[23456789]-->
+</updates>
