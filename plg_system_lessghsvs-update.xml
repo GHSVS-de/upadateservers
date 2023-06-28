@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PLG_SYSTEM_LESSGHSVS Version 2023.06.29 Target platform: 3.*-->
+	<update>
+		<name>PLG_SYSTEM_LESSGHSVS</name>
+		<description>Joomla system plugin. PHP LESS compiling to CSS.</description>
+		<element>lessghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.06.29</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_lessghsvs&amp;version=2023.06.29</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_lessghsvs/raw/2023.06.29/dist/plg_system_lessghsvs-2023.06.29_lessphp-1.7.0.9-bugfixedGhsvs.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>06953676de931ec7e123353803bad9e7e1d3346e25982af08440652e35ea9914</sha256>
+	</update>
+<!--/PLG_SYSTEM_LESSGHSVS Version 2023.06.29 Target platform: 3.*-->
+<!--PLG_SYSTEM_LESSGHSVS Version 2023.06.29 Target platform: 4.*-->
+	<update>
+		<name>PLG_SYSTEM_LESSGHSVS</name>
+		<description>Joomla system plugin. PHP LESS compiling to CSS.</description>
+		<element>lessghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.06.29</version>
+		<infourl>https://updates.ghsvs.de/changelog.php?file=plg_system_lessghsvs&amp;version=2023.06.29</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_lessghsvs/raw/2023.06.29/dist/plg_system_lessghsvs-2023.06.29_lessphp-1.7.0.9-bugfixedGhsvs.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>06953676de931ec7e123353803bad9e7e1d3346e25982af08440652e35ea9914</sha256>
+	</update>
+<!--/PLG_SYSTEM_LESSGHSVS Version 2023.06.29 Target platform: 4.*-->
 <!--PLG_SYSTEM_LESSGHSVS Version 2022.10.15 Target platform: 3.*-->
 	<update>
 		<name>PLG_SYSTEM_LESSGHSVS</name>
