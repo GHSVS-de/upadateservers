@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--MOD_DOWNLOADCARDSGHSVS Version 2023.07.02 Target platform: 3.*-->
+	<update>
+		<name>MOD_DOWNLOADCARDSGHSVS</name>
+		<description>Joomla site module. Display cards with head image, headline, text, download link. It is designed for one indiviual Joomla 3 site. Not for the world.</description>
+		<element>mod_downloadcardsghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2023.07.02</version>
+		<infourl>https://github.com/GHSVS-de/mod_downloadcardsghsvs/releases</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_downloadcardsghsvs/raw/2023.07.02/dist/mod_downloadcardsghsvs-2023.07.02.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.1.0</php_minimum>
+		<sha256>9e65f6188a618477cc37ff1e3e8ef9e4a9a065d1f12a4104af9c4895657731f0</sha256>
+	</update>
+<!--/MOD_DOWNLOADCARDSGHSVS Version 2023.07.02 Target platform: 3.*-->
+<!--MOD_DOWNLOADCARDSGHSVS Version 2023.07.02 Target platform: 4.*-->
+	<update>
+		<name>MOD_DOWNLOADCARDSGHSVS</name>
+		<description>Joomla site module. Display cards with head image, headline, text, download link. It is designed for one indiviual Joomla 3 site. Not for the world.</description>
+		<element>mod_downloadcardsghsvs</element>
+		<type>module</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2023.07.02</version>
+		<infourl>https://github.com/GHSVS-de/mod_downloadcardsghsvs/releases</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_downloadcardsghsvs/raw/2023.07.02/dist/mod_downloadcardsghsvs-2023.07.02.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.1.0</php_minimum>
+		<sha256>9e65f6188a618477cc37ff1e3e8ef9e4a9a065d1f12a4104af9c4895657731f0</sha256>
+	</update>
+<!--/MOD_DOWNLOADCARDSGHSVS Version 2023.07.02 Target platform: 4.*-->
+</updates>
