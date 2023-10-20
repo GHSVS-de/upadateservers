@@ -3,13 +3,13 @@
 <!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.02.11 Target platform: 4.[3456789]-->
 	<update>
 		<name>PLG_SYSTEM_HYPHENATEGHSVS_SLIM</name>
-		<description>Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages. Hyphenopoly-only variant. For Joomla 4.3+.</description>
+		<description>Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages. Hyphenopoly-only variant. For Joomla 4.3+, Joomla 5.</description>
 		<element>hyphenateghsvs</element>
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>site</client>
 		<version>2023.02.11</version>
-		<infourl>https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases/tag/2023.02.11?file=plg_system_hyphenateghsvs_slim&amp;version=2023.02.11</infourl>
+		<infourl>https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases/tag/2023.02.11</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/raw/2023.02.11/dist/plg_system_hyphenateghsvs_slim-2023.02.11_5.0.0.zip</downloadurl>
 		</downloads>
@@ -20,9 +20,32 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4.[3456789]" />
 		<php_minimum>7.4.2</php_minimum>
-		<sha256>6799d213478cc6fbc55bdd662c9b4def409d2c99638fca0f15c87a6517dc4b18</sha256>
+		<sha256>be13dc945ccc3d84ff2c3d699cbf011e8e03f2322cd61c4697ecca96386a97f0</sha256>
 	</update>
 <!--/PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.02.11 Target platform: 4.[3456789]-->
+<!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.02.11 Target platform: 5.*-->
+	<update>
+		<name>PLG_SYSTEM_HYPHENATEGHSVS_SLIM</name>
+		<description>Joomla system plugin. Hyphenation for browsers that do NOT support CSS property hyphens or do not support some languages. Hyphenopoly-only variant. For Joomla 4.3+, Joomla 5.</description>
+		<element>hyphenateghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.02.11</version>
+		<infourl>https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/releases/tag/2023.02.11</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_hyphenateghsvs_slim/raw/2023.02.11/dist/plg_system_hyphenateghsvs_slim-2023.02.11_5.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="5.*" />
+		<php_minimum>7.4.2</php_minimum>
+		<sha256>be13dc945ccc3d84ff2c3d699cbf011e8e03f2322cd61c4697ecca96386a97f0</sha256>
+	</update>
+<!--/PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.02.11 Target platform: 5.*-->
 <!--PLG_SYSTEM_HYPHENATEGHSVS_SLIM Version 2023.01.06 Target platform: 3.*-->
 	<update>
 		<name>PLG_SYSTEM_HYPHENATEGHSVS_SLIM</name>
