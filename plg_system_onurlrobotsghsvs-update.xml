@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!--PLG_SYSTEM_ONURLROBOTSGHSVS Version 2023.12.11 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
+	<update>
+		<name>PLG_SYSTEM_ONURLROBOTSGHSVS</name>
+		<description>Joomla system plugin. Sets a robots tag in frontend if the 'option' part of the Joomla url matches your configuration.</description>
+		<element>onurlrobotsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.12.11</version>
+		<infourl>https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/releases/tag/2023.12.11</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/raw/2023.12.11/dist/plg_system_onurlrobotsghsvs-2023.12.11.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>dd214e055e45d56bf0763c7aa2e71658fe3d454c39caee753d12ea68f58ec4f7</sha256>
+	</update>
+<!--/PLG_SYSTEM_ONURLROBOTSGHSVS Version 2023.12.11 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
+<!--PLG_SYSTEM_ONURLROBOTSGHSVS Version 2023.12.11 Target platform: 5.*-->
+	<update>
+		<name>PLG_SYSTEM_ONURLROBOTSGHSVS</name>
+		<description>Joomla system plugin. Sets a robots tag in frontend if the 'option' part of the Joomla url matches your configuration.</description>
+		<element>onurlrobotsghsvs</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>2023.12.11</version>
+		<infourl>https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/releases/tag/2023.12.11</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/plg_system_onurlrobotsghsvs/raw/2023.12.11/dist/plg_system_onurlrobotsghsvs-2023.12.11.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="5.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>dd214e055e45d56bf0763c7aa2e71658fe3d454c39caee753d12ea68f58ec4f7</sha256>
+	</update>
+<!--/PLG_SYSTEM_ONURLROBOTSGHSVS Version 2023.12.11 Target platform: 5.*-->
+</updates>
