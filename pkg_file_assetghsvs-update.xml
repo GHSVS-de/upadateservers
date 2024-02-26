@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
+<!--PKG_ASSETGHSVS Version 2024.02.26 Target platform: 3.*-->
+	<update>
+		<name>PKG_ASSETGHSVS</name>
+		<description>Joomla file package. Different versions of asset files that I often need. For example, Bootstrap, JQuery, JQuery-Slim. The assets are stored in Joomla folder `/media/assetghsvs/. Not more.</description>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2024.02.26</version>
+		<infourl>https://github.com/GHSVS-de/pkg_file_assetghsvs/releases/tag/2024.02.26</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2024.02.26/dist/pkg_file_assetghsvs-2024.02.26.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="3.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>b928f673eb87d1bb1e4cd3f1a57363edebe3ab656193738fcc4f85356d2d5cd3</sha256>
+	</update>
+<!--/PKG_ASSETGHSVS Version 2024.02.26 Target platform: 3.*-->
+<!--PKG_ASSETGHSVS Version 2024.02.26 Target platform: 4.*-->
+	<update>
+		<name>PKG_ASSETGHSVS</name>
+		<description>Joomla file package. Different versions of asset files that I often need. For example, Bootstrap, JQuery, JQuery-Slim. The assets are stored in Joomla folder `/media/assetghsvs/. Not more.</description>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2024.02.26</version>
+		<infourl>https://github.com/GHSVS-de/pkg_file_assetghsvs/releases/tag/2024.02.26</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2024.02.26/dist/pkg_file_assetghsvs-2024.02.26.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="4.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>b928f673eb87d1bb1e4cd3f1a57363edebe3ab656193738fcc4f85356d2d5cd3</sha256>
+	</update>
+<!--/PKG_ASSETGHSVS Version 2024.02.26 Target platform: 4.*-->
+<!--PKG_ASSETGHSVS Version 2024.02.26 Target platform: 5.*-->
+	<update>
+		<name>PKG_ASSETGHSVS</name>
+		<description>Joomla file package. Different versions of asset files that I often need. For example, Bootstrap, JQuery, JQuery-Slim. The assets are stored in Joomla folder `/media/assetghsvs/. Not more.</description>
+		<element>pkg_assetghsvs</element>
+		<type>package</type>
+		<folder></folder>
+		<client>site</client>
+		<version>2024.02.26</version>
+		<infourl>https://github.com/GHSVS-de/pkg_file_assetghsvs/releases/tag/2024.02.26</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/pkg_file_assetghsvs/raw/2024.02.26/dist/pkg_file_assetghsvs-2024.02.26.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</maintainer>
+		<maintainerurl>https://ghsvs.de</maintainerurl>
+		<targetplatform name="joomla" version="5.*" />
+		<php_minimum>7.4.0</php_minimum>
+		<sha256>b928f673eb87d1bb1e4cd3f1a57363edebe3ab656193738fcc4f85356d2d5cd3</sha256>
+	</update>
+<!--/PKG_ASSETGHSVS Version 2024.02.26 Target platform: 5.*-->
 <!--PKG_ASSETGHSVS Version 2023.11.03 Target platform: 3.*-->
 	<update>
 		<name>PKG_ASSETGHSVS</name>
